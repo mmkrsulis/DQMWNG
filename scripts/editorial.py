@@ -87,4 +87,6 @@ def edit(h):
   count+=1
   return m[1]+f'{count+1:02} / {len(order)}'+m[2]
  h=re.sub(r'(<div class="slide-no">).*?(</div>)',numbering,h)
- return h
+ # Final copy pass after section assembly; only visible HTML text is edited.
+ from public_copy import polish
+ return polish(h)
