@@ -3,6 +3,14 @@ import re
 
 def edit(h):
  replacements={
+ 'DQM ditampilkan terpisah sebagai konteks tindak lanjut.':'Kolom DQM menunjukkan hasil evaluasi sekolah di kecamatan yang sama.',
+ ' · Navigasi dengan tombol panah':'',
+ 'DQM ditampilkan terpisah':'Hasil DQM ada pada kolom tersendiri',
+ 'Jenjang mana yang perlu didampingi?':'Hasil IKD menurut jenjang',
+ 'Dua profil, dua kebutuhan':'Profil sekolah dan hasil evaluasi',
+ 'Tiga naungan, cakupan yang berbeda':'Perbandingan data menurut naungan',
+ 'Lima sumber, cakupan berbeda':'Sumber dan tanggal data',
+
  'Arah peningkatan mutu data. Digunakan dalam konteks pembinaan kualitas data. Angka pada paparan ini berasal dari skor DQM dan tidak otomatis identik dengan indeks pada sistem lain.':'Indeks resmi dari dashboard IKD Dapodik, dengan komponen kelengkapan, validitas, dan kemutakhiran. Skor IKD wilayah dan sekolah disajikan dari sumber IKD; tidak dihitung dari skor DQM.',
  'Sekolah terpetakan':'Sekolah DQM kabupaten',
  'Indikator terpantau':'Indikator DQM',

@@ -5,8 +5,17 @@ const countyGroups=['PAUD','SD','SMP','Nonformal'];
 const groupRows=(rows,group)=>group==='all'?rows:rows.filter(s=>Monitor.group(s,monitoring.master)===group);
 const valueText=(n,d=2)=>n===null?'Belum tersedia':dec(n,d);
 const districtOf=s=>String(monitoring.master[s.n]?.district||s.district||'').replace(/^Kec\.\s*/i,'').trim();
-function applyTheme(theme){document.documentElement.dataset.theme=theme;el('theme-toggle').textContent=theme==='dark'?'Tema terang':'Tema gelap';el('theme-toggle').setAttribute('aria-pressed',String(theme==='dark'));try{localStorage.setItem('wonogiri-theme',theme);}catch{}}
-applyTheme(document.documentElement.dataset.theme||'light');el('theme-toggle').onclick=()=>applyTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+const themeButton=el('theme-toggle');
+const themeNotice=document.createElement('div');themeNotice.className='theme-notice';themeNotice.setAttribute('role','status');document.body.append(themeNotice);let themeNoticeTimer;
+function applyTheme(theme){
+ document.documentElement.dataset.theme=theme;
+ const dark=theme==='dark',label=dark?'Aktifkan tema terang':'Aktifkan tema gelap';
+ themeButton.innerHTML=dark?'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="#ffbf36"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5" stroke="#ffbf36" stroke-width="2" stroke-linecap="round"/></svg>':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z" fill="#6554d9"/><path d="M18 3v4m-2-2h4" stroke="#e89a13" stroke-width="1.7" stroke-linecap="round"/></svg>';
+ themeButton.setAttribute('aria-label',label);themeButton.title=label;themeButton.dataset.tooltip=label;themeButton.setAttribute('aria-pressed',String(dark));
+ try{localStorage.setItem('wonogiri-theme',theme);}catch{}
+}
+applyTheme(document.documentElement.dataset.theme||'light');
+themeButton.onclick=()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';applyTheme(next);themeNotice.textContent=next==='dark'?'Tema gelap aktif':'Tema terang aktif';themeNotice.classList.add('visible');clearTimeout(themeNoticeTimer);themeNoticeTimer=setTimeout(()=>themeNotice.classList.remove('visible'),1800);};
 if(el('cover-county-score'))el('cover-county-score').textContent=valueText(Monitor.mean(countyDQM,'score'));
 const measuredDqm=new Set(countyDQM.map(s=>s.n));const both=countyIKD.filter(s=>measuredDqm.has(s.n)).length;
 el('county-coverage').innerHTML=[['IKD sekolah',fmt(countyIKD.length),'26 Oktober 2026'],['DQM sekolah',fmt(countyDQM.length),'22–23 Oktober 2026'],['Rerata DQM',valueText(Monitor.mean(countyDQM,'score')),'Skala 0–100'],['Sekolah dengan indikator DQM gagal',fmt(countyDQM.filter(s=>s.fail>0).length),'Sedikitnya satu indikator gagal']].map(([label,v,note])=>`<article><span>${label}</span><strong>${v}</strong><small>${note}</small></article>`).join('');
@@ -26,7 +35,7 @@ el('county-ranking-group').onchange=renderCountyRank;renderCountyRank();
 // Two explicit destinations with the selected school's identity visible beside each link.
 const clinicSlide=el('clinic-search').closest('.slide');
 const results=document.createElement('div');results.id='clinic-results';results.className='profile-results';results.setAttribute('aria-live','polite');el('clinic-search').closest('.clinic-hero').after(results);
-const clinicSide=clinicSlide.querySelector('.clinic-hero>.card');if(clinicSide)clinicSide.innerHTML='<h3>Dua profil, dua kebutuhan</h3><p><b>Profil Dapodik</b><br/>Identitas, rombel, peserta didik, PTK dan sarana prasarana sesuai sumber.</p><p><b>Profil DQM</b><br/>Skor, dimensi dan indikator kualitas data sekolah.</p><p class="source-notice">Pilih sekolah dari hasil pencarian. Nama dan NPSN tetap terlihat sebelum membuka sumber.</p>';
+const clinicSide=clinicSlide.querySelector('.clinic-hero>.card');if(clinicSide)clinicSide.innerHTML='<h3>Profil sekolah dan hasil evaluasi</h3><p><b>Profil Dapodik</b><br/>Identitas, rombel, peserta didik, PTK dan sarana prasarana sesuai sumber.</p><p><b>Profil DQM</b><br/>Skor, dimensi dan indikator kualitas data sekolah.</p><p class="source-notice">Pilih sekolah dari hasil pencarian. Nama dan NPSN tetap terlihat sebelum membuka sumber.</p>';
 function profileRows(q){const rows=search(q);results.innerHTML=q.trim()?rows.length?rows.map(s=>{const dp=dapodikProfileURL(s.n),dq=Monitor.safeDqmURL(s.url);return `<article class="profile-result"><div><h3>${esc(s.name)}</h3><small>${esc(s.n)} · ${esc(s.level)} · ${esc(s.district||'Kecamatan belum tersedia')}</small></div><div class="profile-actions"><button class="btn" data-detail="${esc(s.n)}">Lihat IKD & DQM</button>${dp?`<a class="btn primary" href="${esc(dp)}" target="_blank" rel="noopener noreferrer">Profil Dapodik ↗</a>`:'<span class="source-notice">Profil Dapodik belum tersedia</span>'}${dq?`<a class="btn" href="${esc(dq)}" target="_blank" rel="noopener noreferrer">Profil DQM ↗</a>`:'<span class="source-notice">Profil DQM belum tersedia</span>'}</div></article>`}).join(''):'<article class="profile-result">Sekolah tidak ditemukan. Periksa NPSN atau nama sekolah.</article>':'';results.querySelectorAll('[data-detail]').forEach(b=>b.onclick=()=>openSchool(CLINIC_BY_NPSN.get(b.dataset.detail)));return rows;}
 doClinic=function(){profileRows(el('clinic-search').value);};el('clinic-search-btn').onclick=doClinic;el('clinic-search').addEventListener('input',e=>profileRows(e.target.value));
 const sourceButton=document.createElement('button');sourceButton.className='btn';sourceButton.id='clinic-dqm-btn';sourceButton.textContent='Profil DQM ↗';el('clinic-dapodik-btn').after(sourceButton);
