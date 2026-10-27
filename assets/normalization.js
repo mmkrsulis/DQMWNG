@@ -11,6 +11,8 @@
   function validateOfficial(v){return v&&['score','complete','valid','current'].every(k=>score(v[k])!==null)&&typeof v.at==='string'&&Number.isFinite(Date.parse(v.at))&&/^https:\/\/dapo\.kemendikdasmen\.go\.id\/ikd\//.test(v.url||'')}
   function authority(s,master={}){const m=master[s.n]||s;if(m.ministry==='Kemenag')return 'kemenag';const level=m.level||s.level;if(['SMA','SMK','SLB'].includes(level))return 'prov';if(['TK','KB','SPS','TPA','SD','SMP','PKBM','SKB'].includes(level))return 'kab';return 'unknown';}
   function ranking(schools,master,scope){const rows=Object.values(schools).filter(s=>authority(s,master)===scope&&score(s.score)!==null);return {count:rows.length,top:[...rows].sort((a,b)=>b.score-a.score||a.n.localeCompare(b.n)).slice(0,3),bottom:[...rows].sort((a,b)=>a.score-b.score||a.n.localeCompare(b.n)).slice(0,10)};}
-  const api={score,npsn,safeDqmURL,validateOfficial,authority,ranking};
+  function group(s,master={}){const level=master[s.n]?.level||s.level;if(['TK','KB','SPS','TPA','PAUD'].includes(level))return 'PAUD';if(['PKBM','SKB'].includes(level))return 'Nonformal';return level;}
+  function mean(rows,key){const values=rows.map(r=>score(r[key])).filter(v=>v!==null);return values.length?values.reduce((a,b)=>a+b,0)/values.length:null;}
+  const api={score,npsn,safeDqmURL,validateOfficial,authority,ranking,group,mean};
   if(typeof module!=='undefined')module.exports=api;else root.Monitor=api;
 })(typeof window!=='undefined'?window:globalThis);

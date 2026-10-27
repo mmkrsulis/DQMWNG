@@ -24,3 +24,12 @@ Tidak ada push GitHub, deployment, atau penulisan ke spreadsheet pengguna selama
 ## Tambahan sesuai permintaan peringkat
 
 Tiga slide peringkat baru membawa total menjadi 33 slide. Uji khusus tiga naungan pada 1366×768, 1920×1080, dan 390×844 lulus: top 3/bottom 10 kabupaten dan provinsi tepat, Kemenag kosong tanpa substitusi DQM, tidak ada pageerror/overflow horizontal, dan klik peringkat membuka sekolah yang benar. Pada kedua ukuran desktop seluruh 10 baris terlihat tanpa scroll tabel; pada ponsel tabel dan slide dapat digulir.
+
+## Revisi fokus kabupaten · 27 Oktober 2026
+
+- Sembilan unit test lulus, termasuk cakupan kabupaten, pengelompokan PAUD/SD/SMP/nonformal, mean yang mengecualikan null, 1.766 sekolah DQM kabupaten, 1.303 sekolah dengan indikator gagal, dan rerata DQM 93,24.
+- Suite county-ui memeriksa 32 slide: default terang, tombol tema, persistensi gelap setelah reload, tidak ada kontrol kehadiran atau slide khusus peringkat provinsi/Kemenag, filter jenjang kabupaten, filter top 3/10 SD, filter masalah DQM SMP, tautan Dapodik/DQM tepat pada hasil pencarian, serta klik ke Klinik NPSN.
+- Tidak ada pageerror atau overflow horizontal pada 1366×768, 1920×1080, dan 390×844. Pemeriksaan vertikal pada desktop 1366×768 tidak menemukan slide yang meluap setelah perbaikan kepadatan konten. Tabel panjang dan ponsel tetap dapat digulir.
+- Screenshot seluruh slide terang ditinjau sebagai contact sheet; kedua tema diperiksa pada halaman analisis utama dan modal sekolah.
+- Sheet IKD RESMI WILAYAH dibaca ulang pada revisi ini. Kolom peringkat tetap kosong. Peringkat 1 Jawa Tengah ditampilkan sebagai konfirmasi pengelola dari pesan pengguna 27 Oktober, terpisah dari angka komponen yang bersumber dari sheet.
+- Branch origin/update-monitoring diperiksa: index.html dan modul presentasinya sama dengan baseline lokal sebelumnya. Git perangkat belum memiliki akun terautentikasi, sedangkan konektor menolak penulisan 403 pada percobaan sebelumnya; perubahan baru belum dipush.

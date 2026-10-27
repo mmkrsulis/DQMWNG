@@ -11,3 +11,5 @@ Kunci sekolah = identifier; kunci wilayah = regionType|parent|name huruf kecil. 
 Read API hanya mengembalikan data publik; callback JSONP hanya pola `ikdRead_<angka>`. Parameter action: snapshot, school, priority. Snapshot tidak mengirim token. Aplikasi hanya memuat script dari deployment Apps Script yang dimasukkan pengelola; URL read endpoint harus dipercaya karena JSONP mengeksekusi JavaScript.
 
 Catatan manual: attendance berisi identifier yang dikonfirmasi pengguna; followup keyed by identifier, memuat stage/date/note/help/savedAt/baseline. Tidak dikirim ke Google Sheets otomatis. Tombol simpan tidak mengubah status indikator otomatis dan tidak menyatakan perbaikan berhasil.
+
+Revisi 27 Oktober: rekap attendance tidak lagi digunakan dalam UI atau dibaca kembali. Catatan followup tetap lokal. Tema disimpan pada key wonogiri-theme. Analisis kabupaten memakai kementerian pembina dahulu, lalu jenjang master. PAUD mengelompokkan TK/KB/SPS/TPA; rata-rata hanya memakai nilai valid. Konfirmasi peringkat 1 dari pengelola disajikan terpisah dari field rank mentah yang masih null.

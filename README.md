@@ -1,19 +1,25 @@
 # Monitoring IKD & DQM Kabupaten Wonogiri
 
-Presentasi HTML interaktif, 33 slide, direvisi dari `602f299` tanpa menghapus dataset DQM lama. Buka **index.html** untuk presentasi; tidak perlu instalasi atau internet untuk snapshot. Salin seluruh folder, bukan hanya index.html, karena revisi menggunakan modul lokal `assets/` dan `data/monitoring.js`.
+Presentasi HTML interaktif, 32 slide, direvisi dari `602f299` tanpa menghapus dataset DQM lama. Buka **index.html** untuk presentasi; tidak perlu instalasi atau internet untuk snapshot. Salin seluruh folder, bukan hanya index.html, karena revisi menggunakan modul lokal `assets/` dan `data/monitoring.js`.
 
 ## Penggunaan
 
 1. Buka `index.html` di Edge/Chrome. Gunakan panah kiri/kanan, PageUp/PageDown, atau swipe horizontal. Ikon pojok atas memunculkan menu; ikon fullscreen atau tombol F membuka layar penuh.
-2. Filter kewenangan/jenjang berada pada panel ikon filter. Filter mengubah ringkasan lintas jenjang; grafik khusus SD tetap memakai 746 SD DQM.
+2. Filter jenjang berada pada panel ikon filter. Ringkasan hanya menghitung naungan kabupaten; grafik khusus SD tetap memakai 746 SD DQM.
 3. Cari NPSN/nama di Klinik NPSN. Pencarian mencakup seluruh master dan DQM, terlepas dari filter dashboard. IKD sekolah, DQM dan waktu masing-masing ditampilkan terpisah. Data tidak tersedia tidak diperlakukan sebagai nol.
 4. Buka rincian indikator gagal dan tautan sumber. Catat tahap Identifikasi → Perbaikan → Verifikasi → Sinkronisasi → Evaluasi melalui panel tindak lanjut di kartu sekolah.
-5. Konfirmasikan sekolah yang hadir pada slide **Peserta dan tindak lanjut**. Data prioritas tidak menjadi peserta secara otomatis. Catatan manual tersimpan di localStorage perangkat; ekspor JSON untuk pencadangan. Menghapus data browser dapat menghapus catatan.
+5. Gunakan filter PAUD/SD/SMP/nonformal pada analisis kabupaten dan top 3/10 terendah. Rekap kehadiran tidak lagi ditampilkan. Catatan tindak lanjut sekolah tetap tersimpan lokal; menghapus data browser dapat menghapus catatan.
 6. File **presenter/notes.html** berisi catatan pemateri dan tautan langsung per slide. File ini tidak ikut build publik. Jika repository sendiri publik, jangan menaruh informasi rahasia di dalamnya.
 
-## Peringkat IKD per naungan
+## Revisi fokus kabupaten · 27 Oktober 2026
 
-Tiga slide terpisah menampilkan 3 IKD tertinggi dan 10 terendah untuk Dinas Pendidikan Kabupaten (1.765 sekolah), Dinas Pendidikan Provinsi (76 sekolah), dan Kemenag (belum ada IKD resmi pada sumber). Pemetaan memakai kementerian pembina pada master, lalu jenjang. Sekolah Kemenag selalu masuk kelompok Kemenag, bukan dipetakan ulang ke kabupaten/provinsi berdasarkan jenjang. Nilai DQM tidak digunakan untuk mengisi IKD kosong. Hasil diurutkan berdasarkan skor; nilai sama diurutkan NPSN untuk tampilan saja. Daftar kabupaten mencakup semua jenjang kabupaten, termasuk PAUD; daftar khusus 50 SD tetap terpisah.
+Tema terang berwarna menjadi default; tombol Tema gelap/Tema terang pada menu menyimpan preferensi di perangkat. Desain memakai bidang warna datar dan tipografi laporan, tanpa dekorasi orbital atau gradient berulang. Slide pembuka menonjolkan IKD resmi 85,00% dan rata-rata DQM sekolah kabupaten 93,24.
+
+Peringkat 1 Jawa Tengah ditampilkan berdasarkan konfirmasi pengelola 27 Oktober 2026. Komponen IKD bersumber dari sheet 26 Oktober; kolom peringkat yang dibaca ulang masih kosong sehingga atribusi konfirmasi pengelola tetap terlihat. Tidak mengubah nilai rank mentah menjadi klaim verifikasi otomatis.
+
+Kabupaten dibahas melalui cakupan 1.765 IKD / 1.766 DQM, rata-rata dimensi per jenjang, prioritas kecamatan, frekuensi indikator gagal beserta penyebut sekolah yang dievaluasi, serta top 3 dan 10 terendah dengan filter kelompok. Provinsi dan Kemenag hanya muncul pada satu tabel pembanding; halaman peringkat tersendiri keduanya dihapus. Rerata sekolah bukan skor IKD resmi wilayah.
+
+Pencarian menampilkan nama dan NPSN dengan tiga tombol berbeda: Lihat IKD & DQM, Profil Dapodik, Profil DQM. Profil DQM memakai URL yang benar-benar ada pada data. Tidak mengarahkan pencarian nama ambigu ke sekolah pertama tanpa pilihan pengguna.
 
 ## Data dan keterbatasan
 
@@ -52,7 +58,7 @@ Jika header tidak dikenali, halaman kosong, pagination macet atau terjadi loop, 
 ## Struktur
 
 ```text
-index.html                 Entrypoint; 26 slide lama + 7 slide tambahan
+index.html                 Entrypoint; 32 slide: fokus kabupaten, materi operator, perbandingan singkat
 assets/normalization.js     Validasi skor, identifier, URL sumber
 assets/revision.js          Klinik, IKD, kehadiran, tindak lanjut, read API
 assets/revision.css         Tema navy dan perbaikan layout
@@ -63,13 +69,16 @@ crawler/ikd.user.js         Tampermonkey mandiri
 backend/Code.gs             Endpoint Apps Script
 presenter/notes.html        Halaman khusus pemateri
 tests/                     Pengujian data, UI dan crawler
-scripts/revise.py           Migrasi reproducible dari commit baseline
+scripts/revise.py           Migrasi awal dari commit baseline
+scripts/refine-county.py    Revisi tema dan fokus kabupaten dari commit 23a2919
+assets/county.js            Analisis kabupaten dan pencarian dua profil
+assets/county.css           Token tema terang/gelap dan tampilan laporan
 scripts/build.cjs           Build dengan allowlist publik
 scripts/update-notes.py     Menyesuaikan urutan catatan pemateri
 docs/                      Audit, kontrak data dan hasil pengujian
 ```
 
-`scripts/revise.py` meregenerasi index.html dari commit baseline dan sumber tersimpan; jangan menjalankannya setelah mengedit HTML langsung tanpa memperbarui script. Tidak mengunduh ulang Sheets. Mengubah sumber saja tidak otomatis memperbarui seluruh materi; beberapa teks agregat memerlukan revisi dan verifikasi ulang.
+`scripts/revise.py` adalah migrasi awal. Untuk versi kabupaten, jalankan `python scripts/refine-county.py` lalu `python scripts/update-notes.py`; keduanya memerlukan histori commit lokal. Jangan menjalankan migrasi awal untuk mengganti versi kabupaten. Tidak mengunduh ulang Sheets. Mengubah sumber saja tidak otomatis memperbarui seluruh materi; beberapa teks agregat memerlukan revisi dan verifikasi ulang.
 
 ## Pengujian dan deployment
 

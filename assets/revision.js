@@ -1,8 +1,8 @@
 'use strict';
 let monitoring=window.MONITOR_SNAPSHOT;
 const storageKey='wonogiri-followup-v1';
-let localRecords={attendance:[],followup:{}};
-try{const v=JSON.parse(localStorage.getItem(storageKey));if(v&&Array.isArray(v.attendance)&&v.followup&&typeof v.followup==='object')localRecords=v;}catch{}
+let localRecords={followup:{}};
+try{const v=JSON.parse(localStorage.getItem(storageKey));if(v&&v.followup&&typeof v.followup==='object')localRecords={followup:v.followup};}catch{}
 function persistRecords(){try{localStorage.setItem(storageKey,JSON.stringify(localRecords));return true;}catch{alert('Penyimpanan perangkat tidak tersedia. Ekspor catatan sebelum menutup halaman.');return false;}}
 function enhanceClinic(s){
   el('modal-dapodik').hidden=!Monitor.npsn(s.n);
@@ -28,9 +28,6 @@ el('source-cards').innerHTML=sourceLabels.map(([label,n,note,index])=>`<div clas
 bars([...monitoring.ats.districts].sort((a,b)=>b.total-a.total).slice(0,8).map(r=>({label:r.name,value:r.total})),'ats-bars');
 const verified=monitoring.ats.districts.reduce((sum,r)=>sum+r.verified,0);
 el('ats-verification').textContent=`${fmt(verified)} catatan berstatus sudah verifikasi ATS dalam rekap kecamatan. Verifikasi tidak berarti anak sudah kembali bersekolah.`;
-function renderAttendance(){el('attendance-status').textContent=localRecords.attendance.length?`${localRecords.attendance.length} sekolah dikonfirmasi hadir secara manual.`:'Belum ada kehadiran yang dikonfirmasi.';el('attendance-list').innerHTML=localRecords.attendance.map(n=>`<button class="btn" data-npsn="${esc(n)}">${esc(n)} · ${esc(CLINIC_BY_NPSN.get(n)?.name||'Tidak ditemukan')} ×</button>`).join('');el('attendance-list').querySelectorAll('button').forEach(b=>b.onclick=()=>{localRecords.attendance=localRecords.attendance.filter(n=>n!==b.dataset.npsn);persistRecords();renderAttendance();});}
-el('add-attendee').onclick=()=>{const n=Monitor.npsn(el('attendance-npsn').value);if(!n||!CLINIC_BY_NPSN.has(n)){el('attendance-status').textContent='Gunakan NPSN 8 digit yang ada dalam master.';return;}if(!localRecords.attendance.includes(n))localRecords.attendance.push(n);persistRecords();renderAttendance();};
-el('export-followup').onclick=()=>{const blob=new Blob([JSON.stringify({type:'manual-followup',exportedAt:new Date().toISOString(),...localRecords},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='tindak-lanjut-wonogiri.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
 function paintOfficial(){const o=monitoring.official;const slide=document.querySelector('[data-label="Capaian IKD Jawa Tengah"]');slide.querySelector('.slide-title').textContent=`IKD Wonogiri ${dec(o.score,2)}%`;slide.querySelector('.ikd-number-count').textContent=dec(o.score,2);slide.querySelector('.ikd-number-count').dataset.number=dec(o.score,2);slide.querySelector('.ikd-official-progress span').style.setProperty('--target',o.score+'%');slide.querySelector('.ikd-official-progress').setAttribute('aria-label',`Skor IKD ${dec(o.score,2)} persen`);['complete','valid','current'].forEach(k=>{const c=slide.querySelector('.ikd-indicator-card.'+k);c.querySelector('strong').textContent=dec(o[k],2)+'%';c.querySelector('.ikd-mini-track span').style.setProperty('--target',o[k]+'%');});slide.querySelector('.ikd-source-links span').textContent='Waktu sumber: '+o.at+' · IKD resmi';}
 // JSONP is read-only and restricted to Google Apps Script. No write token enters HTML.
 el('sync-official').onclick=async()=>{
@@ -42,8 +39,8 @@ el('sync-official').onclick=async()=>{
  monitoring={...monitoring,official:payload.official};paintOfficial();el('sync-status').textContent='IKD wilayah diperbarui dari Sheets. IKD sekolah dan DQM tetap snapshot offline masing-masing.';
  }catch(e){el('sync-status').textContent=e.message+' Snapshot offline dipertahankan.';}finally{el('sync-official').disabled=false;}
 };
-renderOfficialPriority();renderAttendance();
-for(const scope of ['kab','prov','kemenag']){
+renderOfficialPriority();
+for(const scope of ['kab']){
  const ranks=Monitor.ranking(monitoring.schools,monitoring.master,scope);
  el('rank-count-'+scope).textContent=ranks.count?`${fmt(ranks.count)} sekolah dengan IKD resmi · snapshot 26 Oktober 2026`:'Belum tersedia · tidak ada IKD resmi Kemenag pada sumber';
  el('rank-top-'+scope).innerHTML=ranks.top.length?ranks.top.map((s,i)=>`<button class="card ranking-school" data-npsn="${esc(s.n)}"><span class="ranking-position">${i+1}</span><span><b>${esc(s.name)}</b><small>${esc(s.n)} · ${esc(s.level)}</small></span><strong>${dec(s.score,2)}<small>%</small></strong></button>`).join(''):'<div class="card rank-empty"><h3>Belum tersedia</h3><p>Tiga sekolah dengan IKD tertinggi belum dapat ditentukan. Sumber belum memuat nilai IKD resmi untuk sekolah naungan Kemenag.</p></div>';
