@@ -59,5 +59,7 @@ by={re.search(r'data-label="([^"]+)"',m[0])[1]:m[0] for m in matches}
 order=['Pembuka','Capaian IKD Jawa Tengah','Potret Wonogiri','Cakupan kabupaten','IKD menurut jenjang','Peringkat IKD kab','Kecamatan kabupaten','Masalah DQM kabupaten','Fokus SD','Empat dimensi','Masalah prioritas','Kecamatan','50 SD prioritas','IKD sekolah','Klinik NPSN','Cara membaca skor','Batas DQM PD dan PTK','Potret Residu PD','Residu per jenjang','Perbaikan residu siswa','Penerbitan NUPTK','Aplikasi sumber','Praktik 20 menit','Rencana 30 hari','Checklist','Perbandingan naungan','Rekap ATS','Cakupan lima sumber','Mengapa data penting','Alur kebijakan','Tujuan','Diskusi']
 assert set(order)==set(by), (set(by)-set(order),set(order)-set(by))
 h=h[:matches[0].start()]+'\n'.join(by[k] for k in order)+h[matches[-1].end():]
+from editorial import edit
+h=edit(h)
 (root/'index.html').write_text(re.sub(r'[ \t]+\n','\n',h),encoding='utf-8')
 print('County presentation refined')

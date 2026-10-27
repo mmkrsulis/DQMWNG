@@ -12,6 +12,10 @@ for i,label in enumerate(labels):
   note='Soroti Wonogiri peringkat 1 Jawa Tengah sesuai konfirmasi pengelola pada 27 Oktober 2026. Skor 85,00 dan tiga komponen bersumber dari sheet pada 26 Oktober. Kolom peringkat sheet yang dibaca pada revisi masih kosong; jangan menyebutnya hasil verifikasi peringkat otomatis. Prioritas terendah: kemutakhiran 76,57%.'
  if label=='Perbandingan naungan':
   note='Cukup jelaskan perbandingan singkat ini. Analisis dan pendampingan mendalam tetap fokus pada kabupaten. Kemenag belum memiliki IKD pada sumber; jangan menggantinya dengan DQM.'
+ if label=='Alur kebijakan':
+  note='Jelaskan tiga komponen IKD dan empat dimensi DQM secara terpisah. Nilai IKD resmi tidak berasal dari DQM. Rata-rata sekolah berbeda dari skor wilayah. Jangan membandingkan selisih skor IKD dan DQM sebagai perubahan kinerja.'
+ if label=='Mengapa data penting':
+  note='Buka pembahasan dengan kegunaan data untuk layanan peserta didik, kebutuhan guru dan rombel, serta sarana prasarana. Hubungkan contoh dengan pekerjaan operator sebelum membahas IKD dan DQM.'
  notes.append(dict(slide=i+1,label=label,note=note))
 h=re.sub(r'const notes=.*?;let i=0;',lambda m:'const notes='+json.dumps(notes,ensure_ascii=False)+';let i=0;',h)
 p.write_text(h,encoding='utf-8')

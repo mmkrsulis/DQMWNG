@@ -3,3 +3,5 @@ test-results/
 dist/
 config.local.js
 *.log
+
+__pycache__/

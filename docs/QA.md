@@ -33,3 +33,9 @@ Tiga slide peringkat baru membawa total menjadi 33 slide. Uji khusus tiga naunga
 - Screenshot seluruh slide terang ditinjau sebagai contact sheet; kedua tema diperiksa pada halaman analisis utama dan modal sekolah.
 - Sheet IKD RESMI WILAYAH dibaca ulang pada revisi ini. Kolom peringkat tetap kosong. Peringkat 1 Jawa Tengah ditampilkan sebagai konfirmasi pengelola dari pesan pengguna 27 Oktober, terpisah dari angka komponen yang bersumber dari sheet.
 - Branch origin/update-monitoring diperiksa: index.html dan modul presentasinya sama dengan baseline lokal sebelumnya. Git perangkat belum memiliki akun terautentikasi, sedangkan konektor menolak penulisan 403 pada percobaan sebelumnya; perubahan baru belum dipush.
+
+## Audit editorial publik · 27 Oktober 2026
+
+Pembuka pentingnya data tetap pada slide 2. Alur berikutnya: tujuan, perbedaan ukuran dan cakupan, analisis IKD, literasi dan analisis DQM, data pendukung, pencarian profil, tindakan dan evaluasi. Definisi lama yang menyatakan IKD berasal dari DQM dihapus. Tiga komponen IKD dibedakan dari empat dimensi DQM; rata-rata sekolah dibedakan dari nilai resmi wilayah. Judul kecamatan dan prioritas SD menyebut jenis skor. Tidak ada grafik tren antarsemester. Peringkat 1 tetap diatribusikan kepada pengelola karena kolom sumber belum terisi.
+
+Validasi: 9 pengujian data lulus; 32 slide lolos pemeriksaan browser tanpa error JavaScript atau luapan horizontal pada 1366×768, 1920×1080 dan 390×844. Tema, pencarian profil, filter dan rincian sekolah diuji. Pembuka dan halaman definisi diperiksa secara visual. Nilai sumber tidak diubah. Audit ini memeriksa konsistensi paparan terhadap data tersimpan, bukan sertifikasi kebaruan seluruh portal eksternal.
