@@ -14,6 +14,11 @@ for r in resrows:
 res=dict(snapshot='2026-10-26',schoolRows=len(resrows),labels=['NISN','NIK Dukcapil','NIK ganda','Nama','Tempat lahir','Tanggal lahir','Ibu kandung','Desa/Kelurahan','Residu Validasi (rekap)'],levels=levels)
 wr=read('ikd-wilayah')['values'];w=next(r for r in wr[1:] if r[0]=='Kabupaten' and r[1]=='Kab. Wonogiri')
 monitor=dict(schemaVersion=1,retrievedAt=read('ikd-wilayah')['retrievedAt'],official=dict(score=num(w[7]),complete=num(w[4]),valid=num(w[5]),current=num(w[6]),rank=num(w[3]),at=w[9],url=w[8]),history=[dict(label=r[1],score=num(r[7]),at=r[9]) for r in wr[1:] if r[0]=='Wilayah'],schools=schools,master=master,residu=res,ats=dict(total=3059,do=702,ltm=1390,bpb=967,withoutNisn=967,at='16/10/2026',status='VALID_STRUKTUR',districts=[dict(name=r[1],total=int(r[2]),verified=int(r[6])) for r in read('ats-kecamatan')['values'][1:]]),sources=[dict(id=read(n)['spreadsheetId'],tab=read(n)['sheet'],at=read(n)['retrievedAt']) for n in ['ikd-wilayah','ikd-sekolah','residu','master','ats-dashboard','ats-kecamatan','dqm-nilai']],dqmDates={r[0]:r[13] for r in read('dqm-nilai')['values'][1:]})
+# Public ATS destination: never expose the private spreadsheet identifier.
+for source in monitor['sources']:
+ if source['tab'] in ['DASHBOARD ATS','REKAP KECAMATAN']:
+  source.pop('id',None)
+  source['url']='https://script.google.com/macros/s/AKfycbwNkGx_xVtlVRCEh0X9kjmc0NC5K0MNkWbhrcFmp5_R0L2COUbk50q5PB4obnUeC4RUAA/exec'
 (root/'data/monitoring.js').write_text('window.MONITOR_SNAPSHOT = '+json.dumps(monitor,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8')
 h=h.replace('<!DOCTYPE html>\n\n<!DOCTYPE html>','<!DOCTYPE html>',1)
 h=h.replace('</head>','<link rel="stylesheet" href="assets/revision.css"/>\n</head>')
