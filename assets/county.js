@@ -46,3 +46,16 @@ const sourceLinks=el('modal-official').closest('.official-links');if(sourceLinks
 el('top-search').placeholder='Nama sekolah / NPSN';
 const schoolOverview=document.querySelector('.slide[data-label="IKD sekolah"]');
 if(schoolOverview){schoolOverview.querySelector('.slide-sub').textContent=`${fmt(countyIKD.length)} sekolah naungan kabupaten memiliki IKD resmi. Cakupan DQM kabupaten: ${fmt(countyDQM.length)} sekolah.`;const cards=schoolOverview.querySelectorAll('.grid.cols3>.card');cards[0].querySelector('.kpi').textContent=fmt(countyIKD.length);cards[0].querySelector('.kpi-label').textContent='Sekolah IKD naungan kabupaten';cards[1].querySelector('.kpi').textContent=fmt(Object.values(monitoring.master).filter(s=>Monitor.authority(s,monitoring.master)==='kab').length);cards[1].querySelector('.kpi-label').textContent='Sekolah dalam referensi kabupaten';}
+// Consistent vector icons and section colors for the presentation.
+const slideSymbols={
+ trophy:'<path d="M7 3h10v5c0 4-2 6-5 6S7 12 7 8V3Z" fill="currentColor" stroke="none"/><path d="M7 5H3v3c0 3 2 4 5 4m9-7h4v3c0 3-2 4-5 4M12 14v5m-5 2h10m-8-2h6"/>',
+ chart:'<path d="M4 3v17h17M8 16v-5m5 5V7m5 9V4"/>',
+ school:'<path d="m3 10 9-7 9 7M5 9v12h14V9M10 21v-7h4v7M9 9h6"/>',
+ check:'<rect x="4" y="3" width="16" height="18" rx="3"/><path d="m8 12 3 3 5-6"/>',
+ search:'<circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/>',
+ people:'<circle cx="9" cy="7" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3m1-17a3 3 0 0 1 0 6m2 5a5 5 0 0 1 3 4v2"/>',
+ book:'<path d="M12 5v16M3 3c4-1 6 0 9 2 3-2 5-3 9-2v16c-4-1-6 0-9 2-3-2-5-3-9-2V3Z"/>'
+};
+function reportIcon(name){return `<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${slideSymbols[name]}</svg>`;}
+document.querySelectorAll('.slide').forEach(slide=>{const label=slide.dataset.label;let type='book',tone='teal';if(/IKD/.test(label)){type='chart';tone='teal'}if(/DQM|dimensi|Fokus SD|Masalah|Kecamatan$|50 SD|Cara membaca/.test(label)){type='chart';tone='blue'}if(/Residu|residu|ATS|NUPTK/.test(label)){type='people';tone='amber'}if(/Praktik|Rencana|Checklist|Aplikasi/.test(label)){type='check';tone='violet'}if(/Klinik|Diskusi/.test(label)){type='search';tone='violet'}if(label==='Mengapa data penting')type='school';if(label==='Capaian IKD Jawa Tengah')type='trophy';slide.dataset.tone=tone;const eyebrow=slide.querySelector('.slide-header .eyebrow');if(eyebrow){const icon=document.createElement('span');icon.className='section-symbol';icon.innerHTML=reportIcon(type);eyebrow.prepend(icon);}});
+const achievement=document.querySelector('.ikd-achievement');if(achievement){achievement.querySelector('span').innerHTML=reportIcon('trophy');const trophy=document.createElement('div');trophy.className='achievement-trophy';trophy.innerHTML=reportIcon('trophy');trophy.setAttribute('aria-hidden','true');achievement.closest('.ikd-official-hero').append(trophy);}
