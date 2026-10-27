@@ -54,6 +54,14 @@ def polish(h):
  def section(m):
   text=m[0]
   for old,new in COPY.items():text=text.replace(old,new)
+  if 'data-label="Capaian IKD Jawa Tengah"' in text:
+   text=text.replace('<div class="badge warn">Peringkat 1 · Jawa Tengah</div>','<div class="ikd-achievement"><span aria-hidden="true">★</span> Peringkat 1 Jawa Tengah</div>')
+   text=text.replace('INDEKS KUALITAS DATA · WONOGIRI','KABUPATEN WONOGIRI')
+   text=text.replace('SKOR IKD RESMI','Indeks Kualitas Data')
+   text=re.sub(r'<p>Skor: rekap IKD.*?</p>','<div class="ikd-data-caption">Data per 26 Oktober 2026</div>',text,flags=re.S)
+   text=text.replace('↗ Sumber: dashboard IKD Dapodik','Sumber: Dapodik ↗')
+   text=text.replace('Rekap IKD RESMI WILAYAH · 26 Okt 2026 · data per 26 Oktober 2026','IKD RESMI WILAYAH · 26 Oktober 2026')
+
   text=re.sub(r'>([^<>]+)<',lambda m:'>'+m[1].replace('snapshot','data tersimpan').replace('Snapshot','Data tersimpan').replace('sheet','rekap').replace('master referensi','daftar referensi')+'<',text)
   return text
  return re.sub(r'<section\b.*?</section>',section,h,flags=re.S)
