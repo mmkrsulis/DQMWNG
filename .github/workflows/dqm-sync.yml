@@ -1,0 +1,69 @@
+name: Sync DQM Wonogiri
+
+on:
+  schedule:
+    # Senin 02.00 WIB (Minggu 19.00 UTC)
+    - cron: "0 19 * * 0"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Uji tanpa menyimpan data"
+        required: false
+        type: boolean
+        default: false
+      limit:
+        description: "Batasi jumlah sekolah untuk uji (0 = semua)"
+        required: false
+        type: string
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dqm-wonogiri-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Run DQM collector
+        env:
+          DQM_LIMIT: ${{ inputs.limit || '0' }}
+          DQM_DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        shell: bash
+        run: |
+          args=()
+          if [[ "$DQM_LIMIT" != "0" && -n "$DQM_LIMIT" ]]; then
+            args+=(--limit "$DQM_LIMIT")
+          fi
+          if [[ "$DQM_DRY_RUN" == "true" ]]; then
+            args+=(--dry-run)
+          fi
+          node scripts/sync-dqm.mjs "${args[@]}"
+
+      - name: Commit refreshed DQM snapshot
+        if: github.event_name == 'schedule' || (inputs.dry_run != true && (inputs.limit == '' || inputs.limit == '0'))
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/dqm-live.json data/history/dqm
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan DQM."
+          else
+            git commit -m "data(dqm): refresh Wonogiri snapshot"
+            git push
+          fi

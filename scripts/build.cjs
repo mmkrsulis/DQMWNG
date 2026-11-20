@@ -8,4 +8,9 @@ const assets=fs.readdirSync('assets').filter(p=>/\.(css|js)$/.test(p)).map(p=>'a
 for(const p of ['index.html',...assets,'data/monitoring.js']){
   fs.mkdirSync(path.dirname(path.join(out,p)),{recursive:true});fs.copyFileSync(p,path.join(out,p));
 }
+// Overlay only DQM fields in the public presentation; IKD remains untouched.
+require('./apply-dqm-live.cjs').applyDqmLiveFile(
+  path.join(out,'index.html'),
+  path.join(root,'data/dqm-live.json')
+);
 console.log('Public presentation built in dist; presenter notes excluded.');
