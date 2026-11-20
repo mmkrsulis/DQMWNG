@@ -1,6 +1,10 @@
 # Monitoring IKD & DQM Kabupaten Wonogiri
 
-Presentasi HTML interaktif, 32 slide, direvisi dari `602f299` tanpa menghapus dataset DQM lama. Buka **index.html** untuk presentasi; tidak perlu instalasi atau internet untuk snapshot. Salin seluruh folder, bukan hanya index.html, karena revisi menggunakan modul lokal `assets/` dan `data/monitoring.js`.
+Presentasi HTML interaktif, 40 slide, direvisi dari `602f299` tanpa menghapus dataset DQM lama. Buka **index.html** untuk presentasi; tidak perlu instalasi atau internet untuk snapshot. Salin seluruh folder, bukan hanya index.html, karena revisi menggunakan modul lokal `assets/` dan `data/monitoring.js`.
+
+## Kerangka pengukuran IKD (slide 05–12)
+
+Delapan slide mengikuti materi resmi "Pengukuran Indeks Kualitas Data Dapodik" dari Direktorat Jenderal PAUD, Dikdas, dan Dikmen: satu slide kerangka (tiga komponen × tujuh objek data) dan tujuh slide rincian sub-indikator per objek (sekolah, pendidik dan tendik, peserta didik, rombongan belajar, tanah, bangunan, ruang). Jumlah sub-indikator: sekolah 12+12, PTK 15+17, peserta didik 10+10, rombel 1+2, tanah 1+6, bangunan 1+2, ruang 8+8. Teks mutakhir PTK pada materi sumber menyebut prasarana rombel (kemungkinan kekeliruan template sumber); slide memakai rumusan umum dan catatan pemateri menyimpan keterangan ini.
 
 ## Penggunaan
 
