@@ -1,0 +1,48 @@
+name: Sync IKD Wonogiri
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Setiap Senin pukul 05:45 WIB (Minggu pukul 22:45 UTC), setelah Sync Master Sekolah selesai
+    - cron: "45 22 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-ikd-wonogiri
+  cancel-in-progress: false
+
+jobs:
+  sync-ikd:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run IKD unit tests
+        run: |
+          if [ -f tests/ikd-sync.test.mjs ]; then
+            node --test tests/ikd-sync.test.mjs
+          fi
+
+      - name: Sync IKD Wonogiri & Peringkat Jawa Tengah
+        run: node scripts/sync-ikd-wonogiri.mjs
+
+      - name: Commit and push updated IKD snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ikd-wonogiri-live.json data/ikd-wonogiri-live.csv data/history/ikd/
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan snapshot IKD Wonogiri."
+          else
+            git commit -m "chore(data): sync IKD Wonogiri & peringkat Jateng snapshot"
+            git push
+          fi
