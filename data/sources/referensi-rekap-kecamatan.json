@@ -1,0 +1,1242 @@
+{
+  "meta": {
+    "generated_at_wib": "2026-11-23T15:03:16+07:00",
+    "kode_kabupaten": "031200",
+    "wilayah": "Kabupaten Wonogiri"
+  },
+  "rekap_per_kategori": {
+    "paud": [
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Pracimantoro",
+        "total": 52,
+        "rincian": {
+          "tk (sederajat) ↕": 34,
+          "kb (sederajat) ↕": 18,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 52
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Paranggupito",
+        "total": 14,
+        "rincian": {
+          "tk (sederajat) ↕": 7,
+          "kb (sederajat) ↕": 7,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 14
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Giritontro",
+        "total": 20,
+        "rincian": {
+          "tk (sederajat) ↕": 12,
+          "kb (sederajat) ↕": 6,
+          "tpa ↕": 0,
+          "sps ↕": 2,
+          "total ↕": 20
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Giriwoyo",
+        "total": 35,
+        "rincian": {
+          "tk (sederajat) ↕": 16,
+          "kb (sederajat) ↕": 18,
+          "tpa ↕": 0,
+          "sps ↕": 1,
+          "total ↕": 35
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Batuwarno",
+        "total": 24,
+        "rincian": {
+          "tk (sederajat) ↕": 13,
+          "kb (sederajat) ↕": 10,
+          "tpa ↕": 0,
+          "sps ↕": 1,
+          "total ↕": 24
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Karangtengah",
+        "total": 30,
+        "rincian": {
+          "tk (sederajat) ↕": 15,
+          "kb (sederajat) ↕": 13,
+          "tpa ↕": 0,
+          "sps ↕": 2,
+          "total ↕": 30
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Tirtomoyo",
+        "total": 48,
+        "rincian": {
+          "tk (sederajat) ↕": 26,
+          "kb (sederajat) ↕": 14,
+          "tpa ↕": 0,
+          "sps ↕": 8,
+          "total ↕": 48
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Nguntoronadi",
+        "total": 24,
+        "rincian": {
+          "tk (sederajat) ↕": 15,
+          "kb (sederajat) ↕": 8,
+          "tpa ↕": 0,
+          "sps ↕": 1,
+          "total ↕": 24
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Baturetno",
+        "total": 55,
+        "rincian": {
+          "tk (sederajat) ↕": 32,
+          "kb (sederajat) ↕": 23,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 55
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Eromoko",
+        "total": 52,
+        "rincian": {
+          "tk (sederajat) ↕": 25,
+          "kb (sederajat) ↕": 27,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 52
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Wuryantoro",
+        "total": 34,
+        "rincian": {
+          "tk (sederajat) ↕": 17,
+          "kb (sederajat) ↕": 16,
+          "tpa ↕": 0,
+          "sps ↕": 1,
+          "total ↕": 34
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Manyaran",
+        "total": 26,
+        "rincian": {
+          "tk (sederajat) ↕": 14,
+          "kb (sederajat) ↕": 12,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 26
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Selogiri",
+        "total": 45,
+        "rincian": {
+          "tk (sederajat) ↕": 29,
+          "kb (sederajat) ↕": 15,
+          "tpa ↕": 1,
+          "sps ↕": 0,
+          "total ↕": 45
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Wonogiri",
+        "total": 94,
+        "rincian": {
+          "tk (sederajat) ↕": 61,
+          "kb (sederajat) ↕": 28,
+          "tpa ↕": 4,
+          "sps ↕": 1,
+          "total ↕": 94
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Ngadirojo",
+        "total": 51,
+        "rincian": {
+          "tk (sederajat) ↕": 30,
+          "kb (sederajat) ↕": 18,
+          "tpa ↕": 1,
+          "sps ↕": 2,
+          "total ↕": 51
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Sidoharjo",
+        "total": 43,
+        "rincian": {
+          "tk (sederajat) ↕": 27,
+          "kb (sederajat) ↕": 16,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 43
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Jatiroto",
+        "total": 45,
+        "rincian": {
+          "tk (sederajat) ↕": 25,
+          "kb (sederajat) ↕": 17,
+          "tpa ↕": 0,
+          "sps ↕": 3,
+          "total ↕": 45
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Kismantoro",
+        "total": 31,
+        "rincian": {
+          "tk (sederajat) ↕": 18,
+          "kb (sederajat) ↕": 13,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 31
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Purwantoro",
+        "total": 55,
+        "rincian": {
+          "tk (sederajat) ↕": 28,
+          "kb (sederajat) ↕": 27,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 55
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Bulukerto",
+        "total": 30,
+        "rincian": {
+          "tk (sederajat) ↕": 23,
+          "kb (sederajat) ↕": 7,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 30
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Slogohimo",
+        "total": 47,
+        "rincian": {
+          "tk (sederajat) ↕": 25,
+          "kb (sederajat) ↕": 20,
+          "tpa ↕": 0,
+          "sps ↕": 2,
+          "total ↕": 47
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Jatisrono",
+        "total": 50,
+        "rincian": {
+          "tk (sederajat) ↕": 35,
+          "kb (sederajat) ↕": 15,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 50
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Jatipurno",
+        "total": 32,
+        "rincian": {
+          "tk (sederajat) ↕": 17,
+          "kb (sederajat) ↕": 15,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 32
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Girimarto",
+        "total": 46,
+        "rincian": {
+          "tk (sederajat) ↕": 27,
+          "kb (sederajat) ↕": 15,
+          "tpa ↕": 0,
+          "sps ↕": 4,
+          "total ↕": 46
+        }
+      },
+      {
+        "kategori": "PAUD",
+        "kode_wilayah": null,
+        "nama_wilayah": "Kec. Puhpelem",
+        "total": 20,
+        "rincian": {
+          "tk (sederajat) ↕": 11,
+          "kb (sederajat) ↕": 9,
+          "tpa ↕": 0,
+          "sps ↕": 0,
+          "total ↕": 20
+        }
+      }
+    ],
+    "dikdas": [
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031201",
+        "nama_wilayah": "Kec. Pracimantoro",
+        "total": 57,
+        "rincian": {
+          "sd (sederajat) ↕": 49,
+          "smp (sederajat) ↕": 8,
+          "total ↕": 57
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031202",
+        "nama_wilayah": "Kec. Paranggupito",
+        "total": 20,
+        "rincian": {
+          "sd (sederajat) ↕": 17,
+          "smp (sederajat) ↕": 3,
+          "total ↕": 20
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031203",
+        "nama_wilayah": "Kec. Giritontro",
+        "total": 24,
+        "rincian": {
+          "sd (sederajat) ↕": 20,
+          "smp (sederajat) ↕": 4,
+          "total ↕": 24
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031204",
+        "nama_wilayah": "Kec. Giriwoyo",
+        "total": 46,
+        "rincian": {
+          "sd (sederajat) ↕": 38,
+          "smp (sederajat) ↕": 8,
+          "total ↕": 46
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031205",
+        "nama_wilayah": "Kec. Batuwarno",
+        "total": 19,
+        "rincian": {
+          "sd (sederajat) ↕": 16,
+          "smp (sederajat) ↕": 3,
+          "total ↕": 19
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031206",
+        "nama_wilayah": "Kec. Karangtengah",
+        "total": 24,
+        "rincian": {
+          "sd (sederajat) ↕": 19,
+          "smp (sederajat) ↕": 5,
+          "total ↕": 24
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031207",
+        "nama_wilayah": "Kec. Tirtomoyo",
+        "total": 53,
+        "rincian": {
+          "sd (sederajat) ↕": 42,
+          "smp (sederajat) ↕": 11,
+          "total ↕": 53
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031208",
+        "nama_wilayah": "Kec. Nguntoronadi",
+        "total": 26,
+        "rincian": {
+          "sd (sederajat) ↕": 23,
+          "smp (sederajat) ↕": 3,
+          "total ↕": 26
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031209",
+        "nama_wilayah": "Kec. Baturetno",
+        "total": 47,
+        "rincian": {
+          "sd (sederajat) ↕": 39,
+          "smp (sederajat) ↕": 8,
+          "total ↕": 47
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031210",
+        "nama_wilayah": "Kec. Eromoko",
+        "total": 42,
+        "rincian": {
+          "sd (sederajat) ↕": 36,
+          "smp (sederajat) ↕": 6,
+          "total ↕": 42
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031211",
+        "nama_wilayah": "Kec. Wuryantoro",
+        "total": 28,
+        "rincian": {
+          "sd (sederajat) ↕": 25,
+          "smp (sederajat) ↕": 3,
+          "total ↕": 28
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031212",
+        "nama_wilayah": "Kec. Manyaran",
+        "total": 40,
+        "rincian": {
+          "sd (sederajat) ↕": 34,
+          "smp (sederajat) ↕": 6,
+          "total ↕": 40
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031213",
+        "nama_wilayah": "Kec. Selogiri",
+        "total": 37,
+        "rincian": {
+          "sd (sederajat) ↕": 31,
+          "smp (sederajat) ↕": 6,
+          "total ↕": 37
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031214",
+        "nama_wilayah": "Kec. Wonogiri",
+        "total": 71,
+        "rincian": {
+          "sd (sederajat) ↕": 58,
+          "smp (sederajat) ↕": 13,
+          "total ↕": 71
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031215",
+        "nama_wilayah": "Kec. Ngadirojo",
+        "total": 52,
+        "rincian": {
+          "sd (sederajat) ↕": 45,
+          "smp (sederajat) ↕": 7,
+          "total ↕": 52
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031216",
+        "nama_wilayah": "Kec. Sidoharjo",
+        "total": 37,
+        "rincian": {
+          "sd (sederajat) ↕": 34,
+          "smp (sederajat) ↕": 3,
+          "total ↕": 37
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031217",
+        "nama_wilayah": "Kec. Jatiroto",
+        "total": 37,
+        "rincian": {
+          "sd (sederajat) ↕": 33,
+          "smp (sederajat) ↕": 4,
+          "total ↕": 37
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031218",
+        "nama_wilayah": "Kec. Kismantoro",
+        "total": 36,
+        "rincian": {
+          "sd (sederajat) ↕": 31,
+          "smp (sederajat) ↕": 5,
+          "total ↕": 36
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031219",
+        "nama_wilayah": "Kec. Purwantoro",
+        "total": 48,
+        "rincian": {
+          "sd (sederajat) ↕": 40,
+          "smp (sederajat) ↕": 8,
+          "total ↕": 48
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031220",
+        "nama_wilayah": "Kec. Bulukerto",
+        "total": 35,
+        "rincian": {
+          "sd (sederajat) ↕": 28,
+          "smp (sederajat) ↕": 7,
+          "total ↕": 35
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031221",
+        "nama_wilayah": "Kec. Slogohimo",
+        "total": 46,
+        "rincian": {
+          "sd (sederajat) ↕": 38,
+          "smp (sederajat) ↕": 8,
+          "total ↕": 46
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031222",
+        "nama_wilayah": "Kec. Jatisrono",
+        "total": 47,
+        "rincian": {
+          "sd (sederajat) ↕": 39,
+          "smp (sederajat) ↕": 8,
+          "total ↕": 47
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031223",
+        "nama_wilayah": "Kec. Jatipurno",
+        "total": 36,
+        "rincian": {
+          "sd (sederajat) ↕": 30,
+          "smp (sederajat) ↕": 6,
+          "total ↕": 36
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031224",
+        "nama_wilayah": "Kec. Girimarto",
+        "total": 36,
+        "rincian": {
+          "sd (sederajat) ↕": 33,
+          "smp (sederajat) ↕": 3,
+          "total ↕": 36
+        }
+      },
+      {
+        "kategori": "DIKDAS",
+        "kode_wilayah": "031225",
+        "nama_wilayah": "Kec. Puhpelem",
+        "total": 16,
+        "rincian": {
+          "sd (sederajat) ↕": 14,
+          "smp (sederajat) ↕": 2,
+          "total ↕": 16
+        }
+      }
+    ],
+    "dikmas": [
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031201",
+        "nama_wilayah": "Kec. Pracimantoro",
+        "total": 3,
+        "rincian": {
+          "kursus ↕": 1,
+          "tbm ↕": 0,
+          "pkbm ↕": 2,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 3
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031202",
+        "nama_wilayah": "Kec. Paranggupito",
+        "total": 0,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 0
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031203",
+        "nama_wilayah": "Kec. Giritontro",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031204",
+        "nama_wilayah": "Kec. Giriwoyo",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031205",
+        "nama_wilayah": "Kec. Batuwarno",
+        "total": 0,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 0
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031206",
+        "nama_wilayah": "Kec. Karangtengah",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031207",
+        "nama_wilayah": "Kec. Tirtomoyo",
+        "total": 0,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 0
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031208",
+        "nama_wilayah": "Kec. Nguntoronadi",
+        "total": 0,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 0
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031209",
+        "nama_wilayah": "Kec. Baturetno",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 1,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031210",
+        "nama_wilayah": "Kec. Eromoko",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 1,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031211",
+        "nama_wilayah": "Kec. Wuryantoro",
+        "total": 0,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 0
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031212",
+        "nama_wilayah": "Kec. Manyaran",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 1,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031213",
+        "nama_wilayah": "Kec. Selogiri",
+        "total": 0,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 0
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031214",
+        "nama_wilayah": "Kec. Wonogiri",
+        "total": 13,
+        "rincian": {
+          "kursus ↕": 10,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 1,
+          "pondok pesantren ↕": 1,
+          "total ↕": 13
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031215",
+        "nama_wilayah": "Kec. Ngadirojo",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031216",
+        "nama_wilayah": "Kec. Sidoharjo",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031217",
+        "nama_wilayah": "Kec. Jatiroto",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031218",
+        "nama_wilayah": "Kec. Kismantoro",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 1,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031219",
+        "nama_wilayah": "Kec. Purwantoro",
+        "total": 4,
+        "rincian": {
+          "kursus ↕": 1,
+          "tbm ↕": 0,
+          "pkbm ↕": 2,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 1,
+          "total ↕": 4
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031220",
+        "nama_wilayah": "Kec. Bulukerto",
+        "total": 0,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 0
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031221",
+        "nama_wilayah": "Kec. Slogohimo",
+        "total": 3,
+        "rincian": {
+          "kursus ↕": 2,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 3
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031222",
+        "nama_wilayah": "Kec. Jatisrono",
+        "total": 2,
+        "rincian": {
+          "kursus ↕": 1,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 2
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031223",
+        "nama_wilayah": "Kec. Jatipurno",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031224",
+        "nama_wilayah": "Kec. Girimarto",
+        "total": 1,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 1,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMAS",
+        "kode_wilayah": "031225",
+        "nama_wilayah": "Kec. Puhpelem",
+        "total": 0,
+        "rincian": {
+          "kursus ↕": 0,
+          "tbm ↕": 0,
+          "pkbm ↕": 0,
+          "skb ↕": 0,
+          "pondok pesantren ↕": 0,
+          "total ↕": 0
+        }
+      }
+    ],
+    "dikmen": [
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031201",
+        "nama_wilayah": "Kec. Pracimantoro",
+        "total": 5,
+        "rincian": {
+          "sma (sederajat) ↕": 2,
+          "smk (sederajat) ↕": 2,
+          "total ↕": 5
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031202",
+        "nama_wilayah": "Kec. Paranggupito",
+        "total": 2,
+        "rincian": {
+          "sma (sederajat) ↕": 1,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 2
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031203",
+        "nama_wilayah": "Kec. Giritontro",
+        "total": 2,
+        "rincian": {
+          "sma (sederajat) ↕": 0,
+          "smk (sederajat) ↕": 2,
+          "total ↕": 2
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031204",
+        "nama_wilayah": "Kec. Giriwoyo",
+        "total": 4,
+        "rincian": {
+          "sma (sederajat) ↕": 1,
+          "smk (sederajat) ↕": 3,
+          "total ↕": 4
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031205",
+        "nama_wilayah": "Kec. Batuwarno",
+        "total": 0,
+        "rincian": {
+          "sma (sederajat) ↕": 0,
+          "smk (sederajat) ↕": 0,
+          "total ↕": 0
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031206",
+        "nama_wilayah": "Kec. Karangtengah",
+        "total": 0,
+        "rincian": {
+          "sma (sederajat) ↕": 0,
+          "smk (sederajat) ↕": 0,
+          "total ↕": 0
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031207",
+        "nama_wilayah": "Kec. Tirtomoyo",
+        "total": 6,
+        "rincian": {
+          "sma (sederajat) ↕": 2,
+          "smk (sederajat) ↕": 3,
+          "total ↕": 6
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031208",
+        "nama_wilayah": "Kec. Nguntoronadi",
+        "total": 2,
+        "rincian": {
+          "sma (sederajat) ↕": 1,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 2
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031209",
+        "nama_wilayah": "Kec. Baturetno",
+        "total": 8,
+        "rincian": {
+          "sma (sederajat) ↕": 3,
+          "smk (sederajat) ↕": 4,
+          "total ↕": 8
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031210",
+        "nama_wilayah": "Kec. Eromoko",
+        "total": 1,
+        "rincian": {
+          "sma (sederajat) ↕": 0,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031211",
+        "nama_wilayah": "Kec. Wuryantoro",
+        "total": 5,
+        "rincian": {
+          "sma (sederajat) ↕": 1,
+          "smk (sederajat) ↕": 3,
+          "total ↕": 5
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031212",
+        "nama_wilayah": "Kec. Manyaran",
+        "total": 4,
+        "rincian": {
+          "sma (sederajat) ↕": 3,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 4
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031213",
+        "nama_wilayah": "Kec. Selogiri",
+        "total": 3,
+        "rincian": {
+          "sma (sederajat) ↕": 2,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 3
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031214",
+        "nama_wilayah": "Kec. Wonogiri",
+        "total": 18,
+        "rincian": {
+          "sma (sederajat) ↕": 5,
+          "smk (sederajat) ↕": 11,
+          "total ↕": 18
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031215",
+        "nama_wilayah": "Kec. Ngadirojo",
+        "total": 4,
+        "rincian": {
+          "sma (sederajat) ↕": 2,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 4
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031216",
+        "nama_wilayah": "Kec. Sidoharjo",
+        "total": 3,
+        "rincian": {
+          "sma (sederajat) ↕": 1,
+          "smk (sederajat) ↕": 2,
+          "total ↕": 3
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031217",
+        "nama_wilayah": "Kec. Jatiroto",
+        "total": 1,
+        "rincian": {
+          "sma (sederajat) ↕": 0,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031218",
+        "nama_wilayah": "Kec. Kismantoro",
+        "total": 2,
+        "rincian": {
+          "sma (sederajat) ↕": 1,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 2
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031219",
+        "nama_wilayah": "Kec. Purwantoro",
+        "total": 4,
+        "rincian": {
+          "sma (sederajat) ↕": 2,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 4
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031220",
+        "nama_wilayah": "Kec. Bulukerto",
+        "total": 3,
+        "rincian": {
+          "sma (sederajat) ↕": 2,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 3
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031221",
+        "nama_wilayah": "Kec. Slogohimo",
+        "total": 5,
+        "rincian": {
+          "sma (sederajat) ↕": 3,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 5
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031222",
+        "nama_wilayah": "Kec. Jatisrono",
+        "total": 5,
+        "rincian": {
+          "sma (sederajat) ↕": 2,
+          "smk (sederajat) ↕": 2,
+          "total ↕": 5
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031223",
+        "nama_wilayah": "Kec. Jatipurno",
+        "total": 1,
+        "rincian": {
+          "sma (sederajat) ↕": 0,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031224",
+        "nama_wilayah": "Kec. Girimarto",
+        "total": 1,
+        "rincian": {
+          "sma (sederajat) ↕": 1,
+          "smk (sederajat) ↕": 0,
+          "total ↕": 1
+        }
+      },
+      {
+        "kategori": "DIKMEN",
+        "kode_wilayah": "031225",
+        "nama_wilayah": "Kec. Puhpelem",
+        "total": 1,
+        "rincian": {
+          "sma (sederajat) ↕": 0,
+          "smk (sederajat) ↕": 1,
+          "total ↕": 1
+        }
+      }
+    ]
+  }
+}

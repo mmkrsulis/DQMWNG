@@ -1,0 +1,62 @@
+name: Crawl Master Sekolah (All Referensi)
+
+on:
+  workflow_dispatch:
+    inputs:
+      include_dikmas:
+        description: "Sertakan jenjang DIKMAS (Kursus/TBM/PKBM/SKB/Ponpes)?"
+        required: false
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+      include_dikmen:
+        description: "Sertakan jenjang DIKMEN (SMA/SMK/MA/SLB)?"
+        required: false
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+  schedule:
+    # Setiap Senin pukul 05:00 WIB = Minggu pukul 22:00 UTC
+    - cron: "0 22 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl-master-referensi
+  cancel-in-progress: true
+
+jobs:
+  crawl-master:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Crawl all satpen categories from Referensi Kemendikdasmen
+        env:
+          REFERENSI_INCLUDE_DIKMAS: ${{ github.event.inputs.include_dikmas || 'true' }}
+          REFERENSI_INCLUDE_DIKMEN: ${{ github.event.inputs.include_dikmen || 'true' }}
+        run: node scripts/crawl-master-referensi.mjs
+
+      - name: Commit and push updated master snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/master-sekolah-live.json data/sources/master-binaan-disdik.json data/sources/referensi-rekap-kecamatan.json data/history/master-sekolah/
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan Master Sekolah."
+          else
+            git commit -m "chore(data): crawl all satpen categories Wonogiri (paud, dikdas, dikmas, dikmen)"
+            git push
+          fi
