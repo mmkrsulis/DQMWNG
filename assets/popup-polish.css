@@ -1,0 +1,132 @@
+/* Pop-up elevation, staggered card entrance, & Slide 2 hero spotlight */
+html[data-theme] .slide :is(.card, .report-panel, .impact-card, .action-card, .process-step, .county-kpis article, .ikd-indicator-card, .cover-evidence article, .ranking-school, .metric-tile) {
+  border-radius: 14px !important;
+  box-shadow: 0 8px 24px -8px rgba(16, 35, 58, 0.13), 0 2px 6px -1px rgba(16, 35, 58, 0.06) !important;
+  transition: transform 0.24s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.24s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.24s ease !important;
+}
+
+html[data-theme="dark"] .slide :is(.card, .report-panel, .impact-card, .action-card, .process-step, .county-kpis article, .ikd-indicator-card, .cover-evidence article, .ranking-school, .metric-tile) {
+  box-shadow: 0 12px 28px -8px rgba(0, 0, 0, 0.48), 0 0 0 1px rgba(255, 255, 255, 0.06) !important;
+}
+
+html[data-theme] .slide :is(.card, .report-panel, .impact-card, .action-card, .county-kpis article, .ikd-indicator-card, .cover-evidence article, .ranking-school):hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 18px 36px -10px rgba(16, 35, 58, 0.22), 0 0 0 1.5px var(--section-color) !important;
+}
+
+@keyframes cardPopUp {
+  0% { opacity: 0; transform: translateY(16px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+html[data-theme] .slide.active :is(.cover-evidence article, .county-kpis article, .ikd-indicator-card, .impact-card, .action-card, .source-grid .card, .ranking-school) {
+  animation: cardPopUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both !important;
+}
+html[data-theme] .slide.active :is(.cover-evidence article, .county-kpis article, .ikd-indicator-card, .impact-card, .action-card, .source-grid .card, .ranking-school):nth-child(2) { animation-delay: 0.07s !important; }
+html[data-theme] .slide.active :is(.cover-evidence article, .county-kpis article, .ikd-indicator-card, .impact-card, .action-card, .source-grid .card, .ranking-school):nth-child(3) { animation-delay: 0.14s !important; }
+html[data-theme] .slide.active :is(.cover-evidence article, .county-kpis article, .ikd-indicator-card, .impact-card, .action-card, .source-grid .card, .ranking-school):nth-child(4) { animation-delay: 0.21s !important; }
+html[data-theme] .slide.active :is(.cover-evidence article, .county-kpis article, .ikd-indicator-card, .impact-card, .action-card, .source-grid .card, .ranking-school):nth-child(5) { animation-delay: 0.28s !important; }
+
+/* Hero Spotlight khusus Slide 2 (Capaian IKD Jawa Tengah) */
+html[data-theme] .ikd-official-hero {
+  background: linear-gradient(135deg, var(--paper) 0%, var(--mint) 100%) !important;
+  border: 1.5px solid color-mix(in srgb, var(--teal) 35%, var(--line)) !important;
+  border-top: 6px solid var(--teal) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 20px 44px -14px rgba(8, 116, 108, 0.24) !important;
+  overflow: hidden;
+}
+
+html[data-theme] .ikd-official-score strong {
+  background: linear-gradient(135deg, var(--teal), var(--blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes trophyFloat {
+  0%, 100% { transform: rotate(6deg) translateY(0); }
+  50% { transform: rotate(10deg) translateY(-6px); }
+}
+
+.achievement-trophy {
+  background: linear-gradient(145deg, #fff6d6, #ffe399) !important;
+  box-shadow: 0 12px 28px -6px rgba(199, 139, 18, 0.35) !important;
+  animation: trophyFloat 3.4s ease-in-out infinite !important;
+}
+
+@keyframes livePulse {
+  0% { box-shadow: 0 0 0 0 rgba(8, 116, 108, 0.55); }
+  70% { box-shadow: 0 0 0 8px rgba(8, 116, 108, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(8, 116, 108, 0); }
+}
+
+.ikd-achievement {
+  box-shadow: 0 4px 14px -4px rgba(8, 116, 108, 0.28);
+}
+
+.ikd-achievement::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--teal);
+  margin-left: 4px;
+  animation: livePulse 2s infinite;
+}
+
+.barfill, .ikd-mini-track span {
+  transition: width 0.75s cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+
+/* Quick Slide Jump Popover dari Footer */
+#foot-label { cursor: pointer; text-decoration: underline dotted; text-underline-offset: 4px; }
+.slide-jump-drawer {
+  position: fixed;
+  left: 3.5vw;
+  bottom: 68px;
+  width: min(440px, 92vw);
+  max-height: 62vh;
+  overflow: auto;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 20px 48px rgba(12, 28, 46, 0.26);
+  padding: 12px;
+  z-index: 600;
+  display: grid;
+  gap: 6px;
+}
+.slide-jump-drawer[hidden] { display: none !important; }
+.slide-jump-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  padding: 9px 12px;
+  border-radius: 9px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.86rem;
+}
+.slide-jump-item:hover, .slide-jump-item.current {
+  background: var(--mint);
+  border-color: var(--line);
+  font-weight: 700;
+}
+.slide-jump-num {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.76rem;
+  color: var(--teal);
+  font-weight: 800;
+  min-width: 26px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-theme] .slide.active *, .achievement-trophy, .ikd-achievement::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
