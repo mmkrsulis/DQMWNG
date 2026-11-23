@@ -1,0 +1,4 @@
+# Artefak diagnostik & output lokal
+artifacts/
+*.log
+.DS_Store

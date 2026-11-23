@@ -1,0 +1,41 @@
+name: Sync Residu PD (VervalPD Staging)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 23 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-residu-pd
+  cancel-in-progress: true
+
+jobs:
+  sync-residu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run Residu PD sync script
+        run: node scripts/sync-residu.mjs
+
+      - name: Commit and push updated snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/residu-live.json data/history/residu/
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan data Residu PD."
+          else
+            git commit -m "chore(data): update snapshot Residu PD Wonogiri"
+            git push
+          fi
