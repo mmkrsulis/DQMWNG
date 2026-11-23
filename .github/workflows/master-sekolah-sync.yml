@@ -1,0 +1,42 @@
+name: Sync Master Sekolah Wonogiri
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Setiap Senin pukul 05:00 WIB = Minggu pukul 22:00 UTC
+    - cron: "0 22 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-master-sekolah
+  cancel-in-progress: true
+
+jobs:
+  sync-master:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Consolidate Master Sekolah
+        run: node scripts/sync-master-sekolah.mjs
+
+      - name: Commit and push updated master snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/master-sekolah-live.json data/history/master-sekolah/
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan Master Sekolah."
+          else
+            git commit -m "chore(data): update Master Sekolah Wonogiri snapshot"
+            git push
+          fi
