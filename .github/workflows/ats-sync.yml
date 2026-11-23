@@ -1,0 +1,51 @@
+name: Sync ATS Wonogiri
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Setiap hari pukul 06:00 WIB = 23:00 UTC hari sebelumnya
+    - cron: "0 23 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-ats-wonogiri
+  cancel-in-progress: false
+
+jobs:
+  sync-ats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Sync official ATS aggregate APIs
+        run: node scripts/sync-ats.mjs
+
+      - name: Commit ATS snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ats-live.json data/history/ats/
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan ATS."
+          else
+            git commit -m "chore(data): sync ATS Wonogiri aggregate snapshot"
+            git push
+          fi
+
+      - name: Upload ATS sync diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ats-sync-diagnostics
+          path: artifacts/ats-sync/
+          if-no-files-found: warn
+          retention-days: 14

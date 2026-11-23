@@ -31,7 +31,7 @@ function applyDqmLiveToHtml(html, snapshot) {
     setExisting(school, ["pass", "lolos"], live.pass);
     setExisting(school, ["fail", "gagal"], live.fail);
     setExisting(school, ["unevaluated", "belumDievaluasi", "pending"], live.unevaluated);
-    setExisting(school, ["total", "totalActive", "totalAktif"], live.total);
+    setExisting(school, ["active", "total", "totalActive", "totalAktif"], live.total);
     updated++;
   }
 
