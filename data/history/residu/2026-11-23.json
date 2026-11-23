@@ -5,8 +5,8 @@
     "source_origin": "https://vervalpd.data.kemendikdasmen.go.id/index.php/Ckabupaten/rekap_data_residu",
     "source_staging": "https://docs.google.com/spreadsheets/d/1HZ2hBHOawj9thFiZBLGP5nA31UprFfS0Ez8Lyrr_lFQ/edit#gid=1660030125",
     "source_updated_at": "23/11/2026 08:28:27",
-    "fetched_at_utc": "2026-11-23T02:48:20.052Z",
-    "fetched_at_wib": "2026-11-23T09:48:20+07:00",
+    "fetched_at_utc": "2026-11-23T02:52:32.675Z",
+    "fetched_at_wib": "2026-11-23T09:52:32+07:00",
     "record_count": 309,
     "validation": {
       "duplicate_npsn_ignored": 0,
