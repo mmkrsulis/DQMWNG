@@ -1,5 +1,5 @@
 /* ==========================================================================
-   ADAPTIVE MULTI-SCREEN LAYOUT (Mobile, Tablet, Laptop, Projector & 4K)
+   ADAPTIVE MULTI-SCREEN LAYOUT & FLUID TYPOGRAPHY (ALL 40 SLIDES)
    ========================================================================== */
 
 :root {
@@ -9,13 +9,21 @@
   --safe-right: env(safe-area-inset-right, 0px);
 }
 
-/* 1. Safe-area & dvh viewport anchoring */
-html, body {
+/* 1. Fluid root typography: scales all rem-based body, table, card, and badge text proportionally */
+html {
+  font-size: clamp(14px, 0.72vw + 7.5px, 18.5px) !important;
   height: 100dvh !important;
   max-width: 100vw;
   overflow: hidden !important;
 }
 
+body {
+  height: 100dvh !important;
+  max-width: 100vw;
+  overflow: hidden !important;
+}
+
+/* 2. Safe-area & dvh viewport anchoring */
 .topbar {
   padding-top: var(--safe-top);
   height: calc(var(--chrome-h, 70px) + var(--safe-top)) !important;
@@ -38,56 +46,95 @@ body.chrome-visible .stage {
   top: calc(var(--chrome-h, 70px) + var(--safe-top)) !important;
 }
 
-/* 2. Balanced vertical & horizontal centering on large screens without top-clipping on small screens */
+/* 3. Balanced vertical & horizontal centering without top-clipping */
 html[data-theme] .slide.active {
   display: flex !important;
   flex-direction: column !important;
   overflow-x: hidden !important;
   overflow-y: auto !important;
-  padding: clamp(18px, 3vh, 40px) max(clamp(14px, 3.4vw, 56px), var(--safe-left)) clamp(22px, 3.2vh, 40px) !important;
+  padding: clamp(16px, 2.8vh, 38px) max(clamp(14px, 3.4vw, 56px), var(--safe-left)) clamp(20px, 3vh, 38px) !important;
 }
 
 html[data-theme] .slide-inner {
   width: 100% !important;
-  max-width: min(1560px, 100%) !important;
+  max-width: min(1580px, 100%) !important;
   margin: auto !important;
   min-height: 0 !important;
-  gap: clamp(12px, 1.8vh, 22px) !important;
+  gap: clamp(11px, 1.7vh, 22px) !important;
 }
 
-/* Fluid typography scaling across viewports */
+/* 4. Fluid headings, KPI numbers, and decorative symbols across all 40 slides */
 html[data-theme] .slide-title {
-  font-size: clamp(1.5rem, 2.8vw, 3.1rem) !important;
+  font-size: clamp(1.45rem, 2.65vw, 2.95rem) !important;
   line-height: 1.14 !important;
 }
 
 html[data-theme] .hero h1 {
-  font-size: clamp(2.1rem, 4.4vw, 5.2rem) !important;
+  font-size: clamp(2.05rem, 4.3vw, 4.9rem) !important;
 }
 
 html[data-theme] .slide-sub {
-  font-size: clamp(0.84rem, 1.05vw, 1.05rem) !important;
+  font-size: clamp(0.86rem, 1.02vw, 1.06rem) !important;
   max-width: 78ch;
+  line-height: 1.52 !important;
 }
 
-/* 3. Dynamic table sizing + pinned first column for horizontal scroll on narrow screens */
+html[data-theme] .kpi {
+  font-size: clamp(1.85rem, 3.5vw, 3.6rem) !important;
+}
+
+html[data-theme] .kpi.medium {
+  font-size: clamp(1.45rem, 2.5vw, 2.5rem) !important;
+}
+
+html[data-theme] .mini-kpi strong {
+  font-size: clamp(1.35rem, 2vw, 2rem) !important;
+}
+
+html[data-theme] .county-kpis strong {
+  font-size: clamp(1.75rem, 2.7vw, 2.75rem) !important;
+}
+
+html[data-theme] .cover-evidence strong {
+  font-size: clamp(2.35rem, 4vw, 3.7rem) !important;
+}
+
+html[data-theme] .ikd-official-score strong {
+  font-size: clamp(2.8rem, 4.8vw, 5rem) !important;
+}
+
+html[data-theme] .ikd-indicator-card strong {
+  font-size: clamp(1.6rem, 2.4vw, 2.55rem) !important;
+}
+
+html[data-theme] .authority-number {
+  font-size: clamp(2.1rem, 3.8vw, 3.8rem) !important;
+}
+
+html[data-theme] .stepno,
+html[data-theme] .impact-symbol,
+html[data-theme] .policy-ico {
+  font-size: clamp(2rem, 3vw, 3.1rem) !important;
+}
+
+/* 5. Dynamic table sizing + pinned first column for horizontal scroll */
 html[data-theme] .tablewrap,
 html[data-theme] .report-table {
-  max-height: clamp(230px, calc(100dvh - 300px), 640px) !important;
+  max-height: clamp(220px, calc(100dvh - 295px), 640px) !important;
   overflow: auto !important;
   -webkit-overflow-scrolling: touch;
 }
 
 html[data-theme] .ranking-table {
-  max-height: clamp(220px, calc(100dvh - 320px), 540px) !important;
+  max-height: clamp(210px, calc(100dvh - 315px), 540px) !important;
 }
 
 html[data-theme] .report-table td,
 html[data-theme] .report-table th {
-  padding: clamp(9px, 1.2vh, 14px) clamp(10px, 1.3vw, 18px) !important;
+  padding: clamp(8px, 1.15vh, 14px) clamp(10px, 1.3vw, 18px) !important;
 }
 
-/* 4. Tablet & Small Laptop Breakpoint (768px - 1120px) */
+/* 6. Tablet & Small Laptop Breakpoint (768px - 1120px) */
 @media (max-width: 1120px) {
   .county-kpis,
   .dimgrid,
@@ -116,19 +163,19 @@ html[data-theme] .report-table th {
 
   .hero {
     grid-template-columns: 1.15fr 0.85fr !important;
-    gap: 24px !important;
-  }
-
-  .cover-evidence strong {
-    font-size: clamp(2.6rem, 4.5vw, 3.6rem) !important;
+    gap: 22px !important;
   }
 }
 
-/* 5. Mobile Portrait & Narrow Windows (<= 767px) */
+/* 7. Mobile Portrait & Narrow Windows (<= 767px) */
 @media (max-width: 767px) {
   :root {
     --chrome-h: 60px;
     --footer-h: 46px;
+  }
+
+  html {
+    font-size: 14px !important;
   }
 
   .topbar {
@@ -153,7 +200,7 @@ html[data-theme] .report-table th {
 
   .topbar .search {
     padding: 8px 10px 8px 30px !important;
-    font-size: 0.8rem !important;
+    font-size: 0.85rem !important;
   }
 
   .topbar .search-wrap:before {
@@ -208,11 +255,7 @@ html[data-theme] .report-table th {
   }
 
   .county-kpis article {
-    padding: 14px !important;
-  }
-
-  .county-kpis strong {
-    font-size: 1.85rem !important;
+    padding: 13px !important;
   }
 
   .slide-no {
@@ -288,16 +331,20 @@ html[data-theme] .report-table th {
   }
 }
 
-/* 6. Short Landscape Screens (Laptop 1366x768, Projector 1024x768, Phone Landscape) */
+/* 8. Short Landscape Screens (Laptop 1366x768, Projector 1024x768, Phone Landscape) */
 @media (max-height: 780px) and (min-width: 768px) {
   :root {
     --chrome-h: 62px;
     --footer-h: 44px;
   }
 
+  html {
+    font-size: clamp(13.5px, 1.85vh, 15.5px) !important;
+  }
+
   html[data-theme] .slide.active {
-    padding-top: 16px !important;
-    padding-bottom: 18px !important;
+    padding-top: 14px !important;
+    padding-bottom: 16px !important;
   }
 
   html[data-theme] .slide-inner {
@@ -305,49 +352,41 @@ html[data-theme] .report-table th {
   }
 
   html[data-theme] .slide-title {
-    font-size: clamp(1.45rem, 2.4vw, 2.25rem) !important;
+    font-size: clamp(1.4rem, 2.3vw, 2.15rem) !important;
     margin: 2px 0 4px !important;
   }
 
   .achievement-trophy {
-    width: 74px !important;
-    height: 74px !important;
-    top: 18px !important;
-    right: 20px !important;
+    width: 72px !important;
+    height: 72px !important;
+    top: 16px !important;
+    right: 18px !important;
   }
 
   .achievement-trophy svg {
-    width: 42px !important;
-    height: 42px !important;
+    width: 40px !important;
+    height: 40px !important;
   }
 
   html[data-theme] .ikd-official-hero {
-    padding: 18px 22px !important;
+    padding: 16px 20px !important;
   }
 
   html[data-theme] .ikd-official-score strong {
-    font-size: 4.2rem !important;
+    font-size: clamp(2.6rem, 6.5vh, 3.9rem) !important;
   }
 }
 
-/* 7. Ultrawide / Large TV & Hall Projector (>= 1800px) */
+/* 9. Ultrawide / Large TV & Hall Projector (>= 1800px) */
 @media (min-width: 1800px) {
   html[data-theme] .slide-inner {
-    max-width: 1680px !important;
-  }
-
-  html[data-theme] .slide-sub {
-    font-size: 1.12rem !important;
-  }
-
-  html[data-theme] table {
-    font-size: 0.96rem !important;
+    max-width: 1720px !important;
   }
 }
 
-/* 8. Touch Devices: avoid sticky hover states and ensure comfortable tap targets */
+/* 10. Touch Devices: avoid sticky hover states and ensure comfortable tap targets */
 @media (hover: none) and (pointer: coarse) {
-  html[data-theme] .slide :is(.card, .report-panel, .impact-card, .action-card, .county-kpis article, .ikd-indicator-card, .cover-evidence article, .ranking-school):hover {
+  html[data-theme] .slide :is(.card, .report-panel, .impact-card, .action-card, .county-kpis article, .ikd-indicator-card, .cover-evidence article, .ranking-school, .mini-kpi, .split-card, .dimbox):hover {
     transform: none !important;
   }
 
