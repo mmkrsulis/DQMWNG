@@ -59,3 +59,40 @@ const slideSymbols={
 function reportIcon(name){return `<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${slideSymbols[name]}</svg>`;}
 document.querySelectorAll('.slide').forEach(slide=>{const label=slide.dataset.label;let type='book',tone='teal';if(/IKD/.test(label)){type='chart';tone='teal'}if(/DQM|dimensi|Fokus SD|Masalah|Kecamatan$|50 SD|Cara membaca/.test(label)){type='chart';tone='blue'}if(/Residu|residu|ATS|NUPTK/.test(label)){type='people';tone='amber'}if(/Praktik|Rencana|Checklist|Aplikasi/.test(label)){type='check';tone='violet'}if(/Klinik|Diskusi/.test(label)){type='search';tone='violet'}if(label==='Mengapa data penting')type='school';if(label==='Capaian IKD Jawa Tengah')type='trophy';slide.dataset.tone=tone;const eyebrow=slide.querySelector('.slide-header .eyebrow');if(eyebrow){const icon=document.createElement('span');icon.className='section-symbol';icon.innerHTML=reportIcon(type);eyebrow.prepend(icon);}});
 const achievement=document.querySelector('.ikd-achievement');if(achievement){achievement.querySelector('span').innerHTML=reportIcon('trophy');const trophy=document.createElement('div');trophy.className='achievement-trophy';trophy.innerHTML=reportIcon('trophy');trophy.setAttribute('aria-hidden','true');achievement.closest('.ikd-official-hero').append(trophy);}
+
+/* FOOTER_PDF_PRINT_EXPORT */
+(function(){
+  const root=document.documentElement,origTitle=document.title;
+  let prevTheme=null;
+  function showPdfToast(msg){
+    let t=document.getElementById("pdf-export-toast");
+    if(!t){t=document.createElement("div");t.id="pdf-export-toast";t.className="pdf-export-toast";document.body.appendChild(t);}
+    t.textContent=msg;t.classList.add("show");clearTimeout(t._tm);
+    t._tm=setTimeout(()=>t.classList.remove("show"),4500);
+  }
+  function prepExport(){
+    prevTheme=root.dataset.theme||"light";
+    root.dataset.theme="light";
+    const lv=document.getElementById("level-filter")?.value||"all";
+    document.title="Materi_IKD_DQM_Wonogiri"+(lv!=="all"?"_"+lv:"")+"_Semua_Slide";
+    document.querySelectorAll(".barfill").forEach(b=>{const v=b.style.getPropertyValue("--target");if(v)b.style.width=v;});
+  }
+  function restoreExport(){
+    document.title=origTitle;
+    if(prevTheme){root.dataset.theme=prevTheme;prevTheme=null;}
+  }
+  window.addEventListener("beforeprint",prepExport);
+  window.addEventListener("afterprint",restoreExport);
+  function runExport(pdf){
+    prepExport();
+    if(pdf)showPdfToast("Pilih 'Simpan sebagai PDF' (Save as PDF) pada jendela cetak untuk mengunduh semua slide.");
+    setTimeout(()=>window.print(),pdf?180:40);
+  }
+  document.getElementById("export-pdf")?.addEventListener("click",()=>runExport(true));
+  document.getElementById("print-slides")?.addEventListener("click",()=>runExport(false));
+  document.addEventListener("keydown",e=>{
+    const tag=(e.target?.tagName||"").toLowerCase();
+    const typing=tag==="input"||tag==="textarea"||tag==="select"||e.target?.isContentEditable;
+    if(!typing&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&e.key.toLowerCase()==="p"){e.preventDefault();runExport(true);}
+  });
+})();
