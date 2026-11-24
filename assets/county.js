@@ -62,37 +62,134 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
 
 /* FOOTER_PDF_PRINT_EXPORT */
 (function(){
-  const root=document.documentElement,origTitle=document.title;
-  let prevTheme=null;
+  const root = document.documentElement, origTitle = document.title;
+  let prevTheme = null;
   function showPdfToast(msg){
-    let t=document.getElementById("pdf-export-toast");
-    if(!t){t=document.createElement("div");t.id="pdf-export-toast";t.className="pdf-export-toast";document.body.appendChild(t);}
-    t.textContent=msg;t.classList.add("show");clearTimeout(t._tm);
-    t._tm=setTimeout(()=>t.classList.remove("show"),4500);
+    let t = document.getElementById("pdf-export-toast");
+    if(!t){ t = document.createElement("div"); t.id = "pdf-export-toast"; t.className = "pdf-export-toast"; document.body.appendChild(t); }
+    t.textContent = msg; t.classList.add("show"); clearTimeout(t._tm);
+    t._tm = setTimeout(() => t.classList.remove("show"), 4500);
+  }
+  function injectPrintStyle(){
+    let st = document.getElementById("dqmwng-print-style");
+    if(!st){
+      st = document.createElement("style");
+      st.id = "dqmwng-print-style";
+      st.textContent = `
+        @media print {
+          @page { size: A4 landscape; margin: 6mm 8mm; }
+          html.printing-deck, html.printing-deck body {
+            font-size: 13.5px !important;
+            height: auto !important;
+            min-height: 0 !important;
+            max-height: none !important;
+            overflow: visible !important;
+            background: #ffffff !important;
+            color: #132538 !important;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+          }
+          html.printing-deck .topbar,
+          html.printing-deck .footer,
+          html.printing-deck .modal,
+          html.printing-deck .suggestions,
+          html.printing-deck #filter-popover,
+          html.printing-deck #chrome-peek,
+          html.printing-deck .speaker-panel,
+          html.printing-deck .btn-speaker,
+          html.printing-deck .slide-jump-drawer,
+          html.printing-deck .pdf-export-toast {
+            display: none !important;
+          }
+          html.printing-deck .stage {
+            position: static !important;
+            inset: auto !important;
+            display: block !important;
+            height: auto !important;
+            max-height: none !important;
+            overflow: visible !important;
+          }
+          html.printing-deck .slide,
+          html.printing-deck .slide.active {
+            position: static !important;
+            inset: auto !important;
+            display: flex !important;
+            flex-direction: column !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            transform: none !important;
+            animation: none !important;
+            overflow: visible !important;
+            width: 100% !important;
+            height: auto !important;
+            min-height: 185mm !important;
+            max-height: none !important;
+            padding: 8mm 10mm !important;
+            margin: 0 !important;
+            box-sizing: border-box !important;
+            page-break-after: always !important;
+            break-after: page !important;
+            page-break-inside: avoid !important;
+            break-inside: avoid !important;
+          }
+          html.printing-deck .slide:last-of-type {
+            page-break-after: auto !important;
+            break-after: auto !important;
+          }
+          html.printing-deck .slide-inner {
+            max-width: 100% !important;
+            margin: auto 0 !important;
+          }
+          html.printing-deck .ikd-official-score strong {
+            background: none !important;
+            -webkit-text-fill-color: var(--teal, #0f766e) !important;
+            color: var(--teal, #0f766e) !important;
+          }
+          html.printing-deck .barfill {
+            width: var(--target) !important;
+            animation: none !important;
+          }
+          html.printing-deck .tablewrap,
+          html.printing-deck .report-table,
+          html.printing-deck .ranking-table {
+            max-height: none !important;
+            overflow: visible !important;
+          }
+        }
+      `;
+      document.head.appendChild(st);
+    }
   }
   function prepExport(){
-    prevTheme=root.dataset.theme||"light";
-    root.dataset.theme="light";
-    const lv=document.getElementById("level-filter")?.value||"all";
-    document.title="Materi_IKD_DQM_Wonogiri"+(lv!=="all"?"_"+lv:"")+"_Semua_Slide";
-    document.querySelectorAll(".barfill").forEach(b=>{const v=b.style.getPropertyValue("--target");if(v)b.style.width=v;});
+    injectPrintStyle();
+    root.classList.add("printing-deck");
+    prevTheme = root.dataset.theme || "light";
+    root.dataset.theme = "light";
+    const lv = document.getElementById("level-filter")?.value || "all";
+    document.title = "Materi_IKD_DQM_Wonogiri" + (lv !== "all" ? "_" + lv : "") + "_Semua_Slide";
+    document.querySelectorAll(".barfill").forEach(b => {
+      const v = b.style.getPropertyValue("--target");
+      if(v) b.style.width = v;
+    });
   }
   function restoreExport(){
-    document.title=origTitle;
-    if(prevTheme){root.dataset.theme=prevTheme;prevTheme=null;}
+    root.classList.remove("printing-deck");
+    document.getElementById("dqmwng-print-style")?.remove();
+    document.title = origTitle;
+    if(prevTheme){ root.dataset.theme = prevTheme; prevTheme = null; }
   }
-  window.addEventListener("beforeprint",prepExport);
-  window.addEventListener("afterprint",restoreExport);
+  window.addEventListener("beforeprint", prepExport);
+  window.addEventListener("afterprint", restoreExport);
   function runExport(pdf){
     prepExport();
-    if(pdf)showPdfToast("Pilih 'Simpan sebagai PDF' (Save as PDF) pada jendela cetak untuk mengunduh semua slide.");
-    setTimeout(()=>window.print(),pdf?180:40);
+    if(pdf) showPdfToast("Pilih Save as PDF pada jendela cetak untuk mengunduh semua 40 slide.");
+    setTimeout(() => window.print(), pdf ? 200 : 50);
   }
-  document.getElementById("export-pdf")?.addEventListener("click",()=>runExport(true));
-  document.getElementById("print-slides")?.addEventListener("click",()=>runExport(false));
-  document.addEventListener("keydown",e=>{
-    const tag=(e.target?.tagName||"").toLowerCase();
-    const typing=tag==="input"||tag==="textarea"||tag==="select"||e.target?.isContentEditable;
-    if(!typing&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&e.key.toLowerCase()==="p"){e.preventDefault();runExport(true);}
+  document.getElementById("export-pdf")?.addEventListener("click", () => runExport(true));
+  document.getElementById("print-slides")?.addEventListener("click", () => runExport(false));
+  document.addEventListener("keydown", e => {
+    const tag = (e.target?.tagName || "").toLowerCase();
+    const typing = tag === "input" || tag === "textarea" || tag === "select" || e.target?.isContentEditable;
+    if(!typing && !e.ctrlKey && !e.metaKey && !e.altKey && e.key.toLowerCase() === "p"){ e.preventDefault(); runExport(true); }
   });
 })();
