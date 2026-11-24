@@ -39,6 +39,12 @@ function applyPopupPatchToHtml(html) {
       '  <link rel="stylesheet" href="assets/popup-polish.css"/>\n</head>'
     );
   }
+  if (!html.includes("assets/adaptive-layout.css")) {
+    html = html.replace(
+      "</head>",
+      '  <link rel="stylesheet" href="assets/adaptive-layout.css"/>\n</head>'
+    );
+  }
   if (!html.includes("assets/popup-polish.js")) {
     html = html.replace(
       "</body>",

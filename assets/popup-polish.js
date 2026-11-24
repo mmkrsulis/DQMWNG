@@ -34,7 +34,7 @@
     const active = document.querySelector(".slide.active");
     if (!active) return;
     active
-      .querySelectorAll(".ikd-official-score strong, .ikd-indicator-card strong, .county-kpis strong, .cover-evidence strong")
+      .querySelectorAll(".kpi, .mini-kpi strong, .ikd-official-score strong, .ikd-indicator-card strong, .county-kpis strong, .cover-evidence strong")
       .forEach(animateValue);
   }
 
