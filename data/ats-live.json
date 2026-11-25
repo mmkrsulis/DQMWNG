@@ -9,19 +9,19 @@
       "dashboard": "https://ats.data.kemendikdasmen.go.id/ats-v2/api/v1/publik/grafik?kode_wilayah=031200",
       "districts": "https://ats.data.kemendikdasmen.go.id/ats-v2/api/v1/publik/rekap-wilayah?id_level_wilayah=3&mst_kode_wilayah=031200&rinci=true"
     },
-    "fetched_at_utc": "2026-11-24T06:48:32.462Z",
-    "fetched_at_wib": "2026-11-24T13:48:32+07:00",
+    "fetched_at_utc": "2026-11-25T05:16:31.638Z",
+    "fetched_at_wib": "2026-11-25T12:16:31+07:00",
     "tahun_ajaran": "2026/2027",
     "cut_off": "2026-09-30",
-    "tanggal_pemutakhiran": "2026-11-24T02:25:47+07:00",
+    "tanggal_pemutakhiran": "2026-11-25T02:26:26+07:00",
     "record_count_kecamatan": 25,
     "privacy": "Agregat wilayah saja; tidak memuat identitas anak."
   },
   "totals": {
-    "total": 2624,
-    "do": 618,
-    "ltm": 1188,
-    "bpb": 818
+    "total": 2614,
+    "do": 617,
+    "ltm": 1183,
+    "bpb": 814
   },
   "kecamatan": [
     {
@@ -75,9 +75,9 @@
     {
       "kode_kecamatan": "031207",
       "kecamatan": "Kec. Tirtomoyo",
-      "total": 175,
+      "total": 174,
       "do": 26,
-      "ltm": 99,
+      "ltm": 98,
       "bpb": 50
     },
     {
@@ -115,9 +115,9 @@
     {
       "kode_kecamatan": "031212",
       "kecamatan": "Kec. Manyaran",
-      "total": 57,
+      "total": 56,
       "do": 11,
-      "ltm": 19,
+      "ltm": 18,
       "bpb": 27
     },
     {
@@ -139,9 +139,9 @@
     {
       "kode_kecamatan": "031215",
       "kecamatan": "Kec. Ngadirojo",
-      "total": 122,
+      "total": 121,
       "do": 38,
-      "ltm": 38,
+      "ltm": 37,
       "bpb": 46
     },
     {
@@ -155,10 +155,10 @@
     {
       "kode_kecamatan": "031217",
       "kecamatan": "Kec. Jatiroto",
-      "total": 144,
+      "total": 143,
       "do": 47,
       "ltm": 70,
-      "bpb": 27
+      "bpb": 26
     },
     {
       "kode_kecamatan": "031218",
@@ -171,10 +171,10 @@
     {
       "kode_kecamatan": "031219",
       "kecamatan": "Kec. Purwantoro",
-      "total": 213,
+      "total": 211,
       "do": 51,
-      "ltm": 108,
-      "bpb": 54
+      "ltm": 107,
+      "bpb": 53
     },
     {
       "kode_kecamatan": "031220",
@@ -187,18 +187,18 @@
     {
       "kode_kecamatan": "031221",
       "kecamatan": "Kec. Slogohimo",
-      "total": 140,
+      "total": 139,
       "do": 37,
-      "ltm": 50,
+      "ltm": 49,
       "bpb": 53
     },
     {
       "kode_kecamatan": "031222",
       "kecamatan": "Kec. Jatisrono",
-      "total": 165,
-      "do": 42,
+      "total": 162,
+      "do": 41,
       "ltm": 63,
-      "bpb": 60
+      "bpb": 58
     },
     {
       "kode_kecamatan": "031223",
@@ -231,10 +231,10 @@
     "kecamatan_count": 25,
     "district_sums_match_dashboard": true,
     "district_sums": {
-      "total": 2624,
-      "do": 618,
-      "ltm": 1188,
-      "bpb": 818
+      "total": 2614,
+      "do": 617,
+      "ltm": 1183,
+      "bpb": 814
     }
   }
 }
