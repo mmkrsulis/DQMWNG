@@ -1,0 +1,6414 @@
+{
+  "meta": {
+    "domain": "residu_pd",
+    "schema_version": "1.0.0",
+    "source_origin": "https://vervalpd.data.kemendikdasmen.go.id/index.php/Ckabupaten/rekap_data_residu",
+    "source_staging": "https://docs.google.com/spreadsheets/d/1HZ2hBHOawj9thFiZBLGP5nA31UprFfS0Ez8Lyrr_lFQ/edit#gid=1660030125",
+    "source_updated_at": "26/11/2026 12:14:00",
+    "fetched_at_utc": "2026-11-26T05:28:39.346Z",
+    "fetched_at_wib": "2026-11-26T12:28:39+07:00",
+    "record_count": 311,
+    "validation": {
+      "duplicate_npsn_ignored": 0,
+      "skipped_non_binaan_jenjang": 0,
+      "skipped_empty_or_invalid": 20
+    }
+  },
+  "summary": {
+    "total_sekolah_terdata": 311,
+    "sekolah_dengan_residu": 311,
+    "sekolah_bersih_residu": 0,
+    "indikator": {
+      "nisn": 79,
+      "nik_dukcapil": 227,
+      "nik_ganda": 122,
+      "nama": 83,
+      "tempat_lahir": 282,
+      "tanggal_lahir": 100,
+      "ibu_kandung": 89,
+      "desa_kelurahan": 97,
+      "residu_validasi": 179
+    },
+    "by_jenjang": {
+      "TK": {
+        "sekolah": 43,
+        "sekolah_bermasalah": 43,
+        "total_flag": 175
+      },
+      "KB": {
+        "sekolah": 73,
+        "sekolah_bermasalah": 73,
+        "total_flag": 395
+      },
+      "SD": {
+        "sekolah": 154,
+        "sekolah_bermasalah": 154,
+        "total_flag": 545
+      },
+      "SMP": {
+        "sekolah": 33,
+        "sekolah_bermasalah": 33,
+        "total_flag": 95
+      },
+      "SPS": {
+        "sekolah": 4,
+        "sekolah_bermasalah": 4,
+        "total_flag": 38
+      },
+      "TPA": {
+        "sekolah": 4,
+        "sekolah_bermasalah": 4,
+        "total_flag": 10
+      }
+    },
+    "by_kecamatan": {
+      "Kec. Baturetno": {
+        "sekolah": 13,
+        "sekolah_bermasalah": 13,
+        "total_flag": 53
+      },
+      "Kec. Batuwarno": {
+        "sekolah": 2,
+        "sekolah_bermasalah": 2,
+        "total_flag": 5
+      },
+      "Kec. Bulukerto": {
+        "sekolah": 15,
+        "sekolah_bermasalah": 15,
+        "total_flag": 54
+      },
+      "Kec. Eromoko": {
+        "sekolah": 13,
+        "sekolah_bermasalah": 13,
+        "total_flag": 90
+      },
+      "Kec. Girimarto": {
+        "sekolah": 15,
+        "sekolah_bermasalah": 15,
+        "total_flag": 64
+      },
+      "Kec. Giritontro": {
+        "sekolah": 8,
+        "sekolah_bermasalah": 8,
+        "total_flag": 57
+      },
+      "Kec. Giriwoyo": {
+        "sekolah": 11,
+        "sekolah_bermasalah": 11,
+        "total_flag": 41
+      },
+      "Kec. Jatipurno": {
+        "sekolah": 10,
+        "sekolah_bermasalah": 10,
+        "total_flag": 28
+      },
+      "Kec. Jatiroto": {
+        "sekolah": 8,
+        "sekolah_bermasalah": 8,
+        "total_flag": 19
+      },
+      "Kec. Jatisrono": {
+        "sekolah": 21,
+        "sekolah_bermasalah": 21,
+        "total_flag": 68
+      },
+      "Kec. Karangtengah": {
+        "sekolah": 5,
+        "sekolah_bermasalah": 5,
+        "total_flag": 38
+      },
+      "Kec. Kismantoro": {
+        "sekolah": 12,
+        "sekolah_bermasalah": 12,
+        "total_flag": 39
+      },
+      "Kec. Manyaran": {
+        "sekolah": 7,
+        "sekolah_bermasalah": 7,
+        "total_flag": 25
+      },
+      "Kec. Ngadirojo": {
+        "sekolah": 22,
+        "sekolah_bermasalah": 22,
+        "total_flag": 84
+      },
+      "Kec. Nguntoronadi": {
+        "sekolah": 6,
+        "sekolah_bermasalah": 6,
+        "total_flag": 14
+      },
+      "Kec. Paranggupito": {
+        "sekolah": 3,
+        "sekolah_bermasalah": 3,
+        "total_flag": 8
+      },
+      "Kec. Pracimantoro": {
+        "sekolah": 11,
+        "sekolah_bermasalah": 11,
+        "total_flag": 49
+      },
+      "Kec. Puhpelem": {
+        "sekolah": 6,
+        "sekolah_bermasalah": 6,
+        "total_flag": 10
+      },
+      "Kec. Purwantoro": {
+        "sekolah": 13,
+        "sekolah_bermasalah": 13,
+        "total_flag": 76
+      },
+      "Kec. Selogiri": {
+        "sekolah": 8,
+        "sekolah_bermasalah": 8,
+        "total_flag": 27
+      },
+      "Kec. Sidoharjo": {
+        "sekolah": 23,
+        "sekolah_bermasalah": 23,
+        "total_flag": 151
+      },
+      "Kec. Slogohimo": {
+        "sekolah": 26,
+        "sekolah_bermasalah": 26,
+        "total_flag": 65
+      },
+      "Kec. Tirtomoyo": {
+        "sekolah": 18,
+        "sekolah_bermasalah": 18,
+        "total_flag": 70
+      },
+      "Kec. Wonogiri": {
+        "sekolah": 27,
+        "sekolah_bermasalah": 27,
+        "total_flag": 90
+      },
+      "Kec. Wuryantoro": {
+        "sekolah": 8,
+        "sekolah_bermasalah": 8,
+        "total_flag": 33
+      }
+    }
+  },
+  "schools": [
+    {
+      "npsn": "20357719",
+      "nama": "TK AISYIYAH VIII",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "70055142",
+      "nama": "TK BUNGA INSANI",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805825",
+      "nama": "BINA INSANI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311605",
+      "nama": "SD Negeri 1 Balepanjang",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311748",
+      "nama": "SD Negeri 1 Talunombo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 2,
+        "nik_ganda": 2,
+        "nama": 2,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 8,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311768",
+      "nama": "SD Negeri 1 Temon",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311862",
+      "nama": "SD Negeri 2 Baturetno",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310930",
+      "nama": "SD Negeri 2 Setrorejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20341332",
+      "nama": "SD KANISIUS BATURETNO",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 5,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 9,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311597",
+      "nama": "SD KANISIUS JAMPRIT",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 2,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 2,
+        "desa_kelurahan": 2,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 11,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20341320",
+      "nama": "SDIT AS-SALAMAH",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311061",
+      "nama": "SMP KANISIUS ST ALOYSIUS BATURETNO",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311057",
+      "nama": "SMP MUHAMMADIYAH 2 BATURETNO",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Baturetno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805740",
+      "nama": "KB TUNAS HARAPAN",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Batuwarno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311754",
+      "nama": "SD Negeri 1 Sumberagung",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Batuwarno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806020",
+      "nama": "TK ISLAM TERPADU AR-RAHMAN BULUKERTO",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69901808",
+      "nama": "TK. Kelurahan 2 Bulukerto",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806133",
+      "nama": "ANAK BANGSA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 2,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 9,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806085",
+      "nama": "SAMI MAJU 1",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 3,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311569",
+      "nama": "SD Negeri 1 Conto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311586",
+      "nama": "SD Negeri 1 Genengrejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311396",
+      "nama": "SD Negeri 1 Krandegan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 2,
+        "nama": 1,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 9,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311465",
+      "nama": "SD Negeri 1 Ngaglik",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311820",
+      "nama": "SD Negeri 2 Bulukerto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 4
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311813",
+      "nama": "SD Negeri 2 Conto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311827",
+      "nama": "SD Negeri 2 Domas",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311730",
+      "nama": "SD Negeri 2 Nadi",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310812",
+      "nama": "SD Negeri 3 Krandegan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311259",
+      "nama": "SD Negeri Bulurejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311071",
+      "nama": "SMP NEGERI 3 BULUKERTO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Bulukerto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805622",
+      "nama": "BHAKTI SIWI I",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 2,
+        "nik_dukcapil": 2,
+        "nik_ganda": 2,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 2,
+        "desa_kelurahan": 2,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 16,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805768",
+      "nama": "KB NGUDI UTOMO I",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 3,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 3,
+        "ibu_kandung": 3,
+        "desa_kelurahan": 3,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 16,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805839",
+      "nama": "MELATI 01",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 2,
+        "nik_dukcapil": 4,
+        "nik_ganda": 4,
+        "nama": 0,
+        "tempat_lahir": 4,
+        "tanggal_lahir": 4,
+        "ibu_kandung": 4,
+        "desa_kelurahan": 4,
+        "residu_validasi": 4
+      },
+      "total_flag_indikator": 30,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805772",
+      "nama": "NUSA INDAH I",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805829",
+      "nama": "PUTRA PERTIWI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805759",
+      "nama": "SIWI PENI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311468",
+      "nama": "SD Negeri 1 Ngadirejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311693",
+      "nama": "SD Negeri 2 Panekan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310908",
+      "nama": "SD Negeri 2 Sumberharjo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310861",
+      "nama": "SD Negeri 3 Sindukarto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311026",
+      "nama": "SMP NEGERI 1 EROMOKO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 2,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311055",
+      "nama": "SMP MUHAMADIYAH 7 EROMOKO",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 2,
+        "nik_ganda": 0,
+        "nama": 2,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311017",
+      "nama": "SMP PANCASILA 14 EROMOKO",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Eromoko",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805906",
+      "nama": "DHARMA WANITA DOHO I",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69907546",
+      "nama": "DHARMA WANITA JATIREJO I",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806121",
+      "nama": "TK DHARMA WANITA DOHO II",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69906326",
+      "nama": "TK DHARMA WANITA SANAN I",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806103",
+      "nama": "TK DHARMA WANITA SELOREJO",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805951",
+      "nama": "KB ASTINIK",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 3,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806093",
+      "nama": "KB TIARA PERTIWI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805873",
+      "nama": "SILOAM PRESCHOOL",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806065",
+      "nama": "POS PAUD SURYA PERTIWI",
+      "jenjang": "SPS",
+      "status": "Swasta",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20339082",
+      "nama": "SD Negeri 1 Giriwarno",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 4,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20339083",
+      "nama": "SD Negeri 1 Jatirejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20339084",
+      "nama": "SD Negeri 1 Nungkulan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20339095",
+      "nama": "SD Negeri 2 Nungkulan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20339104",
+      "nama": "SD Negeri 3 Giriwarno",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 2,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 3,
+        "ibu_kandung": 2,
+        "desa_kelurahan": 2,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 13,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311225",
+      "nama": "SMP NEGERI 2 GIRIMARTO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Girimarto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311614",
+      "nama": "SD Negeri 1 Bayemharjo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giritontro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 6,
+        "nik_ganda": 6,
+        "nama": 6,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 6
+      },
+      "total_flag_indikator": 26,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311428",
+      "nama": "SD Negeri 1 Jatirejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giritontro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311447",
+      "nama": "SD Negeri 1 Pucanganom",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giritontro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311661",
+      "nama": "SD Negeri 2 Giritontro",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giritontro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 4,
+        "nik_ganda": 5,
+        "nama": 5,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 6
+      },
+      "total_flag_indikator": 20,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310774",
+      "nama": "SD Negeri 3 Pucanganom",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giritontro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310829",
+      "nama": "SD Negeri 3 Tlogoharjo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giritontro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311024",
+      "nama": "SMP NEGERI 1 GIRITONTRO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giritontro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311224",
+      "nama": "SMP NEGERI 2 GIRITONTRO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giritontro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805912",
+      "nama": "TK NEGERI PEMBINA KECAMATAN GIRIWOYO",
+      "jenjang": "TK",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805958",
+      "nama": "KARTIKA SIWI",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806057",
+      "nama": "TK KALIMOSODO",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805652",
+      "nama": "AISYIYAH",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 3,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69909136",
+      "nama": "KB LARE MUCHTARY",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69909143",
+      "nama": "KB PERMATA HATI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805715",
+      "nama": "KELOMPOK BERMAIN KALIMOSODO",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311577",
+      "nama": "SD Negeri 1 Giriwoyo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 2,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 3,
+        "ibu_kandung": 3,
+        "desa_kelurahan": 3,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 16,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311436",
+      "nama": "SD Negeri 1 Platarejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311784",
+      "nama": "SD Negeri 1 Selomarto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311006",
+      "nama": "SMP NEGERI 1 GIRIWOYO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Giriwoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806186",
+      "nama": "DARUSSALAM",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatipurno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311415",
+      "nama": "SD Negeri 1 Jatipurno",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatipurno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311375",
+      "nama": "SD Negeri 1 Kembang",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatipurno",
+      "residu": {
+        "nisn": 2,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311774",
+      "nama": "SD Negeri 1 Tawangrejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatipurno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311727",
+      "nama": "SD Negeri 2 Mangunharjo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatipurno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310887",
+      "nama": "SD Negeri 2 Slogoretno",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatipurno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310869",
+      "nama": "SD Negeri 3 Tawangrejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatipurno",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311348",
+      "nama": "SD Negeri Gendungan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatipurno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311344",
+      "nama": "SD Negeri Gojati",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatipurno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311241",
+      "nama": "SMP NEGERI 1 JATIPURNO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatipurno",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 4
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805964",
+      "nama": "Indriya",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatiroto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805868",
+      "nama": "Al Husna",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatiroto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805909",
+      "nama": "BHAKTI PERTIWI II",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatiroto",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806124",
+      "nama": "MAYONG",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatiroto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311367",
+      "nama": "SD Negeri 1 Dawungan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatiroto",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311760",
+      "nama": "SD Negeri 1 Sugihan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatiroto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311822",
+      "nama": "SD Negeri 2 Brenggolo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatiroto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69864637",
+      "nama": "SDIT BINA INSAN MULIA",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatiroto",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357686",
+      "nama": "TK AISYIYAH",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 2,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20358142",
+      "nama": "TK PERTIWI 4",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805930",
+      "nama": "KB ANANDA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 8,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806030",
+      "nama": "KB MUTIARA PERTIWI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805999",
+      "nama": "KB SIWI SEJATI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 4,
+        "nik_dukcapil": 4,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 9,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806087",
+      "nama": "KB ULIN NUHA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 4,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311426",
+      "nama": "SD Negeri 1 Jatisari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311425",
+      "nama": "SD Negeri 1 Jatisrono",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311484",
+      "nama": "SD Negeri 1 Pandeyan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 0,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311781",
+      "nama": "SD Negeri 1 Semen",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311848",
+      "nama": "SD Negeri 1 Watangsono",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311681",
+      "nama": "SD Negeri 2 Gunungsari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311694",
+      "nama": "SD Negeri 2 Pandeyan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311704",
+      "nama": "SD Negeri 2 Pule",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310919",
+      "nama": "SD Negeri 2 Rejosari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310757",
+      "nama": "SD Negeri 3 Pandeyan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311337",
+      "nama": "SD Negeri Krandegan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311353",
+      "nama": "SD Negeri Kutolawas",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20341430",
+      "nama": "SD ISLAM RUMPUN MUSLIM",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20353955",
+      "nama": "SDIT IBNU SINA JATISRONO",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69913505",
+      "nama": "SMP ISLAM RUMPUN MUSLIM JATISRONO",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Jatisrono",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805778",
+      "nama": "KELOMPOK BERMAIN PURWOHARJO I",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Karangtengah",
+      "residu": {
+        "nisn": 4,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69907214",
+      "nama": "MUTIARA HATI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Karangtengah",
+      "residu": {
+        "nisn": 2,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805836",
+      "nama": "SIWI PENI I",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Karangtengah",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805877",
+      "nama": "POS PAUD ALLIENA I",
+      "jenjang": "SPS",
+      "status": "Swasta",
+      "kecamatan": "Kec. Karangtengah",
+      "residu": {
+        "nisn": 3,
+        "nik_dukcapil": 5,
+        "nik_ganda": 3,
+        "nama": 2,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 3,
+        "ibu_kandung": 3,
+        "desa_kelurahan": 3,
+        "residu_validasi": 3
+      },
+      "total_flag_indikator": 28,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311634",
+      "nama": "SD Negeri 2 Jeblogan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Karangtengah",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806130",
+      "nama": "TK NGROTO I",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805886",
+      "nama": "KB ANAK BANGSA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806037",
+      "nama": "KB MAWAR KENCANA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69917490",
+      "nama": "KB SATU ATAP TK I BUGELAN",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 8,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311385",
+      "nama": "SD Negeri 1 Kismantoro",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311392",
+      "nama": "SD Negeri 1 Lemahbang",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311489",
+      "nama": "SD Negeri 1 Ngroto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311838",
+      "nama": "SD Negeri 2 Gambiranom",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310805",
+      "nama": "SD Negeri 3 Miri",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310753",
+      "nama": "SD Negeri 3 Ngroto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311210",
+      "nama": "SMP Negeri 1 Kismantoro",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311217",
+      "nama": "SMP NEGERI 2 KISMANTORO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Kismantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20358082",
+      "nama": "TK Pertiwi Pagutan",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Manyaran",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805647",
+      "nama": "PUTRA MANDIRI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Manyaran",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805727",
+      "nama": "TAMAN CERIA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Manyaran",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311726",
+      "nama": "SD Negeri 2 Manyaran",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Manyaran",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311252",
+      "nama": "SD Negeri 5 Kepuhsari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Manyaran",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311270",
+      "nama": "SD Negeri 6 Pijiharjo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Manyaran",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311030",
+      "nama": "SMP VETERAN 1 MANYARAN",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Manyaran",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357941",
+      "nama": "TK DHARMA WANITA KERJO KIDUL I",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 3,
+        "nik_dukcapil": 3,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 12,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69913169",
+      "nama": "TK DHARMA WANITA KERJO KIDUL II",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357944",
+      "nama": "TK DHARMA WANITA KERJO LOR 1",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357851",
+      "nama": "TK DHARMA WANITA KERJO LOR III",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 2,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 11,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357948",
+      "nama": "TK DHARMA WANITA MLOKOMANIS WETAN II",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357951",
+      "nama": "TK DHARMA WANITA NGADIROJO LOR 1",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357858",
+      "nama": "TK DHARMA WANITA PONDOK II",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357990",
+      "nama": "TK INDRIYASANA",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69909233",
+      "nama": "CITRA PERTIWI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 2,
+        "nik_dukcapil": 2,
+        "nik_ganda": 2,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 2,
+        "desa_kelurahan": 2,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 16,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805677",
+      "nama": "KB.Sendang Pawiyatan 1",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805833",
+      "nama": "NUR IHSAN",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806190",
+      "nama": "TPA MUTIARA HATI 2",
+      "jenjang": "TPA",
+      "status": "Swasta",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311401",
+      "nama": "SD Negeri 1 Jatimarto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20341070",
+      "nama": "SD Negeri 1 Kerjo Kidul",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311467",
+      "nama": "SD Negeri 1 Ngadirojo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311831",
+      "nama": "SD Negeri 2 Gemawang",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311675",
+      "nama": "SD Negeri 2 Jatimarto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311645",
+      "nama": "SD Negeri 2 Kerjo Lor",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310803",
+      "nama": "SD Negeri 3 Mlokowetan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310776",
+      "nama": "SD Negeri 3 Pondok",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311275",
+      "nama": "SD Negeri 4 Pondok",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311208",
+      "nama": "SMP NEGERI 1 NGADIROJO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Ngadirojo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20362236",
+      "nama": "TK DESA BUMIHARJO",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Nguntoronadi",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805654",
+      "nama": "BINA CENDIKIA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Nguntoronadi",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805695",
+      "nama": "WIYATA MANDIRI II",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Nguntoronadi",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20340756",
+      "nama": "SD Negeri 1 Ngadipiro",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Nguntoronadi",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311636",
+      "nama": "SD Negeri 2 Kedungrejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Nguntoronadi",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311351",
+      "nama": "SD Negeri Krapyak",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Nguntoronadi",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311384",
+      "nama": "SD Negeri 1 Ketos",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Paranggupito",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311206",
+      "nama": "SMP NEGERI 1 PARANGGUPITO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Paranggupito",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311082",
+      "nama": "SMP NEGERI 2 PARANGGUPITO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Paranggupito",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806088",
+      "nama": "TK AISYIYAH III",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805795",
+      "nama": "Purnama I",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805639",
+      "nama": "PUTERA MANDIRI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311393",
+      "nama": "SD Negeri 1 Lebak",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311852",
+      "nama": "SD Negeri 1 Tubokarto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311274",
+      "nama": "SD Negeri 4 Pracimantoro",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311297",
+      "nama": "SD Negeri 4 Suci",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20340746",
+      "nama": "SD MUHAMMADIYAH PROGRAM KHUSUS",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 14,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 19,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311081",
+      "nama": "SMP NEGERI 2 PRACIMANTORO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311097",
+      "nama": "SMP NEGERI 3 PRACIMANTORO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 2,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69767580",
+      "nama": "SMPS MUHAMMADIYAH PK PRACIMANTORO",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Pracimantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 9
+      },
+      "total_flag_indikator": 9,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806185",
+      "nama": "KB HARAPAN BUNDA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Puhpelem",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69906375",
+      "nama": "TUNAS HARAPAN",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Puhpelem",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69906377",
+      "nama": "TUNAS PERTIWI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Puhpelem",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 2,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311756",
+      "nama": "SD Negeri 1 Sukorejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Puhpelem",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310984",
+      "nama": "SD Negeri 2 Tengger",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Puhpelem",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310754",
+      "nama": "SD Negeri 3 Nguneng",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Puhpelem",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20358050",
+      "nama": "TK NEGERI PEMBINA KECAMATAN PURWANTORO",
+      "jenjang": "TK",
+      "status": "Negeri",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357985",
+      "nama": "TK IT HARAPAN UMAT",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69763335",
+      "nama": "KB BRAJA ABADI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806021",
+      "nama": "KB KASIH ABADI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806001",
+      "nama": "KB KENANGA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 7,
+        "tanggal_lahir": 3,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 3,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 14,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806091",
+      "nama": "KB MUTIARA BUNDA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806053",
+      "nama": "TUNAS BAKTI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 5,
+        "nik_dukcapil": 3,
+        "nik_ganda": 5,
+        "nama": 3,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 2,
+        "desa_kelurahan": 2,
+        "residu_validasi": 3
+      },
+      "total_flag_indikator": 27,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311755",
+      "nama": "SD Negeri 1 Sumber",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 3
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311824",
+      "nama": "SD Negeri 2 Biting",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20340766",
+      "nama": "SD Negeri 2 Kepyar",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310972",
+      "nama": "SD Negeri 3 Biting",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310877",
+      "nama": "SD Negeri 3 Purwantoro",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311079",
+      "nama": "SMP NEGERI 2 PURWANTORO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Purwantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805662",
+      "nama": "ADIK",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Selogiri",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 2,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 10,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805679",
+      "nama": "KB CERIA BIMBA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Selogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805713",
+      "nama": "LESTARI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Selogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69916202",
+      "nama": "PINTAR",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Selogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806101",
+      "nama": "JUNIOR MODERN SCHOOL",
+      "jenjang": "TPA",
+      "status": "Swasta",
+      "kecamatan": "Kec. Selogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311352",
+      "nama": "SD Negeri 1 Krisak",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Selogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311637",
+      "nama": "SD Negeri 2 Keloran",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Selogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310790",
+      "nama": "SD Negeri 3 Keloran",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Selogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 4,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 10,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20358053",
+      "nama": "TK NEGERI PEMBINA KECAMATAN SIDOHARJO",
+      "jenjang": "TK",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 4,
+        "nik_dukcapil": 2,
+        "nik_ganda": 2,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 2,
+        "desa_kelurahan": 2,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 18,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69965848",
+      "nama": "TK AISYIYAH",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357725",
+      "nama": "TK ISLAM AL-AMANAH",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 6,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20358047",
+      "nama": "TK MUTIARA HATI III, SIDOHARJO",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 2,
+        "nik_ganda": 2,
+        "nama": 1,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 12,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357958",
+      "nama": "TK SEMBUKAN II",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357967",
+      "nama": "TK TEMPURSARI",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805805",
+      "nama": "ABABIL",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 2,
+        "nik_ganda": 2,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 2,
+        "desa_kelurahan": 2,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 14,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69902778",
+      "nama": "AISYIYAH",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 2,
+        "nik_dukcapil": 2,
+        "nik_ganda": 2,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 2,
+        "desa_kelurahan": 2,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 16,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806071",
+      "nama": "AL - AMANAH",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 2,
+        "nik_ganda": 2,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 2,
+        "desa_kelurahan": 2,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 14,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805811",
+      "nama": "ANNISA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 3,
+        "nik_ganda": 3,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 3,
+        "ibu_kandung": 3,
+        "desa_kelurahan": 3,
+        "residu_validasi": 3
+      },
+      "total_flag_indikator": 21,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805606",
+      "nama": "HARAPAN BUNDA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 8,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311414",
+      "nama": "SD Negeri 1 Jatinom",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 2,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311381",
+      "nama": "SD Negeri 1 Kebonagung",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311472",
+      "nama": "SD Negeri 1 Mojoreno",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 4,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311469",
+      "nama": "SD Negeri 1 Ngabeyan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311782",
+      "nama": "SD Negeri 1 Sembukan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311854",
+      "nama": "SD Negeri 1 Tremes",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311674",
+      "nama": "SD Negeri 2 Jatinom",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310940",
+      "nama": "SD Negeri 2 Sembukan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310928",
+      "nama": "SD Negeri 2 Sidoharjo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310989",
+      "nama": "SD Negeri 2 Widoro",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "70024021",
+      "nama": "SD MUHAMMADIYAH ASHABUL KAHFI PROGRAM KHUSUS",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311094",
+      "nama": "SMP NEGERI 3 SIDOHARJO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Sidoharjo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 2,
+        "nik_ganda": 1,
+        "nama": 2,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20358194",
+      "nama": "TK DESA SOKOBOYO 1",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 2,
+        "nik_ganda": 2,
+        "nama": 2,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 8,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20358195",
+      "nama": "TK DESA SOKOBOYO 2",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20358216",
+      "nama": "TK DHARMA WANITA WARU",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357994",
+      "nama": "TK ISLAM ARRAHMAN",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 2,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69915065",
+      "nama": "AL BAROKAH",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805956",
+      "nama": "CAHAYA BUNDA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805962",
+      "nama": "DELIMA",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805876",
+      "nama": "KB CITRA PERTIWI II",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "70056017",
+      "nama": "KB TAUD Qurrota Ayun",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69904640",
+      "nama": "TUNAS PERTIWI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311410",
+      "nama": "SD Negeri 1 Gunan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20340808",
+      "nama": "SD Negeri 1 Made",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311449",
+      "nama": "SD Negeri 1 Randusari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311799",
+      "nama": "SD Negeri 1 Slogohimo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311797",
+      "nama": "SD Negeri 1 Soco",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311846",
+      "nama": "SD Negeri 1 Watusomo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311818",
+      "nama": "SD Negeri 2 Bulusari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 4,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311668",
+      "nama": "SD Negeri 2 Gunan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311627",
+      "nama": "SD Negeri 2 Karang",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 4,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311642",
+      "nama": "SD Negeri 2 Klunggen",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 4,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310920",
+      "nama": "SD Negeri 2 Randusari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310915",
+      "nama": "SD Negeri 2 Sambirejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310755",
+      "nama": "SD Negeri 3 Padarangin",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310863",
+      "nama": "SD Negeri 3 Soco",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20340769",
+      "nama": "SDIT NUR ROHMAN",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311076",
+      "nama": "SMP NEGERI 2 SLOGOHIMO",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Slogohimo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357824",
+      "nama": "TK DHARMA WANITA HARGOREJO",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69806005",
+      "nama": "TK Satu Atap Arjosari 2",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69909210",
+      "nama": "POS PAUD NGESTI RAHAYU",
+      "jenjang": "SPS",
+      "status": "Swasta",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 3,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69909214",
+      "nama": "POS PAUD SARASWATI",
+      "jenjang": "SPS",
+      "status": "Swasta",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311592",
+      "nama": "SD Negeri 1 Arjosari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311618",
+      "nama": "SD Negeri 1 Banyakprodo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 3,
+        "nik_ganda": 1,
+        "nama": 2,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 8,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311403",
+      "nama": "SD Negeri 1 Hargosari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311809",
+      "nama": "SD Negeri 1 Sendangmulyo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311764",
+      "nama": "SD Negeri 1 Tirtomoyo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 3,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311869",
+      "nama": "SD Negeri 2 Arjosari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310933",
+      "nama": "SD Negeri 2 Sendangmulyo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310880",
+      "nama": "SD Negeri 2 Sukoharjo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 0,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310873",
+      "nama": "SD Negeri 3 Sukoharjo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 2,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 9,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311296",
+      "nama": "SD Negeri 4 Sukoharjo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311294",
+      "nama": "SD Negeri 4 Tirtomoyo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 2,
+        "nama": 1,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 10,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311062",
+      "nama": "SMP KANISIUS P SENOPATI TIRTOMOYO",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311009",
+      "nama": "SMP PANCASILA 8 TIRTOMOYO",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311023",
+      "nama": "SMP PGRI 16 TIRTOMOYO",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Tirtomoyo",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 2
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357742",
+      "nama": "TK KEMALA BHAYANGKARI 72",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69909653",
+      "nama": "BUSTANUL JANNAH",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 2,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805634",
+      "nama": "Bustanur Rohman",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 5,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 2,
+        "desa_kelurahan": 2,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 14,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69955462",
+      "nama": "KB AMONG WAYAH",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 3,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "70056011",
+      "nama": "KB TAUD AL FIRDAUS",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805835",
+      "nama": "Lentera Kasih",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805862",
+      "nama": "AL AIZAR",
+      "jenjang": "TPA",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 2,
+        "nik_dukcapil": 2,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "70063767",
+      "nama": "HAPPY EDUCARE",
+      "jenjang": "TPA",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311582",
+      "nama": "SD Negeri 1 Giripurwo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311580",
+      "nama": "SD Negeri 1 Giritirto",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311451",
+      "nama": "SD Negeri 1 Purworejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 1,
+        "nik_dukcapil": 2,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 2,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 11,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311843",
+      "nama": "SD Negeri 1 Wonoboyo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 3
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20340752",
+      "nama": "SD Negeri 2 Manjung",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311711",
+      "nama": "SD Negeri 2 Pokoh Kidul",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 4,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310922",
+      "nama": "SD Negeri 2 Purworejo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310921",
+      "nama": "SD Negeri 2 Purwosari",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311001",
+      "nama": "SD Negeri 2 Wonoharjo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 6,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20310820",
+      "nama": "SD Negeri 3 Wonoboyo",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311341",
+      "nama": "SD Negeri Kaloran",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20340754",
+      "nama": "SD IT AL HUDA",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311598",
+      "nama": "SD KANISIUS",
+      "jenjang": "SD",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311216",
+      "nama": "SMP NEGERI 1 WONOGIRI",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311093",
+      "nama": "SMP NEGERI 3 WONOGIRI",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311087",
+      "nama": "SMP NEGERI 5 WONOGIRI",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311086",
+      "nama": "SMP NEGERI 6 WONOGIRI",
+      "jenjang": "SMP",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20338509",
+      "nama": "SMP IT AL HUDA WONOGIRI",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 2,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311038",
+      "nama": "SMP MUHAMMADIYAH 8 WONOGIRI",
+      "jenjang": "SMP",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wonogiri",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20357687",
+      "nama": "TK AISYIYAH BUSTANUL ATHFAL I WURYANTORO",
+      "jenjang": "TK",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wuryantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 7,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805693",
+      "nama": "KB BUAH HATI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wuryantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 3,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805724",
+      "nama": "KB NURI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wuryantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 5,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 5,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805690",
+      "nama": "KB PELANGI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wuryantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 3,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 3,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69956773",
+      "nama": "KB RAUDHATUL ILMI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wuryantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 4,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 1,
+        "tanggal_lahir": 1,
+        "ibu_kandung": 1,
+        "desa_kelurahan": 1,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 8,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "69805651",
+      "nama": "KB. SEKAR NAGARI",
+      "jenjang": "KB",
+      "status": "Swasta",
+      "kecamatan": "Kec. Wuryantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 1,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311288",
+      "nama": "SD Negeri 4 Pulutan Kulon",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wuryantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 0,
+        "nik_ganda": 0,
+        "nama": 0,
+        "tempat_lahir": 2,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 0
+      },
+      "total_flag_indikator": 2,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    },
+    {
+      "npsn": "20311289",
+      "nama": "SD Negeri 4 Pulutan Wetan",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "kecamatan": "Kec. Wuryantoro",
+      "residu": {
+        "nisn": 0,
+        "nik_dukcapil": 1,
+        "nik_ganda": 1,
+        "nama": 1,
+        "tempat_lahir": 0,
+        "tanggal_lahir": 0,
+        "ibu_kandung": 0,
+        "desa_kelurahan": 0,
+        "residu_validasi": 1
+      },
+      "total_flag_indikator": 4,
+      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+    }
+  ]
+}
