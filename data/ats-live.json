@@ -9,19 +9,19 @@
       "dashboard": "https://ats.data.kemendikdasmen.go.id/ats-v2/api/v1/publik/grafik?kode_wilayah=031200",
       "districts": "https://ats.data.kemendikdasmen.go.id/ats-v2/api/v1/publik/rekap-wilayah?id_level_wilayah=3&mst_kode_wilayah=031200&rinci=true"
     },
-    "fetched_at_utc": "2026-11-25T05:16:31.638Z",
-    "fetched_at_wib": "2026-11-25T12:16:31+07:00",
+    "fetched_at_utc": "2026-11-26T04:44:37.076Z",
+    "fetched_at_wib": "2026-11-26T11:44:37+07:00",
     "tahun_ajaran": "2026/2027",
     "cut_off": "2026-09-30",
-    "tanggal_pemutakhiran": "2026-11-25T02:26:26+07:00",
+    "tanggal_pemutakhiran": "2026-11-26T02:41:21+07:00",
     "record_count_kecamatan": 25,
     "privacy": "Agregat wilayah saja; tidak memuat identitas anak."
   },
   "totals": {
-    "total": 2614,
-    "do": 617,
-    "ltm": 1183,
-    "bpb": 814
+    "total": 2611,
+    "do": 616,
+    "ltm": 1182,
+    "bpb": 813
   },
   "kecamatan": [
     {
@@ -91,10 +91,10 @@
     {
       "kode_kecamatan": "031209",
       "kecamatan": "Kec. Baturetno",
-      "total": 53,
-      "do": 18,
+      "total": 51,
+      "do": 17,
       "ltm": 13,
-      "bpb": 22
+      "bpb": 21
     },
     {
       "kode_kecamatan": "031210",
@@ -203,9 +203,9 @@
     {
       "kode_kecamatan": "031223",
       "kecamatan": "Kec. Jatipurno",
-      "total": 177,
+      "total": 176,
       "do": 25,
-      "ltm": 114,
+      "ltm": 113,
       "bpb": 38
     },
     {
@@ -231,10 +231,10 @@
     "kecamatan_count": 25,
     "district_sums_match_dashboard": true,
     "district_sums": {
-      "total": 2614,
-      "do": 617,
-      "ltm": 1183,
-      "bpb": 814
+      "total": 2611,
+      "do": 616,
+      "ltm": 1182,
+      "bpb": 813
     }
   }
 }
