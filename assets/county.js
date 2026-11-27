@@ -193,313 +193,144 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
     if(!typing && !e.ctrlKey && !e.metaKey && !e.altKey && e.key.toLowerCase() === "p"){ e.preventDefault(); runExport(true); }
   });
 })();
-
-/* HERO_INDEPTH_SEARCH_PATCH_V3 */
+/* HERO_INDEPTH_SEARCH_CLEAN */
 (function(){
-  document.getElementById("hero-npsn-style")?.remove();
-  const style = document.createElement("style");
-  style.id = "hero-npsn-style";
-  style.textContent = [
-    "#hero-npsn-box.hero-npsn-box{margin:20px 0 8px!important;padding:16px 20px!important;border-radius:16px!important;background:#ffffff!important;border:1.5px solid #b8d3e3!important;box-shadow:0 12px 30px rgba(10,37,64,.08)!important;max-width:660px!important}",
-    "html[data-theme='dark'] #hero-npsn-box.hero-npsn-box{background:linear-gradient(135deg,#13344d,#0b2135)!important;border-color:#3f7688!important;box-shadow:0 16px 38px rgba(0,0,0,.35)!important}",
-    "#hero-npsn-box .hero-npsn-label{font-size:.77rem!important;font-weight:800!important;letter-spacing:.04em!important;text-transform:uppercase!important;color:#0d746e!important;margin-bottom:10px!important}",
-    "html[data-theme='dark'] #hero-npsn-box .hero-npsn-label{color:#4ce7c8!important}",
-    "#hero-npsn-box .hero-npsn-row{display:flex!important;flex-direction:row!important;align-items:stretch!important;gap:10px!important;width:100%!important}",
-    "#hero-npsn-box .hero-npsn-field{position:relative!important;flex:1 1 auto!important;min-width:0!important}",
-    "#hero-npsn-box #hero-npsn-input{width:100%!important;height:46px!important;padding:0 16px!important;border-radius:11px!important;border:1.5px solid #96b8ce!important;background:#f4f9fc!important;color:#0e2438!important;font-size:.96rem!important;font-weight:600!important;box-sizing:border-box!important}",
-    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-input{background:#071929!important;border-color:#487991!important;color:#ffffff!important}",
-    "#hero-npsn-box #hero-npsn-input:focus{outline:none!important;border-color:#0d8a82!important;background:#ffffff!important;box-shadow:0 0 0 3px rgba(13,138,130,.16)!important}",
-    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-input:focus{border-color:#43e5c4!important;background:#0a2237!important;box-shadow:0 0 0 3px rgba(67,229,196,.2)!important}",
-    "#hero-npsn-box #hero-npsn-btn{flex:0 0 auto!important;height:46px!important;padding:0 20px!important;border-radius:11px!important;font-size:.9rem!important;font-weight:800!important;white-space:nowrap!important;display:inline-flex!important;align-items:center!important;justify-content:center!important}",
-    "#hero-npsn-box #hero-npsn-suggestions{position:absolute!important;top:calc(100% + 6px)!important;left:0!important;right:0!important;z-index:120!important;background:#ffffff!important;border:1.5px solid #96b8ce!important;border-radius:12px!important;box-shadow:0 18px 40px rgba(10,37,64,.18)!important;max-height:270px!important;overflow-y:auto!important}",
-    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-suggestions{background:#0f283e!important;border-color:#466f87!important}",
-    "#hero-npsn-box #hero-npsn-suggestions .suggestion{padding:10px 14px!important;border-bottom:1px solid #e6f0f6!important;cursor:pointer!important}",
-    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-suggestions .suggestion{border-bottom-color:rgba(255,255,255,.08)!important}",
-    "#hero-npsn-box #hero-npsn-suggestions .suggestion:hover{background:#e9f6f5!important}",
-    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-suggestions .suggestion:hover{background:#1a3d58!important}",
-    "#hero-npsn-box #hero-npsn-suggestions .suggestion b{color:#0e2438!important;font-size:.88rem!important}",
-    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-suggestions .suggestion b{color:#eef6ff!important}",
-    "#hero-npsn-box #hero-npsn-suggestions .suggestion span{color:#4c687d!important;font-size:.76rem!important}",
-    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-suggestions .suggestion span{color:#a6bdd0!important}",
-    "#hero-npsn-box .hero-npsn-hint{margin-top:9px!important;font-size:.77rem!important;color:#4a667b!important}",
-    "html[data-theme='dark'] #hero-npsn-box .hero-npsn-hint{color:#9cb6c9!important}",
-    ".indepth-panel{margin-top:16px;padding:18px;border-radius:16px;border:1px solid #3c697d;background:#0e273d}",
-    "html[data-theme='light'] .indepth-panel{background:#f7fbff;border-color:#bdd3e3}",
-    ".indepth-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}",
-    ".indepth-head h3{margin:0;font-size:1.05rem}",
-    ".indepth-matrix{width:100%;border-collapse:collapse;font-size:.82rem;margin-top:8px}",
-    ".indepth-matrix th,.indepth-matrix td{padding:9px 10px;border-bottom:1px solid rgba(255,255,255,.1);text-align:right}",
-    "html[data-theme='light'] .indepth-matrix th,html[data-theme='light'] .indepth-matrix td{border-bottom-color:#dbe7f0}",
-    ".indepth-matrix th:first-child,.indepth-matrix td:first-child{text-align:left;font-weight:750}",
-    ".indepth-score{font-weight:800;padding:3px 8px;border-radius:7px;display:inline-block}",
-    ".indepth-score.ok{background:#18473e;color:#8ef4d8}",
-    ".indepth-score.warn{background:#4d3b22;color:#ffd894}",
-    ".indepth-score.bad{background:#552938;color:#ffb4c4}",
-    "html[data-theme='light'] .indepth-score.ok{background:#dcfce7;color:#14532d}",
-    "html[data-theme='light'] .indepth-score.warn{background:#fef3c7;color:#78350f}",
-    "html[data-theme='light'] .indepth-score.bad{background:#ffe4e6;color:#881337}",
-    ".remedy-list{display:grid;gap:10px;margin-top:12px}",
-    ".remedy-item{padding:12px 14px;border-radius:12px;border:1px solid #3c5f76;background:#13314b}",
-    "html[data-theme='light'] .remedy-item{background:#ffffff;border-color:#c6d9e7}",
-    ".remedy-item strong{display:block;font-size:.88rem;margin-bottom:4px;color:#0d746e}",
-    "html[data-theme='dark'] .remedy-item strong{color:#4ce7c8}",
-    ".remedy-item p{margin:0;font-size:.81rem;line-height:1.5;color:inherit}",
-    "@media(max-width:640px){#hero-npsn-box .hero-npsn-row{flex-direction:column!important}#hero-npsn-box #hero-npsn-btn{width:100%!important}}"
-  ].join("
-");
-  document.head.appendChild(style);
-
   const ENTITIES = [
-    ["sekolah", "Sekolah", "Periksa profil kelembagaan, SK pendirian/operasional, sanitasi, dan koordinat lintang-bujur pada menu Sekolah Dapodik."],
-    ["tanah", "Tanah", "Lengkapi sertifikat tanah, nomor sertifikat, luas lahan, NJOP, dan kepemilikan pada menu Sarpras > Tanah."],
-    ["bangunan", "Bangunan", "Pastikan data luas tapak, kondisi bangunan, tahun bangun, dan IMB/PBG terisi valid di menu Sarpras > Bangunan."],
-    ["ruang", "Ruang", "Perbarui kondisi kerusakan ruang (atap, dinding, lantai, kusen) serta ukuran ruang kelas/penunjang di Sarpras > Ruang."],
-    ["ptk", "PTK", "Lakukan pemadanan NIK/NUPTK di VervalPTK serta mutakhirkan riwayat pendidikan, kepangkatan, dan tugas tambahan guru/tendik."],
-    ["pd", "Peserta Didik", "Tuntaskan residu NISN, NIK, nama ibu kandung, dan tanggal lahir di VervalPD serta lengkapi data periodik tinggi/berat badan & jarak tempuh."],
-    ["rombel", "Rombongan Belajar", "Pastikan seluruh peserta didik masuk rombel aktif, wali kelas terisi, dan pembelajaran/jadwal mengajar sinkron dengan kurikulum."]
+    ["sekolah","Sekolah","Periksa profil kelembagaan, SK pendirian/operasional, sanitasi, dan koordinat lintang-bujur pada menu Sekolah Dapodik."],
+    ["tanah","Tanah","Lengkapi sertifikat tanah, nomor sertifikat, luas lahan, NJOP, dan kepemilikan pada menu Sarpras > Tanah."],
+    ["bangunan","Bangunan","Pastikan data luas tapak, kondisi bangunan, tahun bangun, dan IMB/PBG terisi valid di menu Sarpras > Bangunan."],
+    ["ruang","Ruang","Perbarui kondisi kerusakan ruang (atap, dinding, lantai, kusen) serta ukuran ruang kelas/penunjang di Sarpras > Ruang."],
+    ["ptk","PTK","Lakukan pemadanan NIK/NUPTK di VervalPTK serta mutakhirkan riwayat pendidikan, kepangkatan, dan tugas tambahan guru/tendik."],
+    ["pd","Peserta Didik","Tuntaskan residu NISN, NIK, nama ibu kandung, dan tanggal lahir di VervalPD serta lengkapi data periodik tinggi/berat badan & jarak tempuh."],
+    ["rombel","Rombongan Belajar","Pastikan seluruh peserta didik masuk rombel aktif, wali kelas terisi, dan pembelajaran/jadwal mengajar sinkron dengan kurikulum."]
   ];
-
   function scoreClass(v){
-    if(v === null || v === undefined || Number.isNaN(Number(v))) return "";
-    if(Number(v) >= 98) return "ok";
-    if(Number(v) >= 85) return "warn";
-    return "bad";
+    if(v===null||v===undefined||Number.isNaN(Number(v))) return "";
+    return Number(v)>=98?"ok":(Number(v)>=85?"warn":"bad");
   }
-
   function fmtPct(v){
-    if(v === null || v === undefined || Number.isNaN(Number(v))) return "\u2014";
-    return Number(v).toLocaleString("id-ID", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "%";
+    if(v===null||v===undefined||Number.isNaN(Number(v))) return "-";
+    return Number(v).toLocaleString("id-ID",{minimumFractionDigits:2,maximumFractionDigits:2})+"%";
   }
-
-  function resolveSchoolRecord(queryOrNpsn){
-    const raw = String(queryOrNpsn || "").trim();
+  function resolveSchoolRecord(q){
+    const raw=String(q||"").trim();
     if(!raw) return null;
-    const upper = raw.toUpperCase();
-    if(typeof CLINIC_BY_NPSN !== "undefined" && CLINIC_BY_NPSN.has(upper)) return CLINIC_BY_NPSN.get(upper);
-    const mon = window.MONITOR_SNAPSHOT || {};
-    if(mon.schools && mon.schools[upper]) return mon.schools[upper];
-    if(mon.master && mon.master[upper]) return mon.master[upper];
-    if(typeof search === "function"){
-      const hits = search(raw);
-      if(hits && hits.length) return hits[0];
+    const u=raw.toUpperCase();
+    if(typeof CLINIC_BY_NPSN!=="undefined"&&CLINIC_BY_NPSN.has(u)) return CLINIC_BY_NPSN.get(u);
+    const mon=window.MONITOR_SNAPSHOT||{};
+    if(mon.schools&&mon.schools[u]) return mon.schools[u];
+    if(mon.master&&mon.master[u]) return mon.master[u];
+    if(typeof search==="function"){
+      const h=search(raw);
+      if(h&&h.length) return h[0];
     }
     return null;
   }
-
-  function openInDepthByCode(codeOrQuery){
-    const rec = resolveSchoolRecord(codeOrQuery);
-    if(!rec) return false;
-    const npsn = String(rec.n || rec.npsn || "").trim().toUpperCase();
-    try {
-      const u = new URL(window.location.href);
-      if(npsn) u.searchParams.set("npsn", npsn);
-      window.history.replaceState({}, "", u.toString());
-    } catch {}
-    if(typeof openSchool === "function") openSchool(rec);
-    setTimeout(() => renderInDepthSections(npsn, rec), 30);
-    return true;
-  }
-
-  function renderInDepthSections(npsn, rec){
-    const modalBox = document.querySelector("#school-modal .modal-box");
+  function renderInDepthSections(npsn){
+    const modalBox=document.querySelector("#school-modal .modal-box");
     if(!modalBox) return;
     document.getElementById("indepth-7entity-wrap")?.remove();
-
-    const mon = window.MONITOR_SNAPSHOT || {};
-    const ikdDetail = (mon.ikdDetails && mon.ikdDetails[npsn]) || null;
-    const ikdSummary = (mon.schools && mon.schools[npsn]) || null;
-    const residuRows = (mon.residu && Array.isArray(mon.residu.records))
-      ? mon.residu.records.filter(r => String(r.npsn || r.n || "").trim().toUpperCase() === npsn)
-      : [];
-
-    const remedies = [];
+    const mon=window.MONITOR_SNAPSHOT||{};
+    const ikdDetail=(mon.ikdDetails&&mon.ikdDetails[npsn])||null;
+    const ikdSummary=(mon.schools&&mon.schools[npsn])||null;
+    const residuRows=(mon.residu&&Array.isArray(mon.residu.records))
+      ?mon.residu.records.filter(r=>String(r.npsn||r.n||"").trim().toUpperCase()===npsn):[];
+    const remedies=[];
     if(ikdDetail){
-      for(const [key, label, guide] of ENTITIES){
-        const k = ikdDetail.kelengkapan?.[key];
-        const v = ikdDetail.validitas?.[key];
-        const m = ikdDetail.mutakhir?.[key];
-        const t = ikdDetail.total?.[key];
-        const minDim = [k, v, m].filter(x => typeof x === "number");
-        const lowest = minDim.length ? Math.min(...minDim) : t;
-        if(typeof lowest === "number" && lowest < 98){
-          const weakDims = [];
-          if(typeof k === "number" && k < 98) weakDims.push("Kelengkapan " + fmtPct(k));
-          if(typeof v === "number" && v < 98) weakDims.push("Validitas " + fmtPct(v));
-          if(typeof m === "number" && m < 98) weakDims.push("Kemutakhiran " + fmtPct(m));
-          remedies.push({
-            score: lowest,
-            title: "Prioritas Entitas " + label + " (" + (weakDims.join(" \u00b7 ") || "Skor " + fmtPct(t)) + ")",
-            desc: guide
-          });
+      for(const [key,label,guide] of ENTITIES){
+        const k=ikdDetail.kelengkapan?.[key],v=ikdDetail.validitas?.[key],m=ikdDetail.mutakhir?.[key],t=ikdDetail.total?.[key];
+        const dims=[k,v,m].filter(x=>typeof x==="number");
+        const low=dims.length?Math.min(...dims):t;
+        if(typeof low==="number"&&low<98){
+          const w=[];
+          if(typeof k==="number"&&k<98) w.push("Kelengkapan "+fmtPct(k));
+          if(typeof v==="number"&&v<98) w.push("Validitas "+fmtPct(v));
+          if(typeof m==="number"&&m<98) w.push("Kemutakhiran "+fmtPct(m));
+          remedies.push({score:low,title:"Prioritas Entitas "+label+" ("+(w.join(" | ")||"Skor "+fmtPct(t))+")",desc:guide});
         }
       }
-      remedies.sort((a, b) => a.score - b.score);
+      remedies.sort((a,b)=>a.score-b.score);
     } else if(ikdSummary){
-      if((ikdSummary.complete ?? 100) < 98) remedies.push({ score: ikdSummary.complete, title: "Tingkatkan Kelengkapan Data (" + fmtPct(ikdSummary.complete) + ")", desc: "Isi seluruh atribut wajib pada entitas Sekolah, Sarpras, PTK, Peserta Didik, dan Rombel sebelum sinkronisasi." });
-      if((ikdSummary.valid ?? 100) < 98) remedies.push({ score: ikdSummary.valid, title: "Perbaiki Validitas Data (" + fmtPct(ikdSummary.valid) + ")", desc: "Cek logika isian Dapodik, padankan NIK/NISN di VervalPD & VervalPTK, serta periksa anomali luas tanah/bangunan." });
-      if((ikdSummary.current ?? 100) < 98) remedies.push({ score: ikdSummary.current, title: "Mutakhirkan Data Semester Berjalan (" + fmtPct(ikdSummary.current) + ")", desc: "Perbarui data periodik peserta didik, kondisi ruang/bangunan semester aktif, dan lakukan sinkronisasi berkala." });
+      if((ikdSummary.complete??100)<98) remedies.push({score:ikdSummary.complete,title:"Tingkatkan Kelengkapan Data ("+fmtPct(ikdSummary.complete)+")",desc:"Isi seluruh atribut wajib pada entitas Sekolah, Sarpras, PTK, Peserta Didik, dan Rombel."});
+      if((ikdSummary.valid??100)<98) remedies.push({score:ikdSummary.valid,title:"Perbaiki Validitas Data ("+fmtPct(ikdSummary.valid)+")",desc:"Padankan NIK/NISN di VervalPD & VervalPTK serta cek anomali isian Dapodik."});
+      if((ikdSummary.current??100)<98) remedies.push({score:ikdSummary.current,title:"Mutakhirkan Data Semester ("+fmtPct(ikdSummary.current)+")",desc:"Perbarui data periodik peserta didik & kondisi sarpras semester berjalan."});
     }
-
     if(residuRows.length){
-      remedies.unshift({
-        score: 0,
-        title: "Tuntaskan Residu VervalPD (" + residuRows.length + " catatan terdeteksi)",
-        desc: "Buka laman vervalpd.data.kemdikdasmen.go.id menggunakan akun operator sekolah, lakukan padan data Dukcapil / edit identitas peserta didik yang residu, lalu tarik ulang di Dapodik."
-      });
+      remedies.unshift({score:0,title:"Tuntaskan Residu VervalPD ("+residuRows.length+" catatan)",desc:"Buka vervalpd.data.kemdikdasmen.go.id untuk memadankan identitas peserta didik residu."});
     }
-
-    const wrap = document.createElement("div");
-    wrap.id = "indepth-7entity-wrap";
-    wrap.className = "indepth-panel";
-
-    const matrixHtml = ikdDetail ? `
-      <div style="overflow-x:auto">
-        <table class="indepth-matrix">
-          <thead>
-            <tr>
-              <th>Entitas Dapodik</th>
-              <th>Kelengkapan</th>
-              <th>Validitas</th>
-              <th>Kemutakhiran</th>
-              <th>Total Entitas</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${ENTITIES.map(([key, label]) => {
-              const k = ikdDetail.kelengkapan?.[key];
-              const v = ikdDetail.validitas?.[key];
-              const m = ikdDetail.mutakhir?.[key];
-              const t = ikdDetail.total?.[key];
-              return "<tr><td>" + label + "</td>"
-                + "<td><span class='indepth-score " + scoreClass(k) + "'>" + fmtPct(k) + "</span></td>"
-                + "<td><span class='indepth-score " + scoreClass(v) + "'>" + fmtPct(v) + "</span></td>"
-                + "<td><span class='indepth-score " + scoreClass(m) + "'>" + fmtPct(m) + "</span></td>"
-                + "<td><span class='indepth-score " + scoreClass(t) + "'>" + fmtPct(t) + "</span></td></tr>";
-            }).join("")}
-          </tbody>
-        </table>
-      </div>
-    ` : "<p class='note'>Rincian 7 entitas belum tersedia di snapshot untuk sekolah ini (umumnya sekolah non-Dapodik/Kemenag atau belum sinkron IKD).</p>";
-
-    const remedyHtml = remedies.length
-      ? "<div class='remedy-list'>" + remedies.map(r => "<div class='remedy-item'><strong>" + r.title + "</strong><p>" + r.desc + "</p></div>").join("") + "</div>"
-      : "<div class='insight' style='margin-top:10px'>Seluruh dimensi dan entitas IKD sekolah ini sudah berada pada kategori optimal (\u2265 98%). Pertahankan sinkronisasi rutin setiap perubahan data.</div>";
-
-    wrap.innerHTML = `
-      <div class="indepth-head">
-        <div>
-          <span class="eyebrow">Analisis In-Depth IKD &amp; Penanganan</span>
-          <h3>Matriks 3 Dimensi \u00d7 7 Entitas Dapodik</h3>
-        </div>
-        <div style="display:flex;gap:8px;flex-wrap:wrap">
-          <button type="button" class="btn tinybtn" id="indepth-goto-sop">Lihat Materi SOP Penanganan</button>
-          <button type="button" class="btn tinybtn" id="indepth-copy-link">Salin Link Sekolah</button>
-        </div>
-      </div>
-      ${matrixHtml}
-      <div style="margin-top:16px">
-        <span class="eyebrow">Rekomendasi Tindak Lanjut Berdasarkan Materi</span>
-        ${remedyHtml}
-      </div>
-    `;
-
-    const anchor = document.getElementById("clinic-extra") || document.getElementById("modal-metrics");
-    if(anchor) anchor.after(wrap);
-    else modalBox.appendChild(wrap);
-
-    document.getElementById("indepth-copy-link")?.addEventListener("click", async () => {
-      try {
-        await navigator.clipboard.writeText(window.location.href);
-        const btn = document.getElementById("indepth-copy-link");
-        if(btn) btn.textContent = "Tautan Tersalin \u2713";
-      } catch {}
-    });
-
-    document.getElementById("indepth-goto-sop")?.addEventListener("click", () => {
-      document.getElementById("school-modal")?.classList.remove("open");
-      const slides = [...document.querySelectorAll(".slide")];
-      const sopIdx = slides.findIndex(sl => /klinik|tindak lanjut|penanganan|sop|solusi/i.test(sl.dataset.label || sl.textContent.slice(0, 200)));
-      if(sopIdx >= 0 && typeof go === "function") go(sopIdx);
+    const wrap=document.createElement("div");
+    wrap.id="indepth-7entity-wrap";
+    wrap.style.cssText="margin-top:16px;padding:18px;border-radius:16px;border:1px solid #bdd3e3;background:var(--card,#f7fbff)";
+    const rowsHtml=ENTITIES.map(([key,label])=>{
+      const k=ikdDetail?.kelengkapan?.[key],v=ikdDetail?.validitas?.[key],m=ikdDetail?.mutakhir?.[key],t=ikdDetail?.total?.[key];
+      return "<tr><td style='padding:8px;text-align:left;font-weight:700'>"+label+"</td>"
+        +"<td style='padding:8px;text-align:right'><span class='indepth-score "+scoreClass(k)+"'>"+fmtPct(k)+"</span></td>"
+        +"<td style='padding:8px;text-align:right'><span class='indepth-score "+scoreClass(v)+"'>"+fmtPct(v)+"</span></td>"
+        +"<td style='padding:8px;text-align:right'><span class='indepth-score "+scoreClass(m)+"'>"+fmtPct(m)+"</span></td>"
+        +"<td style='padding:8px;text-align:right'><span class='indepth-score "+scoreClass(t)+"'>"+fmtPct(t)+"</span></td></tr>";
+    }).join("");
+    const matrixHtml=ikdDetail
+      ?"<div style='overflow-x:auto;margin-top:8px'><table style='width:100%;border-collapse:collapse;font-size:.82rem'><thead><tr><th style='text-align:left;padding:8px'>Entitas Dapodik</th><th style='text-align:right;padding:8px'>Kelengkapan</th><th style='text-align:right;padding:8px'>Validitas</th><th style='text-align:right;padding:8px'>Kemutakhiran</th><th style='text-align:right;padding:8px'>Total</th></tr></thead><tbody>"+rowsHtml+"</tbody></table></div>"
+      :"<p class='note'>Rincian 7 entitas belum tersedia di snapshot untuk sekolah ini.</p>";
+    const remedyHtml=remedies.length
+      ?"<div style='display:grid;gap:10px;margin-top:10px'>"+remedies.map(r=>"<div style='padding:12px;border-radius:12px;border:1px solid #c6d9e7'><strong style='display:block;font-size:.88rem;margin-bottom:4px'>"+r.title+"</strong><p style='margin:0;font-size:.81rem'>"+r.desc+"</p></div>").join("")+"</div>"
+      :"<div class='insight' style='margin-top:10px'>Seluruh dimensi IKD sekolah ini sudah optimal (>= 98%).</div>";
+    wrap.innerHTML="<div style='display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap'><div><span class='eyebrow'>Analisis In-Depth IKD</span><h3 style='margin:0;font-size:1.05rem'>Matriks 3 Dimensi x 7 Entitas Dapodik</h3></div><button type='button' class='btn tinybtn' id='indepth-copy-link'>Salin Link Sekolah</button></div>"+matrixHtml+"<div style='margin-top:14px'><span class='eyebrow'>Rekomendasi Tindak Lanjut</span>"+remedyHtml+"</div>";
+    const anchor=document.getElementById("clinic-extra")||document.getElementById("modal-metrics");
+    if(anchor) anchor.after(wrap); else modalBox.appendChild(wrap);
+    document.getElementById("indepth-copy-link")?.addEventListener("click",async()=>{
+      try{await navigator.clipboard.writeText(window.location.href);document.getElementById("indepth-copy-link").textContent="Tautan Tersalin";}catch{}
     });
   }
-
-  const input = document.getElementById("hero-npsn-input");
-  const btn = document.getElementById("hero-npsn-btn");
-  const sug = document.getElementById("hero-npsn-suggestions");
-
+  function openInDepthByCode(q){
+    const rec=resolveSchoolRecord(q);
+    if(!rec) return false;
+    const npsn=String(rec.n||rec.npsn||"").trim().toUpperCase();
+    try{const u=new URL(window.location.href);if(npsn)u.searchParams.set("npsn",npsn);window.history.replaceState({},'',u.toString());}catch{}
+    if(typeof openSchool==="function") openSchool(rec);
+    setTimeout(()=>renderInDepthSections(npsn),30);
+    return true;
+  }
+  const input=document.getElementById("hero-npsn-input");
+  const btn=document.getElementById("hero-npsn-btn");
+  const sug=document.getElementById("hero-npsn-suggestions");
   function renderSuggestions(q){
     if(!sug) return;
-    const text = String(q || "").trim();
-    if(!text || typeof search !== "function"){
-      sug.classList.remove("open");
-      sug.innerHTML = "";
-      return;
-    }
-    const items = search(text).slice(0, 7);
-    if(!items.length){
-      sug.innerHTML = "<div class='suggestion'><b>Sekolah tidak ditemukan</b><span>Periksa kembali 8 digit NPSN atau nama sekolah.</span></div>";
-      sug.classList.add("open");
-      return;
-    }
-    sug.innerHTML = items.map(s => {
-      const code = String(s.n || s.npsn || "").toUpperCase();
-      const ikd = window.MONITOR_SNAPSHOT?.schools?.[code]?.score;
-      const ikdBadge = typeof ikd === "number" ? " \u00b7 IKD " + ikd.toFixed(2) + "%" : "";
-      return "<div class='suggestion' role='option' data-npsn='" + code + "'><b>" + (s.name || code) + "</b><span>NPSN " + code + " \u00b7 " + (s.level || "") + " \u00b7 " + (s.district || "Wonogiri") + ikdBadge + "</span></div>";
+    const text=String(q||"").trim();
+    if(!text||typeof search!=="function"){sug.classList.remove("open");sug.innerHTML="";return;}
+    const items=search(text).slice(0,7);
+    if(!items.length){sug.innerHTML="<div class='suggestion'><b>Sekolah tidak ditemukan</b><span>Periksa kembali 8 digit NPSN atau nama sekolah.</span></div>";sug.classList.add("open");return;}
+    sug.innerHTML=items.map(s=>{
+      const code=String(s.n||s.npsn||"").toUpperCase();
+      const ikd=window.MONITOR_SNAPSHOT?.schools?.[code]?.score;
+      const badge=typeof ikd==="number"?" | IKD "+ikd.toFixed(2)+"%":"";
+      return "<div class='suggestion' data-npsn='"+code+"'><b>"+(s.name||code)+"</b><span>NPSN "+code+" | "+(s.level||"")+" | "+(s.district||"Wonogiri")+badge+"</span></div>";
     }).join("");
     sug.classList.add("open");
-    sug.querySelectorAll("[data-npsn]").forEach(el => {
-      el.addEventListener("click", () => {
-        const code = el.dataset.npsn;
-        if(input) input.value = code;
+    sug.querySelectorAll("[data-npsn]").forEach(el=>{
+      el.addEventListener("click",()=>{
+        const code=el.dataset.npsn;
+        if(input) input.value=code;
         sug.classList.remove("open");
         openInDepthByCode(code);
       });
     });
   }
-
-  input?.addEventListener("input", e => renderSuggestions(e.target.value));
-  input?.addEventListener("keydown", e => {
-    if(e.key === "Enter"){
-      e.preventDefault();
-      sug?.classList.remove("open");
-      openInDepthByCode(input.value);
-    }
-  });
-  btn?.addEventListener("click", () => {
-    sug?.classList.remove("open");
-    openInDepthByCode(input?.value);
-  });
-  document.addEventListener("click", e => {
-    if(sug && !e.target.closest("#hero-npsn-box")) sug.classList.remove("open");
-  });
-
-  const modalEl = document.getElementById("school-modal");
+  input?.addEventListener("input",e=>renderSuggestions(e.target.value));
+  input?.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();sug?.classList.remove("open");openInDepthByCode(input.value);}});
+  btn?.addEventListener("click",()=>{sug?.classList.remove("open");openInDepthByCode(input?.value);});
+  document.addEventListener("click",e=>{if(sug&&!e.target.closest("#hero-npsn-box"))sug.classList.remove("open");});
+  const modalEl=document.getElementById("school-modal");
   if(modalEl){
-    new MutationObserver(() => {
+    const re=new RegExp("\\b([A-Z0-9]{8})\\b");
+    new MutationObserver(()=>{
       if(modalEl.classList.contains("open")){
-        const metaText = document.getElementById("modal-meta")?.textContent || "";
-        const m = metaText.match(/\b([A-Z0-9]{8})\b/);
-        if(m && !document.getElementById("indepth-7entity-wrap")){
-          const rec = resolveSchoolRecord(m[1]);
-          if(rec) renderInDepthSections(m[1], rec);
-        }
-      } else {
-        try {
-          const u = new URL(window.location.href);
-          if(u.searchParams.has("npsn")){
-            u.searchParams.delete("npsn");
-            window.history.replaceState({}, "", u.toString());
-          }
-        } catch {}
+        const m=(document.getElementById("modal-meta")?.textContent||"").match(re);
+        if(m&&!document.getElementById("indepth-7entity-wrap")) renderInDepthSections(m[1]);
       }
-    }).observe(modalEl, { attributes: true, attributeFilter: ["class"] });
+    }).observe(modalEl,{attributes:true,attributeFilter:["class"]});
   }
-
-  window.addEventListener("DOMContentLoaded", () => {
-    try {
-      const npsnParam = new URL(window.location.href).searchParams.get("npsn");
-      if(npsnParam) setTimeout(() => openInDepthByCode(npsnParam), 150);
-    } catch {}
+  window.addEventListener("DOMContentLoaded",()=>{
+    try{const p=new URL(window.location.href).searchParams.get("npsn");if(p)setTimeout(()=>openInDepthByCode(p),150);}catch{}
   });
 })();
