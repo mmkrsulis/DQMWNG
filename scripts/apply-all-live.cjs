@@ -418,6 +418,7 @@ function applyAllLiveToHtml(html, live, snap) {
 function applyAllLiveToDist(rootDir, distDir) {
   const live = {
     ikd: readJsonIfExists(path.join(rootDir, "data/ikd-wonogiri-live.json")),
+    ikdDetail: readJsonIfExists(path.join(rootDir, "data/ikd-detail-live.json")),
     master: readJsonIfExists(path.join(rootDir, "data/master-sekolah-live.json")),
     dqm: readJsonIfExists(path.join(rootDir, "data/dqm-live.json")),
     catalog: readJsonIfExists(path.join(rootDir, "data/dqm-catalog-live.json")),
@@ -426,7 +427,10 @@ function applyAllLiveToDist(rootDir, distDir) {
   };
 
   const monPath = path.join(distDir, "data/monitoring.js");
-  const updatedMonJs = buildLiveMonitoring(fs.readFileSync(monPath, "utf8"), live);
+  let updatedMonJs = buildLiveMonitoring(fs.readFileSync(monPath, "utf8"), live);
+  if (live.ikdDetail && live.ikdDetail.details) {
+    updatedMonJs += "\nwindow.MONITOR_SNAPSHOT.ikdDetails = " + JSON.stringify(live.ikdDetail.details) + ";\n";
+  }
   fs.writeFileSync(monPath, updatedMonJs, "utf8");
 
   const ctx = { window: {} };
