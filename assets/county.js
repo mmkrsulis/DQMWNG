@@ -267,7 +267,7 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
   }
 
   function fmtPct(v){
-    if(v === null || v === undefined || Number.isNaN(Number(v))) return "?";
+    if(v === null || v === undefined || Number.isNaN(Number(v))) return "\u2014";
     return Number(v).toLocaleString("id-ID", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "%";
   }
 
@@ -328,7 +328,7 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
           if(typeof m === "number" && m < 98) weakDims.push("Kemutakhiran " + fmtPct(m));
           remedies.push({
             score: lowest,
-            title: "Prioritas Entitas " + label + " (" + (weakDims.join(" ? ") || "Skor " + fmtPct(t)) + ")",
+            title: "Prioritas Entitas " + label + " (" + (weakDims.join(" \u00b7 ") || "Skor " + fmtPct(t)) + ")",
             desc: guide
           });
         }
@@ -383,13 +383,13 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
 
     const remedyHtml = remedies.length
       ? "<div class='remedy-list'>" + remedies.map(r => "<div class='remedy-item'><strong>" + r.title + "</strong><p>" + r.desc + "</p></div>").join("") + "</div>"
-      : "<div class='insight' style='margin-top:10px'>Seluruh dimensi dan entitas IKD sekolah ini sudah berada pada kategori optimal (? 98%). Pertahankan sinkronisasi rutin setiap perubahan data.</div>";
+      : "<div class='insight' style='margin-top:10px'>Seluruh dimensi dan entitas IKD sekolah ini sudah berada pada kategori optimal (\u2265 98%). Pertahankan sinkronisasi rutin setiap perubahan data.</div>";
 
     wrap.innerHTML = `
       <div class="indepth-head">
         <div>
           <span class="eyebrow">Analisis In-Depth IKD &amp; Penanganan</span>
-          <h3>Matriks 3 Dimensi ? 7 Entitas Dapodik</h3>
+          <h3>Matriks 3 Dimensi \u00d7 7 Entitas Dapodik</h3>
         </div>
         <div style="display:flex;gap:8px;flex-wrap:wrap">
           <button type="button" class="btn tinybtn" id="indepth-goto-sop">Lihat Materi SOP Penanganan</button>
@@ -411,7 +411,7 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
       try {
         await navigator.clipboard.writeText(window.location.href);
         const btn = document.getElementById("indepth-copy-link");
-        if(btn) btn.textContent = "Tautan Tersalin ?";
+        if(btn) btn.textContent = "Tautan Tersalin \u2713";
       } catch {}
     });
 
@@ -444,8 +444,8 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
     sug.innerHTML = items.map(s => {
       const code = String(s.n || s.npsn || "").toUpperCase();
       const ikd = window.MONITOR_SNAPSHOT?.schools?.[code]?.score;
-      const ikdBadge = typeof ikd === "number" ? " ? IKD " + ikd.toFixed(2) + "%" : "";
-      return "<div class='suggestion' role='option' data-npsn='" + code + "'><b>" + (s.name || code) + "</b><span>NPSN " + code + " ? " + (s.level || "") + " ? " + (s.district || "Wonogiri") + ikdBadge + "</span></div>";
+      const ikdBadge = typeof ikd === "number" ? " \u00b7 IKD " + ikd.toFixed(2) + "%" : "";
+      return "<div class='suggestion' role='option' data-npsn='" + code + "'><b>" + (s.name || code) + "</b><span>NPSN " + code + " \u00b7 " + (s.level || "") + " \u00b7 " + (s.district || "Wonogiri") + ikdBadge + "</span></div>";
     }).join("");
     sug.classList.add("open");
     sug.querySelectorAll("[data-npsn]").forEach(el => {
