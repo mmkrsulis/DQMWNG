@@ -300,6 +300,22 @@ body{background:radial-gradient(ellipse 58% 42% at 95% 5%,#def5fc 0%,transparent
 </style><link rel="stylesheet" href="assets/revision.css"/>
 <link rel="stylesheet" href="assets/county.css"/>  <link rel="stylesheet" href="assets/popup-polish.css"/>
   <link rel="stylesheet" href="assets/adaptive-layout.css"/>
+<style id="hero-npsn-inline-css">
+#hero-npsn-box{margin:20px 0 8px;padding:16px 20px;border-radius:16px;background:#ffffff;border:1.5px solid #b8d3e3;box-shadow:0 12px 30px rgba(10,37,64,.08);max-width:650px}
+html[data-theme="dark"] #hero-npsn-box{background:linear-gradient(135deg,#13344d,#0b2135);border-color:#3f7688;box-shadow:0 16px 38px rgba(0,0,0,.35)}
+#hero-npsn-box .hero-npsn-label{font-size:.77rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#0d746e;margin-bottom:10px}
+html[data-theme="dark"] #hero-npsn-box .hero-npsn-label{color:#4ce7c8}
+#hero-npsn-box .hero-npsn-row{display:flex;flex-direction:row;align-items:stretch;gap:10px;width:100%}
+#hero-npsn-box .hero-npsn-field{position:relative;flex:1 1 auto;min-width:0}
+#hero-npsn-box #hero-npsn-input{width:100%;height:46px;padding:0 16px;border-radius:11px;border:1.5px solid #96b8ce;background:#f4f9fc;color:#0e2438;font-size:.95rem;font-weight:600;box-sizing:border-box}
+html[data-theme="dark"] #hero-npsn-box #hero-npsn-input{background:#071929;border-color:#487991;color:#ffffff}
+#hero-npsn-box #hero-npsn-input:focus{outline:none;border-color:#0d8a82;background:#ffffff;box-shadow:0 0 0 3px rgba(13,138,130,.16)}
+html[data-theme="dark"] #hero-npsn-box #hero-npsn-input:focus{border-color:#43e5c4;background:#0a2237;box-shadow:0 0 0 3px rgba(67,229,196,.2)}
+#hero-npsn-box #hero-npsn-btn{flex:0 0 auto;height:46px;padding:0 20px;border-radius:11px;font-size:.9rem;font-weight:800;white-space:nowrap;display:inline-flex;align-items:center;justify-content:center}
+#hero-npsn-box .hero-npsn-hint{margin-top:9px;font-size:.77rem;color:#4a667b}
+html[data-theme="dark"] #hero-npsn-box .hero-npsn-hint{color:#9cb6c9}
+@media(max-width:640px){#hero-npsn-box .hero-npsn-row{flex-direction:column}#hero-npsn-box #hero-npsn-btn{width:100%}}
+</style>
 </head>
 <body>
 <button id="chrome-peek" type="button" title="Tampilkan menu atas" aria-label="Tampilkan menu atas" aria-controls="main-header" aria-expanded="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"><path d="M5 8l7 7 7-7"/></svg></button>
