@@ -17,7 +17,7 @@ const assets = fs
   .filter((p) => /\.(css|js)$/.test(p))
   .map((p) => "assets/" + p);
 
-for (const p of ["index.html", ...assets, "data/monitoring.js"]) {
+for (const p of ["index.html", ...assets, "data/monitoring.js");fs.copyFileSync("data/ikd-details.js","dist/data/ikd-details.js"]) {
   fs.mkdirSync(path.dirname(path.join(out, p)), { recursive: true });
   fs.copyFileSync(p, path.join(out, p));
 }
