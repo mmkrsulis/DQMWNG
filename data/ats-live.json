@@ -9,18 +9,18 @@
       "dashboard": "https://ats.data.kemendikdasmen.go.id/ats-v2/api/v1/publik/grafik?kode_wilayah=031200",
       "districts": "https://ats.data.kemendikdasmen.go.id/ats-v2/api/v1/publik/rekap-wilayah?id_level_wilayah=3&mst_kode_wilayah=031200&rinci=true"
     },
-    "fetched_at_utc": "2026-11-26T04:44:37.076Z",
-    "fetched_at_wib": "2026-11-26T11:44:37+07:00",
+    "fetched_at_utc": "2026-11-27T04:50:20.986Z",
+    "fetched_at_wib": "2026-11-27T11:50:20+07:00",
     "tahun_ajaran": "2026/2027",
     "cut_off": "2026-09-30",
-    "tanggal_pemutakhiran": "2026-11-26T02:41:21+07:00",
+    "tanggal_pemutakhiran": "2026-11-27T02:10:28+07:00",
     "record_count_kecamatan": 25,
     "privacy": "Agregat wilayah saja; tidak memuat identitas anak."
   },
   "totals": {
-    "total": 2611,
+    "total": 2598,
     "do": 616,
-    "ltm": 1182,
+    "ltm": 1169,
     "bpb": 813
   },
   "kecamatan": [
@@ -75,9 +75,9 @@
     {
       "kode_kecamatan": "031207",
       "kecamatan": "Kec. Tirtomoyo",
-      "total": 174,
+      "total": 173,
       "do": 26,
-      "ltm": 98,
+      "ltm": 97,
       "bpb": 50
     },
     {
@@ -163,17 +163,17 @@
     {
       "kode_kecamatan": "031218",
       "kecamatan": "Kec. Kismantoro",
-      "total": 260,
+      "total": 259,
       "do": 48,
-      "ltm": 174,
+      "ltm": 173,
       "bpb": 38
     },
     {
       "kode_kecamatan": "031219",
       "kecamatan": "Kec. Purwantoro",
-      "total": 211,
+      "total": 200,
       "do": 51,
-      "ltm": 107,
+      "ltm": 96,
       "bpb": 53
     },
     {
@@ -231,9 +231,9 @@
     "kecamatan_count": 25,
     "district_sums_match_dashboard": true,
     "district_sums": {
-      "total": 2611,
+      "total": 2598,
       "do": 616,
-      "ltm": 1182,
+      "ltm": 1169,
       "bpb": 813
     }
   }
