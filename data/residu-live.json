@@ -4,9 +4,9 @@
     "schema_version": "1.0.0",
     "source_origin": "https://vervalpd.data.kemendikdasmen.go.id/index.php/Ckabupaten/rekap_data_residu",
     "source_staging": "https://docs.google.com/spreadsheets/d/1HZ2hBHOawj9thFiZBLGP5nA31UprFfS0Ez8Lyrr_lFQ/edit#gid=1660030125",
-    "source_updated_at": "26/11/2026 12:14:00",
-    "fetched_at_utc": "2026-11-26T05:28:39.346Z",
-    "fetched_at_wib": "2026-11-26T12:28:39+07:00",
+    "source_updated_at": "27/11/2026 09:55:34",
+    "fetched_at_utc": "2026-11-27T05:21:23.089Z",
+    "fetched_at_wib": "2026-11-27T12:21:23+07:00",
     "record_count": 311,
     "validation": {
       "duplicate_npsn_ignored": 0,
@@ -208,7 +208,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "70055142",
@@ -228,7 +228,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805825",
@@ -248,7 +248,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311605",
@@ -268,7 +268,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311748",
@@ -288,7 +288,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 8,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311768",
@@ -308,7 +308,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311862",
@@ -328,7 +328,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310930",
@@ -348,7 +348,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20341332",
@@ -368,7 +368,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 9,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311597",
@@ -388,7 +388,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 11,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20341320",
@@ -408,7 +408,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311061",
@@ -428,7 +428,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311057",
@@ -448,7 +448,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805740",
@@ -468,7 +468,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311754",
@@ -488,7 +488,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806020",
@@ -508,7 +508,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69901808",
@@ -528,7 +528,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806133",
@@ -548,7 +548,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 9,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806085",
@@ -568,7 +568,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311569",
@@ -588,7 +588,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311586",
@@ -608,7 +608,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311396",
@@ -628,7 +628,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 9,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311465",
@@ -648,7 +648,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311820",
@@ -668,7 +668,7 @@
         "residu_validasi": 4
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311813",
@@ -688,7 +688,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311827",
@@ -708,7 +708,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311730",
@@ -728,7 +728,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310812",
@@ -748,7 +748,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311259",
@@ -768,7 +768,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311071",
@@ -788,7 +788,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805622",
@@ -808,7 +808,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 16,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805768",
@@ -828,7 +828,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 16,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805839",
@@ -848,7 +848,7 @@
         "residu_validasi": 4
       },
       "total_flag_indikator": 30,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805772",
@@ -868,7 +868,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805829",
@@ -888,7 +888,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805759",
@@ -908,7 +908,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311468",
@@ -928,7 +928,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311693",
@@ -948,7 +948,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310908",
@@ -968,7 +968,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310861",
@@ -988,7 +988,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311026",
@@ -1008,7 +1008,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311055",
@@ -1028,7 +1028,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311017",
@@ -1048,7 +1048,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805906",
@@ -1068,7 +1068,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69907546",
@@ -1088,7 +1088,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806121",
@@ -1108,7 +1108,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69906326",
@@ -1128,7 +1128,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806103",
@@ -1148,7 +1148,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805951",
@@ -1168,7 +1168,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806093",
@@ -1188,7 +1188,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805873",
@@ -1208,7 +1208,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806065",
@@ -1228,7 +1228,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20339082",
@@ -1248,7 +1248,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20339083",
@@ -1268,7 +1268,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20339084",
@@ -1288,7 +1288,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20339095",
@@ -1308,7 +1308,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20339104",
@@ -1328,7 +1328,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 13,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311225",
@@ -1348,7 +1348,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311614",
@@ -1368,7 +1368,7 @@
         "residu_validasi": 6
       },
       "total_flag_indikator": 26,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311428",
@@ -1388,7 +1388,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311447",
@@ -1408,7 +1408,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311661",
@@ -1428,7 +1428,7 @@
         "residu_validasi": 6
       },
       "total_flag_indikator": 20,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310774",
@@ -1448,7 +1448,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310829",
@@ -1468,7 +1468,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311024",
@@ -1488,7 +1488,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311224",
@@ -1508,7 +1508,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805912",
@@ -1528,7 +1528,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805958",
@@ -1548,7 +1548,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806057",
@@ -1568,7 +1568,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805652",
@@ -1588,7 +1588,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69909136",
@@ -1608,7 +1608,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69909143",
@@ -1628,7 +1628,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805715",
@@ -1648,7 +1648,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311577",
@@ -1668,7 +1668,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 16,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311436",
@@ -1688,7 +1688,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311784",
@@ -1708,7 +1708,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311006",
@@ -1728,7 +1728,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806186",
@@ -1748,7 +1748,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311415",
@@ -1768,7 +1768,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311375",
@@ -1788,7 +1788,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311774",
@@ -1808,7 +1808,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311727",
@@ -1828,7 +1828,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310887",
@@ -1848,7 +1848,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310869",
@@ -1868,7 +1868,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311348",
@@ -1888,7 +1888,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311344",
@@ -1908,7 +1908,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311241",
@@ -1928,7 +1928,7 @@
         "residu_validasi": 4
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805964",
@@ -1948,7 +1948,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805868",
@@ -1968,7 +1968,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805909",
@@ -1988,7 +1988,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806124",
@@ -2008,7 +2008,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311367",
@@ -2028,7 +2028,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311760",
@@ -2048,7 +2048,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311822",
@@ -2068,7 +2068,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69864637",
@@ -2088,7 +2088,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357686",
@@ -2108,7 +2108,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20358142",
@@ -2128,7 +2128,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805930",
@@ -2148,7 +2148,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 8,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806030",
@@ -2168,7 +2168,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805999",
@@ -2188,7 +2188,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 9,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806087",
@@ -2208,7 +2208,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311426",
@@ -2228,7 +2228,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311425",
@@ -2248,7 +2248,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311484",
@@ -2268,7 +2268,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311781",
@@ -2288,7 +2288,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311848",
@@ -2308,7 +2308,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311681",
@@ -2328,7 +2328,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311694",
@@ -2348,7 +2348,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311704",
@@ -2368,7 +2368,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310919",
@@ -2388,7 +2388,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310757",
@@ -2408,7 +2408,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311337",
@@ -2428,7 +2428,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311353",
@@ -2448,7 +2448,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20341430",
@@ -2468,7 +2468,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20353955",
@@ -2488,7 +2488,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69913505",
@@ -2508,7 +2508,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805778",
@@ -2528,7 +2528,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69907214",
@@ -2548,7 +2548,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805836",
@@ -2568,7 +2568,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805877",
@@ -2588,7 +2588,7 @@
         "residu_validasi": 3
       },
       "total_flag_indikator": 28,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311634",
@@ -2608,7 +2608,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806130",
@@ -2628,7 +2628,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805886",
@@ -2648,7 +2648,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806037",
@@ -2668,7 +2668,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69917490",
@@ -2688,7 +2688,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 8,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311385",
@@ -2708,7 +2708,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311392",
@@ -2728,7 +2728,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311489",
@@ -2748,7 +2748,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311838",
@@ -2768,7 +2768,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310805",
@@ -2788,7 +2788,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310753",
@@ -2808,7 +2808,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311210",
@@ -2828,7 +2828,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311217",
@@ -2848,7 +2848,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20358082",
@@ -2868,7 +2868,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805647",
@@ -2888,7 +2888,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805727",
@@ -2908,7 +2908,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311726",
@@ -2928,7 +2928,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311252",
@@ -2948,7 +2948,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311270",
@@ -2968,7 +2968,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311030",
@@ -2988,7 +2988,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357941",
@@ -3008,7 +3008,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 12,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69913169",
@@ -3028,7 +3028,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357944",
@@ -3048,7 +3048,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357851",
@@ -3068,7 +3068,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 11,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357948",
@@ -3088,7 +3088,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357951",
@@ -3108,7 +3108,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357858",
@@ -3128,7 +3128,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357990",
@@ -3148,7 +3148,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69909233",
@@ -3168,7 +3168,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 16,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805677",
@@ -3188,7 +3188,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805833",
@@ -3208,7 +3208,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806190",
@@ -3228,7 +3228,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311401",
@@ -3248,7 +3248,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20341070",
@@ -3268,7 +3268,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311467",
@@ -3288,7 +3288,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311831",
@@ -3308,7 +3308,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311675",
@@ -3328,7 +3328,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311645",
@@ -3348,7 +3348,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310803",
@@ -3368,7 +3368,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310776",
@@ -3388,7 +3388,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311275",
@@ -3408,7 +3408,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311208",
@@ -3428,7 +3428,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20362236",
@@ -3448,7 +3448,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805654",
@@ -3468,7 +3468,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805695",
@@ -3488,7 +3488,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20340756",
@@ -3508,7 +3508,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311636",
@@ -3528,7 +3528,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311351",
@@ -3548,7 +3548,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311384",
@@ -3568,7 +3568,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311206",
@@ -3588,7 +3588,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311082",
@@ -3608,7 +3608,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806088",
@@ -3628,7 +3628,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805795",
@@ -3648,7 +3648,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805639",
@@ -3668,7 +3668,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311393",
@@ -3688,7 +3688,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311852",
@@ -3708,7 +3708,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311274",
@@ -3728,7 +3728,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311297",
@@ -3748,7 +3748,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20340746",
@@ -3768,7 +3768,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 19,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311081",
@@ -3788,7 +3788,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311097",
@@ -3808,7 +3808,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69767580",
@@ -3828,7 +3828,7 @@
         "residu_validasi": 9
       },
       "total_flag_indikator": 9,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806185",
@@ -3848,7 +3848,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69906375",
@@ -3868,7 +3868,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69906377",
@@ -3888,7 +3888,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311756",
@@ -3908,7 +3908,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310984",
@@ -3928,7 +3928,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310754",
@@ -3948,7 +3948,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20358050",
@@ -3968,7 +3968,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357985",
@@ -3988,7 +3988,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69763335",
@@ -4008,7 +4008,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806021",
@@ -4028,7 +4028,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806001",
@@ -4048,7 +4048,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 14,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806091",
@@ -4068,7 +4068,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806053",
@@ -4088,7 +4088,7 @@
         "residu_validasi": 3
       },
       "total_flag_indikator": 27,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311755",
@@ -4108,7 +4108,7 @@
         "residu_validasi": 3
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311824",
@@ -4128,7 +4128,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20340766",
@@ -4148,7 +4148,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310972",
@@ -4168,7 +4168,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310877",
@@ -4188,7 +4188,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311079",
@@ -4208,7 +4208,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805662",
@@ -4228,7 +4228,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 10,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805679",
@@ -4248,7 +4248,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805713",
@@ -4268,7 +4268,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69916202",
@@ -4288,7 +4288,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806101",
@@ -4308,7 +4308,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311352",
@@ -4328,7 +4328,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311637",
@@ -4348,7 +4348,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310790",
@@ -4368,7 +4368,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 10,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20358053",
@@ -4388,7 +4388,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 18,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69965848",
@@ -4408,7 +4408,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357725",
@@ -4428,7 +4428,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20358047",
@@ -4448,7 +4448,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 12,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357958",
@@ -4468,7 +4468,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357967",
@@ -4488,7 +4488,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805805",
@@ -4508,7 +4508,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 14,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69902778",
@@ -4528,7 +4528,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 16,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806071",
@@ -4548,7 +4548,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 14,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805811",
@@ -4568,7 +4568,7 @@
         "residu_validasi": 3
       },
       "total_flag_indikator": 21,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805606",
@@ -4588,7 +4588,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 8,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311414",
@@ -4608,7 +4608,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311381",
@@ -4628,7 +4628,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311472",
@@ -4648,7 +4648,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311469",
@@ -4668,7 +4668,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311782",
@@ -4688,7 +4688,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311854",
@@ -4708,7 +4708,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311674",
@@ -4728,7 +4728,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310940",
@@ -4748,7 +4748,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310928",
@@ -4768,7 +4768,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310989",
@@ -4788,7 +4788,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "70024021",
@@ -4808,7 +4808,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311094",
@@ -4828,7 +4828,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20358194",
@@ -4848,7 +4848,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 8,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20358195",
@@ -4868,7 +4868,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20358216",
@@ -4888,7 +4888,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357994",
@@ -4908,7 +4908,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69915065",
@@ -4928,7 +4928,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805956",
@@ -4948,7 +4948,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805962",
@@ -4968,7 +4968,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805876",
@@ -4988,7 +4988,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "70056017",
@@ -5008,7 +5008,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69904640",
@@ -5028,7 +5028,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311410",
@@ -5048,7 +5048,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20340808",
@@ -5068,7 +5068,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311449",
@@ -5088,7 +5088,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311799",
@@ -5108,7 +5108,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311797",
@@ -5128,7 +5128,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311846",
@@ -5148,7 +5148,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311818",
@@ -5168,7 +5168,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311668",
@@ -5188,7 +5188,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311627",
@@ -5208,7 +5208,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311642",
@@ -5228,7 +5228,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310920",
@@ -5248,7 +5248,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310915",
@@ -5268,7 +5268,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310755",
@@ -5288,7 +5288,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310863",
@@ -5308,7 +5308,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20340769",
@@ -5328,7 +5328,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311076",
@@ -5348,7 +5348,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357824",
@@ -5368,7 +5368,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69806005",
@@ -5388,7 +5388,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69909210",
@@ -5408,7 +5408,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69909214",
@@ -5428,7 +5428,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311592",
@@ -5448,7 +5448,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311618",
@@ -5468,7 +5468,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 8,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311403",
@@ -5488,7 +5488,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311809",
@@ -5508,7 +5508,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311764",
@@ -5528,7 +5528,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311869",
@@ -5548,7 +5548,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310933",
@@ -5568,7 +5568,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310880",
@@ -5588,7 +5588,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310873",
@@ -5608,7 +5608,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 9,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311296",
@@ -5628,7 +5628,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311294",
@@ -5648,7 +5648,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 10,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311062",
@@ -5668,7 +5668,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311009",
@@ -5688,7 +5688,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311023",
@@ -5708,7 +5708,7 @@
         "residu_validasi": 2
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357742",
@@ -5728,7 +5728,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69909653",
@@ -5748,7 +5748,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805634",
@@ -5768,7 +5768,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 14,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69955462",
@@ -5788,7 +5788,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "70056011",
@@ -5808,7 +5808,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805835",
@@ -5828,7 +5828,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805862",
@@ -5848,7 +5848,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "70063767",
@@ -5868,7 +5868,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311582",
@@ -5888,7 +5888,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311580",
@@ -5908,7 +5908,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311451",
@@ -5928,7 +5928,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 11,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311843",
@@ -5948,7 +5948,7 @@
         "residu_validasi": 3
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20340752",
@@ -5968,7 +5968,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311711",
@@ -5988,7 +5988,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310922",
@@ -6008,7 +6008,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310921",
@@ -6028,7 +6028,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311001",
@@ -6048,7 +6048,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 6,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20310820",
@@ -6068,7 +6068,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311341",
@@ -6088,7 +6088,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20340754",
@@ -6108,7 +6108,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311598",
@@ -6128,7 +6128,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311216",
@@ -6148,7 +6148,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311093",
@@ -6168,7 +6168,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311087",
@@ -6188,7 +6188,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311086",
@@ -6208,7 +6208,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20338509",
@@ -6228,7 +6228,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311038",
@@ -6248,7 +6248,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20357687",
@@ -6268,7 +6268,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 7,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805693",
@@ -6288,7 +6288,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805724",
@@ -6308,7 +6308,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 5,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805690",
@@ -6328,7 +6328,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 3,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69956773",
@@ -6348,7 +6348,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 8,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "69805651",
@@ -6368,7 +6368,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 1,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311288",
@@ -6388,7 +6388,7 @@
         "residu_validasi": 0
       },
       "total_flag_indikator": 2,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     },
     {
       "npsn": "20311289",
@@ -6408,7 +6408,7 @@
         "residu_validasi": 1
       },
       "total_flag_indikator": 4,
-      "waktu_pembaruan_sumber": "26/11/2026 12:14:00"
+      "waktu_pembaruan_sumber": "27/11/2026 09:55:34"
     }
   ]
 }
