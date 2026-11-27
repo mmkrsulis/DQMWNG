@@ -194,43 +194,59 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
   });
 })();
 
-/* HERO_INDEPTH_SEARCH_PATCH_V1 */
+/* HERO_INDEPTH_SEARCH_PATCH_V3 */
 (function(){
+  document.getElementById("hero-npsn-style")?.remove();
   const style = document.createElement("style");
-  style.textContent = `
-    .hero-npsn-box{margin:20px 0 4px;padding:16px 18px;border-radius:18px;background:linear-gradient(135deg,#12334c,#0c2236);border:1px solid #48858b;box-shadow:0 14px 36px #0004;max-width:700px}
-    html[data-theme="light"] .hero-npsn-box{background:linear-gradient(135deg,#f4fbfa,#eef6fc);border-color:#7bb3b8;box-shadow:0 10px 28px #0c2b4414}
-    .hero-npsn-label{font-size:.76rem;font-weight:850;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);margin-bottom:9px}
-    html[data-theme="light"] .hero-npsn-label{color:#0b6e68}
-    .hero-npsn-row{display:flex;gap:10px;align-items:stretch}
-    .hero-npsn-field{position:relative;flex:1;min-width:0}
-    .hero-npsn-field input{width:100%;height:100%;background:#081a2b;border:1.5px solid #4e8098;color:#fff;border-radius:12px;padding:12px 15px;font-size:.95rem;outline:none}
-    html[data-theme="light"] .hero-npsn-field input{background:#fff;border-color:#7ea3bc;color:#0f2538}
-    .hero-npsn-field input:focus{border-color:var(--teal);box-shadow:0 0 0 3px #43e5c429}
-    .hero-npsn-hint{margin-top:8px;font-size:.76rem;color:var(--muted)}
-    .indepth-panel{margin-top:16px;padding:18px;border-radius:16px;border:1px solid #3c697d;background:#0e273d}
-    html[data-theme="light"] .indepth-panel{background:#f7fbff;border-color:#bdd3e3}
-    .indepth-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
-    .indepth-head h3{margin:0;font-size:1.05rem}
-    .indepth-matrix{width:100%;border-collapse:collapse;font-size:.82rem;margin-top:8px}
-    .indepth-matrix th,.indepth-matrix td{padding:9px 10px;border-bottom:1px solid #ffffff1a;text-align:right}
-    html[data-theme="light"] .indepth-matrix th,html[data-theme="light"] .indepth-matrix td{border-bottom-color:#dbe7f0}
-    .indepth-matrix th:first-child,.indepth-matrix td:first-child{text-align:left;font-weight:750}
-    .indepth-score{font-weight:800;padding:3px 8px;border-radius:7px;display:inline-block}
-    .indepth-score.ok{background:#18473e;color:#8ef4d8}
-    .indepth-score.warn{background:#4d3b22;color:#ffd894}
-    .indepth-score.bad{background:#552938;color:#ffb4c4}
-    html[data-theme="light"] .indepth-score.ok{background:#dcfce7;color:#14532d}
-    html[data-theme="light"] .indepth-score.warn{background:#fef3c7;color:#78350f}
-    html[data-theme="light"] .indepth-score.bad{background:#ffe4e6;color:#881337}
-    .remedy-list{display:grid;gap:10px;margin-top:12px}
-    .remedy-item{padding:12px 14px;border-radius:12px;border:1px solid #3c5f76;background:#13314b}
-    html[data-theme="light"] .remedy-item{background:#ffffff;border-color:#c6d9e7}
-    .remedy-item strong{display:block;font-size:.88rem;margin-bottom:4px;color:var(--teal)}
-    html[data-theme="light"] .remedy-item strong{color:#0b6e68}
-    .remedy-item p{margin:0;font-size:.81rem;line-height:1.5;color:var(--muted)}
-    @media(max-width:720px){.hero-npsn-row{flex-direction:column}}
-  `;
+  style.id = "hero-npsn-style";
+  style.textContent = [
+    "#hero-npsn-box.hero-npsn-box{margin:20px 0 8px!important;padding:16px 20px!important;border-radius:16px!important;background:#ffffff!important;border:1.5px solid #b8d3e3!important;box-shadow:0 12px 30px rgba(10,37,64,.08)!important;max-width:660px!important}",
+    "html[data-theme='dark'] #hero-npsn-box.hero-npsn-box{background:linear-gradient(135deg,#13344d,#0b2135)!important;border-color:#3f7688!important;box-shadow:0 16px 38px rgba(0,0,0,.35)!important}",
+    "#hero-npsn-box .hero-npsn-label{font-size:.77rem!important;font-weight:800!important;letter-spacing:.04em!important;text-transform:uppercase!important;color:#0d746e!important;margin-bottom:10px!important}",
+    "html[data-theme='dark'] #hero-npsn-box .hero-npsn-label{color:#4ce7c8!important}",
+    "#hero-npsn-box .hero-npsn-row{display:flex!important;flex-direction:row!important;align-items:stretch!important;gap:10px!important;width:100%!important}",
+    "#hero-npsn-box .hero-npsn-field{position:relative!important;flex:1 1 auto!important;min-width:0!important}",
+    "#hero-npsn-box #hero-npsn-input{width:100%!important;height:46px!important;padding:0 16px!important;border-radius:11px!important;border:1.5px solid #96b8ce!important;background:#f4f9fc!important;color:#0e2438!important;font-size:.96rem!important;font-weight:600!important;box-sizing:border-box!important}",
+    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-input{background:#071929!important;border-color:#487991!important;color:#ffffff!important}",
+    "#hero-npsn-box #hero-npsn-input:focus{outline:none!important;border-color:#0d8a82!important;background:#ffffff!important;box-shadow:0 0 0 3px rgba(13,138,130,.16)!important}",
+    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-input:focus{border-color:#43e5c4!important;background:#0a2237!important;box-shadow:0 0 0 3px rgba(67,229,196,.2)!important}",
+    "#hero-npsn-box #hero-npsn-btn{flex:0 0 auto!important;height:46px!important;padding:0 20px!important;border-radius:11px!important;font-size:.9rem!important;font-weight:800!important;white-space:nowrap!important;display:inline-flex!important;align-items:center!important;justify-content:center!important}",
+    "#hero-npsn-box #hero-npsn-suggestions{position:absolute!important;top:calc(100% + 6px)!important;left:0!important;right:0!important;z-index:120!important;background:#ffffff!important;border:1.5px solid #96b8ce!important;border-radius:12px!important;box-shadow:0 18px 40px rgba(10,37,64,.18)!important;max-height:270px!important;overflow-y:auto!important}",
+    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-suggestions{background:#0f283e!important;border-color:#466f87!important}",
+    "#hero-npsn-box #hero-npsn-suggestions .suggestion{padding:10px 14px!important;border-bottom:1px solid #e6f0f6!important;cursor:pointer!important}",
+    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-suggestions .suggestion{border-bottom-color:rgba(255,255,255,.08)!important}",
+    "#hero-npsn-box #hero-npsn-suggestions .suggestion:hover{background:#e9f6f5!important}",
+    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-suggestions .suggestion:hover{background:#1a3d58!important}",
+    "#hero-npsn-box #hero-npsn-suggestions .suggestion b{color:#0e2438!important;font-size:.88rem!important}",
+    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-suggestions .suggestion b{color:#eef6ff!important}",
+    "#hero-npsn-box #hero-npsn-suggestions .suggestion span{color:#4c687d!important;font-size:.76rem!important}",
+    "html[data-theme='dark'] #hero-npsn-box #hero-npsn-suggestions .suggestion span{color:#a6bdd0!important}",
+    "#hero-npsn-box .hero-npsn-hint{margin-top:9px!important;font-size:.77rem!important;color:#4a667b!important}",
+    "html[data-theme='dark'] #hero-npsn-box .hero-npsn-hint{color:#9cb6c9!important}",
+    ".indepth-panel{margin-top:16px;padding:18px;border-radius:16px;border:1px solid #3c697d;background:#0e273d}",
+    "html[data-theme='light'] .indepth-panel{background:#f7fbff;border-color:#bdd3e3}",
+    ".indepth-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}",
+    ".indepth-head h3{margin:0;font-size:1.05rem}",
+    ".indepth-matrix{width:100%;border-collapse:collapse;font-size:.82rem;margin-top:8px}",
+    ".indepth-matrix th,.indepth-matrix td{padding:9px 10px;border-bottom:1px solid rgba(255,255,255,.1);text-align:right}",
+    "html[data-theme='light'] .indepth-matrix th,html[data-theme='light'] .indepth-matrix td{border-bottom-color:#dbe7f0}",
+    ".indepth-matrix th:first-child,.indepth-matrix td:first-child{text-align:left;font-weight:750}",
+    ".indepth-score{font-weight:800;padding:3px 8px;border-radius:7px;display:inline-block}",
+    ".indepth-score.ok{background:#18473e;color:#8ef4d8}",
+    ".indepth-score.warn{background:#4d3b22;color:#ffd894}",
+    ".indepth-score.bad{background:#552938;color:#ffb4c4}",
+    "html[data-theme='light'] .indepth-score.ok{background:#dcfce7;color:#14532d}",
+    "html[data-theme='light'] .indepth-score.warn{background:#fef3c7;color:#78350f}",
+    "html[data-theme='light'] .indepth-score.bad{background:#ffe4e6;color:#881337}",
+    ".remedy-list{display:grid;gap:10px;margin-top:12px}",
+    ".remedy-item{padding:12px 14px;border-radius:12px;border:1px solid #3c5f76;background:#13314b}",
+    "html[data-theme='light'] .remedy-item{background:#ffffff;border-color:#c6d9e7}",
+    ".remedy-item strong{display:block;font-size:.88rem;margin-bottom:4px;color:#0d746e}",
+    "html[data-theme='dark'] .remedy-item strong{color:#4ce7c8}",
+    ".remedy-item p{margin:0;font-size:.81rem;line-height:1.5;color:inherit}",
+    "@media(max-width:640px){#hero-npsn-box .hero-npsn-row{flex-direction:column!important}#hero-npsn-box #hero-npsn-btn{width:100%!important}}"
+  ].join("
+");
   document.head.appendChild(style);
 
   const ENTITIES = [
@@ -279,9 +295,7 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
       if(npsn) u.searchParams.set("npsn", npsn);
       window.history.replaceState({}, "", u.toString());
     } catch {}
-    if(typeof openSchool === "function"){
-      openSchool(rec);
-    }
+    if(typeof openSchool === "function") openSchool(rec);
     setTimeout(() => renderInDepthSections(npsn, rec), 30);
     return true;
   }
@@ -314,14 +328,14 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
           if(typeof m === "number" && m < 98) weakDims.push("Kemutakhiran " + fmtPct(m));
           remedies.push({
             score: lowest,
-            title: `Prioritas Entitas ${label} (${weakDims.join(" ? ") || "Skor " + fmtPct(t)})`,
+            title: "Prioritas Entitas " + label + " (" + (weakDims.join(" ? ") || "Skor " + fmtPct(t)) + ")",
             desc: guide
           });
         }
       }
       remedies.sort((a, b) => a.score - b.score);
     } else if(ikdSummary){
-      if((ikdSummary.complete ?? 100) < 98) remedies.push({ score: ikdSummary.complete, title: "Tingkatkan Kelengkapan Data (" + fmtPct(ikdSummary.complete) + ")", desc: "Isi seluruh atribut wajib pada entitas Sekolah, Sarpras, PTK, Peserta Didik, dan Rombel sebelum melakukan sinkronisasi." });
+      if((ikdSummary.complete ?? 100) < 98) remedies.push({ score: ikdSummary.complete, title: "Tingkatkan Kelengkapan Data (" + fmtPct(ikdSummary.complete) + ")", desc: "Isi seluruh atribut wajib pada entitas Sekolah, Sarpras, PTK, Peserta Didik, dan Rombel sebelum sinkronisasi." });
       if((ikdSummary.valid ?? 100) < 98) remedies.push({ score: ikdSummary.valid, title: "Perbaiki Validitas Data (" + fmtPct(ikdSummary.valid) + ")", desc: "Cek logika isian Dapodik, padankan NIK/NISN di VervalPD & VervalPTK, serta periksa anomali luas tanah/bangunan." });
       if((ikdSummary.current ?? 100) < 98) remedies.push({ score: ikdSummary.current, title: "Mutakhirkan Data Semester Berjalan (" + fmtPct(ikdSummary.current) + ")", desc: "Perbarui data periodik peserta didik, kondisi ruang/bangunan semester aktif, dan lakukan sinkronisasi berkala." });
     }
@@ -329,7 +343,7 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
     if(residuRows.length){
       remedies.unshift({
         score: 0,
-        title: `Tuntaskan Residu VervalPD (${residuRows.length} catatan terdeteksi)`,
+        title: "Tuntaskan Residu VervalPD (" + residuRows.length + " catatan terdeteksi)",
         desc: "Buka laman vervalpd.data.kemdikdasmen.go.id menggunakan akun operator sekolah, lakukan padan data Dukcapil / edit identitas peserta didik yang residu, lalu tarik ulang di Dapodik."
       });
     }
@@ -356,24 +370,20 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
               const v = ikdDetail.validitas?.[key];
               const m = ikdDetail.mutakhir?.[key];
               const t = ikdDetail.total?.[key];
-              return `<tr>
-                <td>${label}</td>
-                <td><span class="indepth-score ${scoreClass(k)}">${fmtPct(k)}</span></td>
-                <td><span class="indepth-score ${scoreClass(v)}">${fmtPct(v)}</span></td>
-                <td><span class="indepth-score ${scoreClass(m)}">${fmtPct(m)}</span></td>
-                <td><span class="indepth-score ${scoreClass(t)}">${fmtPct(t)}</span></td>
-              </tr>`;
+              return "<tr><td>" + label + "</td>"
+                + "<td><span class='indepth-score " + scoreClass(k) + "'>" + fmtPct(k) + "</span></td>"
+                + "<td><span class='indepth-score " + scoreClass(v) + "'>" + fmtPct(v) + "</span></td>"
+                + "<td><span class='indepth-score " + scoreClass(m) + "'>" + fmtPct(m) + "</span></td>"
+                + "<td><span class='indepth-score " + scoreClass(t) + "'>" + fmtPct(t) + "</span></td></tr>";
             }).join("")}
           </tbody>
         </table>
       </div>
-    ` : `<p class="note">Rincian 7 entitas belum tersedia di snapshot untuk sekolah ini (umumnya sekolah non-Dapodik/Kemenag atau belum sinkron IKD).</p>`;
+    ` : "<p class='note'>Rincian 7 entitas belum tersedia di snapshot untuk sekolah ini (umumnya sekolah non-Dapodik/Kemenag atau belum sinkron IKD).</p>";
 
-    const remedyHtml = remedies.length ? `
-      <div class="remedy-list">
-        ${remedies.map(r => `<div class="remedy-item"><strong>${r.title}</strong><p>${r.desc}</p></div>`).join("")}
-      </div>
-    ` : `<div class="insight" style="margin-top:10px">Seluruh dimensi dan entitas IKD sekolah ini sudah berada pada kategori optimal (? 98%). Pertahankan sinkronisasi rutin setiap perubahan data.</div>`;
+    const remedyHtml = remedies.length
+      ? "<div class='remedy-list'>" + remedies.map(r => "<div class='remedy-item'><strong>" + r.title + "</strong><p>" + r.desc + "</p></div>").join("") + "</div>"
+      : "<div class='insight' style='margin-top:10px'>Seluruh dimensi dan entitas IKD sekolah ini sudah berada pada kategori optimal (? 98%). Pertahankan sinkronisasi rutin setiap perubahan data.</div>";
 
     wrap.innerHTML = `
       <div class="indepth-head">
@@ -413,7 +423,6 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
     });
   }
 
-  // Kaitkan pencarian Slide 1
   const input = document.getElementById("hero-npsn-input");
   const btn = document.getElementById("hero-npsn-btn");
   const sug = document.getElementById("hero-npsn-suggestions");
@@ -428,18 +437,15 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
     }
     const items = search(text).slice(0, 7);
     if(!items.length){
-      sug.innerHTML = '<div class="suggestion"><b>Sekolah tidak ditemukan</b><span>Periksa kembali 8 digit NPSN atau nama sekolah.</span></div>';
+      sug.innerHTML = "<div class='suggestion'><b>Sekolah tidak ditemukan</b><span>Periksa kembali 8 digit NPSN atau nama sekolah.</span></div>";
       sug.classList.add("open");
       return;
     }
     sug.innerHTML = items.map(s => {
       const code = String(s.n || s.npsn || "").toUpperCase();
       const ikd = window.MONITOR_SNAPSHOT?.schools?.[code]?.score;
-      const ikdBadge = typeof ikd === "number" ? ` ? IKD ${ikd.toFixed(2)}%` : "";
-      return `<div class="suggestion" role="option" data-npsn="${code}">
-        <b>${s.name || code}</b>
-        <span>NPSN ${code} ? ${s.level || ""} ? ${s.district || "Wonogiri"}${ikdBadge}</span>
-      </div>`;
+      const ikdBadge = typeof ikd === "number" ? " ? IKD " + ikd.toFixed(2) + "%" : "";
+      return "<div class='suggestion' role='option' data-npsn='" + code + "'><b>" + (s.name || code) + "</b><span>NPSN " + code + " ? " + (s.level || "") + " ? " + (s.district || "Wonogiri") + ikdBadge + "</span></div>";
     }).join("");
     sug.classList.add("open");
     sug.querySelectorAll("[data-npsn]").forEach(el => {
@@ -468,13 +474,12 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
     if(sug && !e.target.closest("#hero-npsn-box")) sug.classList.remove("open");
   });
 
-  // Pastikan setiap pembukaan modal sekolah (dari slide manapun) juga merender matriks 7 entitas
   const modalEl = document.getElementById("school-modal");
   if(modalEl){
     new MutationObserver(() => {
       if(modalEl.classList.contains("open")){
         const metaText = document.getElementById("modal-meta")?.textContent || "";
-        const m = metaText.match(/([A-Z0-9]{8})/);
+        const m = metaText.match(/\b([A-Z0-9]{8})\b/);
         if(m && !document.getElementById("indepth-7entity-wrap")){
           const rec = resolveSchoolRecord(m[1]);
           if(rec) renderInDepthSections(m[1], rec);
@@ -491,7 +496,6 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
     }).observe(modalEl, { attributes: true, attributeFilter: ["class"] });
   }
 
-  // Dukungan deep-link langsung via URL ?npsn=203xxxxx
   window.addEventListener("DOMContentLoaded", () => {
     try {
       const npsnParam = new URL(window.location.href).searchParams.get("npsn");
