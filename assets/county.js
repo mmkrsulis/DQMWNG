@@ -231,7 +231,8 @@ const achievement=document.querySelector('.ikd-achievement');if(achievement){ach
     if(!modalBox) return;
     document.getElementById("indepth-7entity-wrap")?.remove();
     const mon=window.MONITOR_SNAPSHOT||{};
-    const ikdDetail=(mon.ikdDetails&&mon.ikdDetails[npsn])||null;
+    const allDetails=window.ikdDetails||mon.ikdDetails||{};
+    const ikdDetail=allDetails[npsn]||allDetails[String(Number(npsn))]||null;
     const ikdSummary=(mon.schools&&mon.schools[npsn])||null;
     const residuRows=(mon.residu&&Array.isArray(mon.residu.records))
       ?mon.residu.records.filter(r=>String(r.npsn||r.n||"").trim().toUpperCase()===npsn):[];
