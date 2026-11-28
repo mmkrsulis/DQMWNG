@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "domain": "ats",
+    "schema_version": "1.0.0",
+    "wilayah": "Kabupaten Wonogiri",
+    "kode_wilayah": "031200",
+    "source_dashboard": "https://ats.data.kemendikdasmen.go.id/dasbor/grafik-sebaran?wilayah=3312&tab=tabel",
+    "source_api": {
+      "dashboard": "https://ats.data.kemendikdasmen.go.id/ats-v2/api/v1/publik/grafik?kode_wilayah=031200",
+      "districts": "https://ats.data.kemendikdasmen.go.id/ats-v2/api/v1/publik/rekap-wilayah?id_level_wilayah=3&mst_kode_wilayah=031200&rinci=true"
+    },
+    "fetched_at_utc": "2026-11-28T04:34:55.170Z",
+    "fetched_at_wib": "2026-11-28T11:34:55+07:00",
+    "tahun_ajaran": "2026/2027",
+    "cut_off": "2026-09-30",
+    "tanggal_pemutakhiran": "2026-11-28T02:11:44+07:00",
+    "record_count_kecamatan": 25,
+    "privacy": "Agregat wilayah saja; tidak memuat identitas anak."
+  },
+  "totals": {
+    "total": 2582,
+    "do": 613,
+    "ltm": 1156,
+    "bpb": 813
+  },
+  "kecamatan": [
+    {
+      "kode_kecamatan": "031201",
+      "kecamatan": "Kec. Pracimantoro",
+      "total": 93,
+      "do": 25,
+      "ltm": 37,
+      "bpb": 31
+    },
+    {
+      "kode_kecamatan": "031202",
+      "kecamatan": "Kec. Paranggupito",
+      "total": 24,
+      "do": 8,
+      "ltm": 11,
+      "bpb": 5
+    },
+    {
+      "kode_kecamatan": "031203",
+      "kecamatan": "Kec. Giritontro",
+      "total": 24,
+      "do": 8,
+      "ltm": 6,
+      "bpb": 10
+    },
+    {
+      "kode_kecamatan": "031204",
+      "kecamatan": "Kec. Giriwoyo",
+      "total": 76,
+      "do": 17,
+      "ltm": 22,
+      "bpb": 37
+    },
+    {
+      "kode_kecamatan": "031205",
+      "kecamatan": "Kec. Batuwarno",
+      "total": 33,
+      "do": 9,
+      "ltm": 14,
+      "bpb": 10
+    },
+    {
+      "kode_kecamatan": "031206",
+      "kecamatan": "Kec. Karangtengah",
+      "total": 106,
+      "do": 18,
+      "ltm": 70,
+      "bpb": 18
+    },
+    {
+      "kode_kecamatan": "031207",
+      "kecamatan": "Kec. Tirtomoyo",
+      "total": 171,
+      "do": 26,
+      "ltm": 95,
+      "bpb": 50
+    },
+    {
+      "kode_kecamatan": "031208",
+      "kecamatan": "Kec. Nguntoronadi",
+      "total": 29,
+      "do": 10,
+      "ltm": 7,
+      "bpb": 12
+    },
+    {
+      "kode_kecamatan": "031209",
+      "kecamatan": "Kec. Baturetno",
+      "total": 51,
+      "do": 17,
+      "ltm": 13,
+      "bpb": 21
+    },
+    {
+      "kode_kecamatan": "031210",
+      "kecamatan": "Kec. Eromoko",
+      "total": 69,
+      "do": 13,
+      "ltm": 25,
+      "bpb": 31
+    },
+    {
+      "kode_kecamatan": "031211",
+      "kecamatan": "Kec. Wuryantoro",
+      "total": 26,
+      "do": 3,
+      "ltm": 10,
+      "bpb": 13
+    },
+    {
+      "kode_kecamatan": "031212",
+      "kecamatan": "Kec. Manyaran",
+      "total": 56,
+      "do": 11,
+      "ltm": 18,
+      "bpb": 27
+    },
+    {
+      "kode_kecamatan": "031213",
+      "kecamatan": "Kec. Selogiri",
+      "total": 78,
+      "do": 10,
+      "ltm": 16,
+      "bpb": 52
+    },
+    {
+      "kode_kecamatan": "031214",
+      "kecamatan": "Kec. Wonogiri",
+      "total": 122,
+      "do": 39,
+      "ltm": 27,
+      "bpb": 56
+    },
+    {
+      "kode_kecamatan": "031215",
+      "kecamatan": "Kec. Ngadirojo",
+      "total": 118,
+      "do": 38,
+      "ltm": 34,
+      "bpb": 46
+    },
+    {
+      "kode_kecamatan": "031216",
+      "kecamatan": "Kec. Sidoharjo",
+      "total": 95,
+      "do": 31,
+      "ltm": 34,
+      "bpb": 30
+    },
+    {
+      "kode_kecamatan": "031217",
+      "kecamatan": "Kec. Jatiroto",
+      "total": 141,
+      "do": 47,
+      "ltm": 68,
+      "bpb": 26
+    },
+    {
+      "kode_kecamatan": "031218",
+      "kecamatan": "Kec. Kismantoro",
+      "total": 259,
+      "do": 48,
+      "ltm": 173,
+      "bpb": 38
+    },
+    {
+      "kode_kecamatan": "031219",
+      "kecamatan": "Kec. Purwantoro",
+      "total": 197,
+      "do": 49,
+      "ltm": 95,
+      "bpb": 53
+    },
+    {
+      "kode_kecamatan": "031220",
+      "kecamatan": "Kec. Bulukerto",
+      "total": 112,
+      "do": 23,
+      "ltm": 54,
+      "bpb": 35
+    },
+    {
+      "kode_kecamatan": "031221",
+      "kecamatan": "Kec. Slogohimo",
+      "total": 139,
+      "do": 37,
+      "ltm": 49,
+      "bpb": 53
+    },
+    {
+      "kode_kecamatan": "031222",
+      "kecamatan": "Kec. Jatisrono",
+      "total": 161,
+      "do": 40,
+      "ltm": 63,
+      "bpb": 58
+    },
+    {
+      "kode_kecamatan": "031223",
+      "kecamatan": "Kec. Jatipurno",
+      "total": 176,
+      "do": 25,
+      "ltm": 113,
+      "bpb": 38
+    },
+    {
+      "kode_kecamatan": "031224",
+      "kecamatan": "Kec. Girimarto",
+      "total": 159,
+      "do": 42,
+      "ltm": 69,
+      "bpb": 48
+    },
+    {
+      "kode_kecamatan": "031225",
+      "kecamatan": "Kec. Puhpelem",
+      "total": 67,
+      "do": 19,
+      "ltm": 33,
+      "bpb": 15
+    }
+  ],
+  "validation": {
+    "status": "VALID",
+    "categories_sum_to_total": true,
+    "kecamatan_count": 25,
+    "district_sums_match_dashboard": true,
+    "district_sums": {
+      "total": 2582,
+      "do": 613,
+      "ltm": 1156,
+      "bpb": 813
+    }
+  }
+}
